@@ -10,6 +10,17 @@
       "rate_limits_hit": 0,
       "duration_seconds": 398,
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-03-03T03:05:57Z",
+      "phase": "leap_check",
+      "tickers_checked": 142,
+      "leaps_found": 64,
+      "alerts_sent": 64,
+      "rate_limits_hit": 0,
+      "pushover_errors": 0,
+      "duration_seconds": 372,
+      "status": "ok"
     }
   ]
 }
