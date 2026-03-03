@@ -21,6 +21,17 @@
       "pushover_errors": 0,
       "duration_seconds": 372,
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-03-03T22:25:41Z",
+      "phase": "rsi_scan",
+      "tickers_scanned": 1505,
+      "tickers_failed": 1,
+      "confirmed_oversold": 132,
+      "current_only_oversold": 10,
+      "rate_limits_hit": 0,
+      "duration_seconds": 466,
+      "status": "ok"
     }
   ]
 }
