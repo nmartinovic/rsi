@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEAP RSI Monitor</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --surface: #ffffff;
+      --border: #e0e0e0;
+      --text: #1a1a1a;
+      --text-muted: #666;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --blue: #3b82f6;
+      --blue-dim: #dbeafe;
+      --amber-dim: #fef3c7;
+      --red-dim: #fee2e2;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f0f;
+        --surface: #1c1c1c;
+        --border: #2e2e2e;
+        --text: #f0f0f0;
+        --text-muted: #888;
+        --blue-dim: #1e3a5f;
+        --amber-dim: #3d2e00;
+        --red-dim: #3d1010;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.3rem; font-weight: 700; }
+    .header-meta { color: var(--text-muted); font-size: 12px; flex: 1; }
+    .badge {
+      padding: 4px 10px;
+      border-radius: 99px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .badge-green { background: var(--green); color: #fff; }
+    .badge-yellow { background: var(--yellow); color: #fff; }
+    .badge-red { background: var(--red); color: #fff; }
+    .badge-gray { background: var(--border); color: var(--text-muted); }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; display: flex; flex-direction: column; gap: 24px; }
+
+    .alert-banner {
+      background: var(--amber-dim);
+      border: 1px solid var(--amber);
+      border-radius: 8px;
+      padding: 12px 16px;
+      color: var(--text);
+      display: none;
+    }
+    .alert-banner.visible { display: block; }
+
+    section { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .section-header {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .section-count { font-size: 12px; font-weight: 400; color: var(--text-muted); }
+
+    /* Status cards */
+    .status-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; }
+    .status-card {
+      padding: 16px 18px;
+      border-right: 1px solid var(--border);
+    }
+    .status-card:last-child { border-right: none; }
+    .status-card h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 10px; }
+    .status-card .value { font-size: 1.4rem; font-weight: 700; margin-bottom: 4px; }
+    .status-card .sub { font-size: 12px; color: var(--text-muted); }
+
+    /* Tables */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      background: var(--bg);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    th:hover { color: var(--text); }
+    th.sorted::after { content: ' ↑'; }
+    th.sorted.desc::after { content: ' ↓'; }
+    td { padding: 10px 14px; border-top: 1px solid var(--border); vertical-align: middle; }
+    tr:hover td { background: var(--bg); }
+
+    .rsi-cell {
+      font-weight: 600;
+      border-radius: 4px;
+      padding: 3px 8px;
+      display: inline-block;
+      min-width: 50px;
+      text-align: center;
+    }
+    .alert-chip {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 99px;
+      font-weight: 500;
+    }
+    .chip-new { background: var(--red-dim); color: var(--red); }
+    .chip-suppressed { background: var(--blue-dim); color: var(--blue); }
+    .chip-awaiting { background: var(--border); color: var(--text-muted); }
+    .chip-amber { background: var(--amber-dim); color: var(--amber); }
+
+    .empty-state { padding: 32px; text-align: center; color: var(--text-muted); }
+
+    /* Chart section */
+    .chart-wrap { padding: 16px; max-height: 300px; }
+
+    @media (max-width: 640px) {
+      .status-grid { grid-template-columns: 1fr 1fr; }
+      .status-card { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LEAP RSI Monitor</h1>
+  <div class="header-meta">
+    Updated <span id="last-updated">—</span>
+  </div>
+  <span id="health-badge" class="badge badge-gray">Loading…</span>
+</header>
+
+<div class="container">
+
+  <!-- Rate limit warning banner -->
+  <div id="rate-limit-banner" class="alert-banner">
+    Rate limits were hit in the last 7 days. Results may be incomplete.
+  </div>
+
+  <!-- Section 1: System Status -->
+  <section>
+    <div class="section-header">System Status</div>
+    <div class="status-grid" id="status-grid">
+      <div class="status-card"><div class="sub">Loading…</div></div>
+    </div>
+  </section>
+
+  <!-- Section 2: Qualifying Stocks -->
+  <section>
+    <div class="section-header">
+      Qualifying Stocks
+      <span class="section-count" id="qualifying-count"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="qualifying-table">
+        <thead>
+          <tr>
+            <th data-col="ticker">Ticker</th>
+            <th data-col="confirmed_rsi" class="sorted">Confirmed RSI</th>
+            <th data-col="current_rsi">Current RSI</th>
+            <th data-col="price">Price</th>
+            <th data-col="furthest_leap_expiry">Furthest LEAP</th>
+            <th data-col="first_triggered">First Triggered</th>
+            <th data-col="alert_status">Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Section 3: Early Warnings -->
+  <section>
+    <div class="section-header">
+      Early Warnings
+      <span class="section-count" id="warnings-count"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="warnings-table">
+        <thead>
+          <tr>
+            <th data-col="ticker">Ticker</th>
+            <th data-col="confirmed_rsi">Confirmed RSI</th>
+            <th data-col="current_rsi" class="sorted">Current RSI</th>
+            <th data-col="price">Price</th>
+            <th data-col="delta">Delta to 30</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Section 4: Oversold Without LEAPs -->
+  <section>
+    <div class="section-header">
+      Oversold Without LEAPs
+      <span class="section-count" id="no-leap-count"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="no-leap-table">
+        <thead>
+          <tr>
+            <th data-col="ticker">Ticker</th>
+            <th data-col="confirmed_rsi" class="sorted">Confirmed RSI</th>
+            <th data-col="current_rsi">Current RSI</th>
+            <th data-col="price">Price</th>
+            <th>LEAP Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Section 5: Recently Recovered -->
+  <section>
+    <div class="section-header">
+      Recently Recovered
+      <span class="section-count" id="recovered-count"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="recovered-table">
+        <thead>
+          <tr>
+            <th data-col="ticker">Ticker</th>
+            <th data-col="confirmed_rsi">Confirmed RSI</th>
+            <th data-col="current_rsi">Current RSI</th>
+            <th data-col="recovered_date" class="sorted desc">Date Recovered</th>
+            <th>Duration Below 30</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Section 6: RSI Distribution -->
+  <section>
+    <div class="section-header">RSI Distribution (All S&amp;P 1500)</div>
+    <div class="chart-wrap">
+      <canvas id="rsi-chart"></canvas>
+    </div>
+  </section>
+
+</div>
+
+<script>
+const DATA_URL = 'data/dashboard.json';
+let dashboard = null;
+let chart = null;
+
+// ─── Utilities ──────────────────────────────────────────────────────────────
+
+function timeAgo(isoStr) {
+  if (!isoStr) return '—';
+  const d = new Date(isoStr);
+  const diff = Math.floor((Date.now() - d) / 1000);
+  if (diff < 60) return `${diff}s ago`;
+  if (diff < 3600) return `${Math.floor(diff/60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff/3600)}h ago`;
+  return `${Math.floor(diff/86400)}d ago`;
+}
+
+function fmtDate(isoStr) {
+  if (!isoStr) return '—';
+  const d = new Date(isoStr + (isoStr.includes('T') ? '' : 'T00:00:00Z'));
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
+function rsiColor(rsi) {
+  if (rsi == null) return 'transparent';
+  // 0 = deep red, 30 = red, 50 = neutral, 70+ = green
+  if (rsi <= 0) return 'hsl(0,80%,35%)';
+  if (rsi <= 30) {
+    // interpolate from hsl(0,80%,35%) to hsl(0,70%,55%)
+    const t = rsi / 30;
+    const l = 35 + t * 20;
+    return `hsl(0,75%,${l}%)`;
+  }
+  if (rsi <= 50) {
+    const t = (rsi - 30) / 20;
+    const h = t * 40; // 0 → 40 (yellow-green)
+    return `hsl(${h},60%,45%)`;
+  }
+  const t = Math.min((rsi - 50) / 30, 1);
+  const h = 40 + t * 80; // 40 → 120 (green)
+  return `hsl(${h},55%,40%)`;
+}
+
+function rsiCell(rsi) {
+  if (rsi == null) return '—';
+  const bg = rsiColor(rsi);
+  return `<span class="rsi-cell" style="background:${bg};color:#fff">${rsi.toFixed(1)}</span>`;
+}
+
+function statusChip(status) {
+  if (status === 'new') return '<span class="alert-chip chip-new">New</span>';
+  if (status === 'suppressed') return '<span class="alert-chip chip-suppressed">Suppressed</span>';
+  return '<span class="alert-chip chip-awaiting">Awaiting Check</span>';
+}
+
+function leapStatus(stock) {
+  if (stock.has_leaps === false && stock.alert_status === 'awaiting_leap_check') return '<span class="alert-chip chip-awaiting">Pending check</span>';
+  if (stock.has_leaps === false) return '<span class="alert-chip chip-amber">No LEAPs</span>';
+  return '—';
+}
+
+function daysBetween(d1str, d2str) {
+  if (!d1str || !d2str) return null;
+  const d1 = new Date(d1str + 'T00:00:00Z');
+  const d2 = new Date(d2str + 'T00:00:00Z');
+  return Math.round(Math.abs(d2 - d1) / 86400000);
+}
+
+// ─── Sorting ────────────────────────────────────────────────────────────────
+
+function initSortableTable(tableId, data, renderFn) {
+  const table = document.getElementById(tableId);
+  if (!table) return;
+  const headers = table.querySelectorAll('th[data-col]');
+  let sortCol = null;
+  let sortDesc = false;
+
+  // Find default sort from class
+  headers.forEach(th => {
+    if (th.classList.contains('sorted')) {
+      sortCol = th.dataset.col;
+      sortDesc = th.classList.contains('desc');
+    }
+  });
+
+  function sort(col, desc) {
+    const sorted = [...data].sort((a, b) => {
+      let va = a[col] ?? '';
+      let vb = b[col] ?? '';
+      if (typeof va === 'number' && typeof vb === 'number') {
+        return desc ? vb - va : va - vb;
+      }
+      va = String(va); vb = String(vb);
+      return desc ? vb.localeCompare(va) : va.localeCompare(vb);
+    });
+    table.querySelector('tbody').innerHTML = sorted.map(renderFn).join('');
+    headers.forEach(th => {
+      th.classList.remove('sorted', 'desc');
+      if (th.dataset.col === col) {
+        th.classList.add('sorted');
+        if (desc) th.classList.add('desc');
+      }
+    });
+  }
+
+  headers.forEach(th => {
+    th.addEventListener('click', () => {
+      if (sortCol === th.dataset.col) sortDesc = !sortDesc;
+      else { sortCol = th.dataset.col; sortDesc = false; }
+      sort(sortCol, sortDesc);
+    });
+  });
+
+  if (sortCol) sort(sortCol, sortDesc);
+  else table.querySelector('tbody').innerHTML = data.map(renderFn).join('');
+}
+
+// ─── Render ──────────────────────────────────────────────────────────────────
+
+function renderStatusGrid(d) {
+  const ss = d.system_status;
+  const u = ss.universe || {};
+  const r = ss.rsi_scan || {};
+  const l = ss.leap_check || {};
+  const a = ss.alerts || {};
+
+  function statusBadge(s) {
+    if (s === 'ok') return '<span class="badge badge-green" style="font-size:11px">OK</span>';
+    if (s === 'unknown') return '<span class="badge badge-gray" style="font-size:11px">—</span>';
+    return '<span class="badge badge-red" style="font-size:11px">Error</span>';
+  }
+
+  document.getElementById('status-grid').innerHTML = `
+    <div class="status-card">
+      <h3>Universe ${statusBadge(u.status)}</h3>
+      <div class="value">${(u.ticker_count || 0).toLocaleString()}</div>
+      <div class="sub">tickers &middot; refreshed <span title="${u.last_updated}">${timeAgo(u.last_updated)}</span></div>
+    </div>
+    <div class="status-card">
+      <h3>RSI Scan ${statusBadge(r.status)}</h3>
+      <div class="value">${(r.tickers_scanned || 0).toLocaleString()}</div>
+      <div class="sub">scanned &middot; ${r.tickers_failed || 0} failed &middot; ${r.confirmed_oversold_count || 0} oversold &middot; <span title="${r.last_run}">${timeAgo(r.last_run)}</span></div>
+    </div>
+    <div class="status-card">
+      <h3>LEAP Check ${statusBadge(l.status)}</h3>
+      <div class="value">${(l.leaps_found || 0)}</div>
+      <div class="sub">with LEAPs &middot; ${l.oversold_checked || 0} checked &middot; <span title="${l.last_run}">${timeAgo(l.last_run)}</span></div>
+    </div>
+    <div class="status-card">
+      <h3>Alerts</h3>
+      <div class="value">${a.total_sent_this_week || 0}</div>
+      <div class="sub">sent this week &middot; ${a.total_suppressed || 0} suppressed${a.pushover_errors > 0 ? ` &middot; <span style="color:var(--red)">${a.pushover_errors} errors</span>` : ''}</div>
+    </div>
+  `;
+}
+
+function renderQualifyingTable(d) {
+  const stocks = (d.qualifying_stocks || []).filter(s => s.has_leaps);
+  document.getElementById('qualifying-count').textContent =
+    `${stocks.length} stock${stocks.length !== 1 ? 's' : ''} with Confirmed RSI < 30 and LEAPs available`;
+
+  if (stocks.length === 0) {
+    document.querySelector('#qualifying-table tbody').innerHTML =
+      '<tr><td colspan="7" class="empty-state">No qualifying stocks</td></tr>';
+    return;
+  }
+
+  initSortableTable('qualifying-table', stocks, s => `
+    <tr>
+      <td><a href="https://finance.yahoo.com/quote/${s.ticker}" target="_blank" rel="noopener">${s.ticker}</a></td>
+      <td>${rsiCell(s.confirmed_rsi)}</td>
+      <td>${rsiCell(s.current_rsi)}</td>
+      <td>$${s.price != null ? s.price.toFixed(2) : '—'}</td>
+      <td>${s.furthest_leap_expiry ? fmtDate(s.furthest_leap_expiry) : '—'}</td>
+      <td>${s.first_triggered ? fmtDate(s.first_triggered) : '—'}</td>
+      <td>${statusChip(s.alert_status)}</td>
+    </tr>
+  `);
+}
+
+function renderWarningsTable(d) {
+  const stocks = (d.early_warnings || []).map(s => ({
+    ...s,
+    delta: s.confirmed_rsi != null ? (s.confirmed_rsi - 30).toFixed(1) : null
+  }));
+  document.getElementById('warnings-count').textContent =
+    `${stocks.length} stock${stocks.length !== 1 ? 's' : ''} approaching RSI 30 this week`;
+
+  if (stocks.length === 0) {
+    document.querySelector('#warnings-table tbody').innerHTML =
+      '<tr><td colspan="5" class="empty-state">No early warnings</td></tr>';
+    return;
+  }
+
+  initSortableTable('warnings-table', stocks, s => `
+    <tr style="background:var(--amber-dim)">
+      <td><a href="https://finance.yahoo.com/quote/${s.ticker}" target="_blank" rel="noopener">${s.ticker}</a></td>
+      <td>${rsiCell(s.confirmed_rsi)}</td>
+      <td>${rsiCell(s.current_rsi)}</td>
+      <td>$${s.price != null ? s.price.toFixed(2) : '—'}</td>
+      <td><span class="alert-chip chip-amber">+${s.delta}</span></td>
+    </tr>
+  `);
+}
+
+function renderNoLeapTable(d) {
+  const stocks = (d.qualifying_stocks || []).filter(s => !s.has_leaps);
+  document.getElementById('no-leap-count').textContent = `${stocks.length} stock${stocks.length !== 1 ? 's' : ''}`;
+
+  if (stocks.length === 0) {
+    document.querySelector('#no-leap-table tbody').innerHTML =
+      '<tr><td colspan="5" class="empty-state">None</td></tr>';
+    return;
+  }
+
+  initSortableTable('no-leap-table', stocks, s => `
+    <tr>
+      <td><a href="https://finance.yahoo.com/quote/${s.ticker}" target="_blank" rel="noopener">${s.ticker}</a></td>
+      <td>${rsiCell(s.confirmed_rsi)}</td>
+      <td>${rsiCell(s.current_rsi)}</td>
+      <td>$${s.price != null ? s.price.toFixed(2) : '—'}</td>
+      <td>${leapStatus(s)}</td>
+    </tr>
+  `);
+}
+
+function renderRecoveredTable(d) {
+  const stocks = d.recently_recovered || [];
+  document.getElementById('recovered-count').textContent = `${stocks.length} in last 30 days`;
+
+  if (stocks.length === 0) {
+    document.querySelector('#recovered-table tbody').innerHTML =
+      '<tr><td colspan="5" class="empty-state">No recent recoveries</td></tr>';
+    return;
+  }
+
+  const enriched = stocks.map(s => ({
+    ...s,
+    _duration: daysBetween(s.was_suppressed_since, s.recovered_date)
+  }));
+
+  initSortableTable('recovered-table', enriched, s => `
+    <tr>
+      <td><a href="https://finance.yahoo.com/quote/${s.ticker}" target="_blank" rel="noopener">${s.ticker}</a></td>
+      <td>${rsiCell(s.confirmed_rsi)}</td>
+      <td>${rsiCell(s.current_rsi)}</td>
+      <td>${fmtDate(s.recovered_date)}</td>
+      <td>${s._duration != null ? `${s._duration}d` : '—'}</td>
+    </tr>
+  `);
+}
+
+function renderChart(d) {
+  const allRsi = d.all_rsi_values || {};
+  const bins = new Array(20).fill(0); // bins: [0-5), [5-10), ..., [95-100]
+
+  Object.values(allRsi).forEach(v => {
+    const rsi = v.confirmed_rsi;
+    if (rsi == null) return;
+    const bin = Math.min(Math.floor(rsi / 5), 19);
+    bins[bin]++;
+  });
+
+  const labels = bins.map((_, i) => `${i * 5}–${i * 5 + 5}`);
+  const colors = bins.map((_, i) => i * 5 < 30 ? 'rgba(239,68,68,0.8)' : 'rgba(59,130,246,0.7)');
+  const borderColors = bins.map((_, i) => i * 5 < 30 ? 'rgba(239,68,68,1)' : 'rgba(59,130,246,1)');
+
+  if (chart) chart.destroy();
+  const ctx = document.getElementById('rsi-chart').getContext('2d');
+  chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Confirmed RSI',
+        data: bins,
+        backgroundColor: colors,
+        borderColor: borderColors,
+        borderWidth: 1,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: items => `RSI ${items[0].label}`,
+            label: item => `${item.raw} stocks`,
+          }
+        }
+      },
+      scales: {
+        x: { title: { display: true, text: 'RSI Range' } },
+        y: { title: { display: true, text: 'Number of Stocks' }, beginAtZero: true }
+      }
+    }
+  });
+}
+
+// ─── Overall health ─────────────────────────────────────────────────────────
+
+function computeHealth(d) {
+  const r = d.system_status?.rsi_scan || {};
+  const l = d.system_status?.leap_check || {};
+  if (r.status === 'ok' && (l.status === 'ok' || !l.last_run)) return 'green';
+  if (!r.last_run) return 'red';
+  return 'yellow';
+}
+
+// ─── Main render ─────────────────────────────────────────────────────────────
+
+function render(d) {
+  dashboard = d;
+
+  // Header
+  const ts = document.getElementById('last-updated');
+  ts.textContent = timeAgo(d.generated_at);
+  ts.title = d.generated_at || '';
+
+  const health = computeHealth(d);
+  const badge = document.getElementById('health-badge');
+  badge.className = `badge badge-${health}`;
+  badge.textContent = health === 'green' ? 'Healthy' : health === 'yellow' ? 'Degraded' : 'Down';
+
+  // Rate limit banner
+  const banner = document.getElementById('rate-limit-banner');
+  if ((d.rate_limit_log || []).length > 0) banner.classList.add('visible');
+  else banner.classList.remove('visible');
+
+  renderStatusGrid(d);
+  renderQualifyingTable(d);
+  renderWarningsTable(d);
+  renderNoLeapTable(d);
+  renderRecoveredTable(d);
+  renderChart(d);
+}
+
+async function fetchAndRender() {
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    console.error('Failed to load dashboard data:', e);
+    document.getElementById('health-badge').textContent = 'Error';
+    document.getElementById('health-badge').className = 'badge badge-red';
+  }
+}
+
+// Initial load + auto-refresh every 5 minutes
+fetchAndRender();
+setInterval(fetchAndRender, 5 * 60 * 1000);
+</script>
+</body>
+</html>
