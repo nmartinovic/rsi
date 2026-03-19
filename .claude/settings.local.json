@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(git:*)",
+      "Bash(ssh:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh run:*)"
+    ]
+  }
+}

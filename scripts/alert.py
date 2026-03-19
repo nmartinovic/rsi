@@ -49,7 +49,7 @@ def send_alert(ticker: str, confirmed_rsi: float, current_rsi: float,
         try:
             resp = requests.post(PUSHOVER_URL, data=payload, timeout=15)
             if resp.status_code == 200:
-                return True
+                break
             print(f"  Pushover error ({resp.status_code}): {resp.text}")
         except Exception as e:
             print(f"  Pushover request failed: {e}")
@@ -57,5 +57,15 @@ def send_alert(ticker: str, confirmed_rsi: float, current_rsi: float,
         if attempt == 0:
             print(f"  Retrying Pushover in 5s...")
             time.sleep(5)
+    else:
+        return False
 
-    return False
+    LEAPTRACKER_URL = "https://leaptracker.vercel.app/api/options/auto"
+    try:
+        lt_resp = requests.post(LEAPTRACKER_URL, json={"symbol": ticker}, timeout=15)
+        if lt_resp.status_code != 200:
+            print(f"  LeapTracker error ({lt_resp.status_code}): {lt_resp.text}")
+    except Exception as e:
+        print(f"  LeapTracker request failed: {e}")
+
+    return True
