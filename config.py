@@ -4,6 +4,9 @@ import os
 PUSHOVER_APP_TOKEN = os.environ.get("PUSHOVER_APP_TOKEN", "")
 PUSHOVER_USER_KEY = os.environ.get("PUSHOVER_USER_KEY", "")
 
+# LeapTracker (from environment / GitHub Secrets)
+CRON_SECRET = os.environ.get("CRON_SECRET", "")
+
 # RSI parameters
 RSI_PERIOD = 14             # Standard 14-period RSI
 RSI_THRESHOLD = 30          # Alert when Confirmed RSI below this

@@ -62,7 +62,12 @@ def send_alert(ticker: str, confirmed_rsi: float, current_rsi: float,
 
     LEAPTRACKER_URL = "https://leaptracker.vercel.app/api/options/auto"
     try:
-        lt_resp = requests.post(LEAPTRACKER_URL, json={"symbol": ticker}, timeout=15)
+        lt_resp = requests.post(
+            LEAPTRACKER_URL,
+            json={"symbol": ticker},
+            headers={"Authorization": f"Bearer {config.CRON_SECRET}", "Content-Type": "application/json"},
+            timeout=15,
+        )
         if lt_resp.status_code != 200:
             print(f"  LeapTracker error ({lt_resp.status_code}): {lt_resp.text}")
     except Exception as e:

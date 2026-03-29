@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Status
 
-This repository contains only `prd.md` — a full Product Requirements Document. **No implementation files exist yet.** All scripts, data files, and workflows need to be created from scratch per the spec.
+Implementation is complete. All scripts, workflows, and the dashboard are live. The system is running on GitHub Actions and serving the dashboard via GitHub Pages.
 
 ## What to Build
 
@@ -111,7 +111,7 @@ Pushover credentials come from env vars `PUSHOVER_APP_TOKEN` and `PUSHOVER_USER_
 
 ## Setup (first-time)
 
-1. Add GitHub Secrets: `PUSHOVER_APP_TOKEN`, `PUSHOVER_USER_KEY`
+1. Add GitHub Secrets: `PUSHOVER_APP_TOKEN`, `PUSHOVER_USER_KEY`, `CRON_SECRET`
 2. Run `python scripts/refresh_universe.py` and commit `data/sp1500_universe.json`
 3. Enable GitHub Pages: Settings → Pages → Branch: `main`, Folder: `/docs`
 4. Trigger workflows manually via `workflow_dispatch` to populate initial data
