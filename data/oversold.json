@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-02T22:27:59Z",
+  "updated_at": "2026-04-03T22:29:03Z",
   "confirmed_oversold": [
     {
       "ticker": "DOCS",
@@ -178,7 +178,7 @@
     {
       "ticker": "CPB",
       "confirmed_rsi": 24.29,
-      "current_rsi": 30.52,
+      "current_rsi": 32.57,
       "price": 22.01
     },
     {
