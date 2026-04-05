@@ -329,6 +329,17 @@
       "rate_limits_hit": 0,
       "duration_seconds": 378,
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-04-05T05:07:20Z",
+      "phase": "leap_check",
+      "tickers_checked": 92,
+      "leaps_found": 46,
+      "alerts_sent": 13,
+      "rate_limits_hit": 0,
+      "pushover_errors": 0,
+      "duration_seconds": 245,
+      "status": "ok"
     }
   ]
 }
