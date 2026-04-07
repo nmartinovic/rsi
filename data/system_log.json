@@ -362,6 +362,17 @@
       "pushover_errors": 0,
       "duration_seconds": 317,
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-04-07T04:26:12Z",
+      "phase": "leap_check",
+      "tickers_checked": 122,
+      "leaps_found": 59,
+      "alerts_sent": 59,
+      "rate_limits_hit": 0,
+      "pushover_errors": 0,
+      "duration_seconds": 357,
+      "status": "ok"
     }
   ]
 }

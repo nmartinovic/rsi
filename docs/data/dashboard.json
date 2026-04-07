@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T03:56:39Z",
+  "generated_at": "2026-04-07T04:32:10Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -17,14 +17,14 @@
       "status": "ok"
     },
     "leap_check": {
-      "last_run": "2026-04-07T03:51:22Z",
+      "last_run": "2026-04-07T04:26:12Z",
       "oversold_checked": 122,
       "leaps_found": 59,
       "rate_limits_hit": 0,
       "status": "ok"
     },
     "alerts": {
-      "total_sent_this_week": 30,
+      "total_sent_this_week": 89,
       "total_suppressed": 59,
       "pushover_errors": 0
     }
@@ -38,7 +38,7 @@
       "price": 23.06,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -48,7 +48,7 @@
       "price": 99.38,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -58,7 +58,7 @@
       "price": 13.11,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -68,7 +68,7 @@
       "price": 2.16,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -78,7 +78,7 @@
       "price": 25.53,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -138,7 +138,7 @@
       "price": 7.98,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -148,7 +148,7 @@
       "price": 56.32,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -188,7 +188,7 @@
       "price": 22.21,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -288,7 +288,7 @@
       "price": 129.72,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -308,7 +308,7 @@
       "price": 204.34,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -328,7 +328,7 @@
       "price": 122.97,
       "has_leaps": true,
       "furthest_leap_expiry": "2027-12-17",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -338,7 +338,7 @@
       "price": 145.54,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -358,7 +358,7 @@
       "price": 12.91,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -378,7 +378,7 @@
       "price": 372.88,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-12-15",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -398,7 +398,7 @@
       "price": 32.84,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-22",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -408,7 +408,7 @@
       "price": 22.05,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-12-15",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -508,7 +508,7 @@
       "price": 39.52,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -528,7 +528,7 @@
       "price": 7.1,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -538,7 +538,7 @@
       "price": 102.42,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -568,7 +568,7 @@
       "price": 91.85,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-22",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -578,7 +578,7 @@
       "price": 155.07,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-22",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -598,7 +598,7 @@
       "price": 1094.32,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -638,7 +638,7 @@
       "price": 9.85,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-22",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -688,7 +688,7 @@
       "price": 63.22,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -778,7 +778,7 @@
       "price": 46.68,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -818,7 +818,7 @@
       "price": 28.4,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -838,7 +838,7 @@
       "price": 45.48,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-12-15",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -848,7 +848,7 @@
       "price": 41.17,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -908,7 +908,7 @@
       "price": 22.02,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-22",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -928,7 +928,7 @@
       "price": 86.49,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -948,7 +948,7 @@
       "price": 15.73,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -968,7 +968,7 @@
       "price": 19.22,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -978,7 +978,7 @@
       "price": 37.67,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -988,7 +988,7 @@
       "price": 196.69,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1008,7 +1008,7 @@
       "price": 18.25,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1028,7 +1028,7 @@
       "price": 5.94,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1078,7 +1078,7 @@
       "price": 96.28,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1138,7 +1138,7 @@
       "price": 40.17,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-29",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1158,7 +1158,7 @@
       "price": 8.85,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1168,7 +1168,7 @@
       "price": 36.72,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-03-03",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1178,7 +1178,7 @@
       "price": 20.33,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
@@ -1238,7 +1238,7 @@
       "price": 9.28,
       "has_leaps": true,
       "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-04-05",
+      "first_triggered": "2026-04-07",
       "alert_status": "suppressed"
     },
     {
