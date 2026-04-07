@@ -7,7 +7,10 @@
       "Bash(git:*)",
       "Bash(ssh:*)",
       "Bash(gh workflow:*)",
-      "Bash(gh run:*)"
+      "Bash(gh run:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('TTWO suppressed:', 'TTWO' in d.get\\('suppressed', []\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); suppressed=d.get\\('suppressed',{}\\); print\\('TTWO suppressed:', 'TTWO' in suppressed\\); print\\('April 5 alerts suppressed:', [t for t in ['MARA','ADMA','ELF','HIMS','PRGS','FIS','COIN','DIS','TTWO','AVAV','CCOI','PINS','META'] if t in suppressed]\\)\")"
     ]
   }
 }

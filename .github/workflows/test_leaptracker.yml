@@ -1,0 +1,26 @@
+name: Test LeapTracker Auth
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: 'Symbol to test'
+        required: false
+        default: 'TTWO'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test LeapTracker API
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          echo "Testing LeapTracker with symbol: ${{ github.event.inputs.symbol }}"
+          curl -s -o response.json -w "\nHTTP status: %{http_code}\n" \
+            -X POST https://leaptracker.vercel.app/api/options/auto \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            -H "Content-Type: application/json" \
+            -d '{"symbol": "${{ github.event.inputs.symbol }}"}'
+          echo "Response body:"
+          cat response.json
