@@ -68,7 +68,7 @@ def send_alert(ticker: str, confirmed_rsi: float, current_rsi: float,
             headers={"Authorization": f"Bearer {config.CRON_SECRET}", "Content-Type": "application/json"},
             timeout=15,
         )
-        if lt_resp.status_code != 200:
+        if lt_resp.status_code not in (200, 201):
             print(f"  LeapTracker error ({lt_resp.status_code}): {lt_resp.text}")
     except Exception as e:
         print(f"  LeapTracker request failed: {e}")
