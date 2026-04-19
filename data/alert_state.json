@@ -20,21 +20,6 @@
       "confirmed_rsi_at_alert": 16.31,
       "furthest_leap": "2028-01-21"
     },
-    "VNO": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 16.37,
-      "furthest_leap": "2028-01-21"
-    },
-    "AVTR": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 19.47,
-      "furthest_leap": "2028-01-21"
-    },
-    "FISV": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 20.32,
-      "furthest_leap": "2028-01-21"
-    },
     "TTD": {
       "first_alert_date": "2026-04-07",
       "confirmed_rsi_at_alert": 21.47,
@@ -110,26 +95,6 @@
       "confirmed_rsi_at_alert": 25.76,
       "furthest_leap": "2028-01-21"
     },
-    "WWW": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 25.92,
-      "furthest_leap": "2028-01-21"
-    },
-    "PSKY": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 25.97,
-      "furthest_leap": "2028-01-21"
-    },
-    "ELF": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 26.17,
-      "furthest_leap": "2028-01-21"
-    },
-    "ADT": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 26.33,
-      "furthest_leap": "2028-12-15"
-    },
     "BSX": {
       "first_alert_date": "2026-04-07",
       "confirmed_rsi_at_alert": 27.3,
@@ -160,11 +125,6 @@
       "confirmed_rsi_at_alert": 28.21,
       "furthest_leap": "2028-01-21"
     },
-    "PNR": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 28.45,
-      "furthest_leap": "2028-01-21"
-    },
     "PINS": {
       "first_alert_date": "2026-04-07",
       "confirmed_rsi_at_alert": 29.16,
@@ -173,36 +133,6 @@
     "GTM": {
       "first_alert_date": "2026-04-07",
       "confirmed_rsi_at_alert": 29.27,
-      "furthest_leap": "2028-01-21"
-    },
-    "GOGO": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 29.33,
-      "furthest_leap": "2028-01-21"
-    },
-    "LW": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 29.5,
-      "furthest_leap": "2028-01-21"
-    },
-    "MARA": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 29.65,
-      "furthest_leap": "2028-01-21"
-    },
-    "HIMS": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 29.72,
-      "furthest_leap": "2028-01-21"
-    },
-    "TSCO": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 29.81,
-      "furthest_leap": "2028-01-21"
-    },
-    "ARE": {
-      "first_alert_date": "2026-04-07",
-      "confirmed_rsi_at_alert": 29.99,
       "furthest_leap": "2028-01-21"
     },
     "HOOD": {
@@ -220,20 +150,70 @@
       "confirmed_rsi_at_alert": 28.53,
       "furthest_leap": "2028-01-21"
     },
-    "LRN": {
-      "first_alert_date": "2026-04-12",
-      "confirmed_rsi_at_alert": 29.38,
-      "furthest_leap": "2028-12-15"
-    },
-    "FOUR": {
-      "first_alert_date": "2026-04-12",
-      "confirmed_rsi_at_alert": 29.51,
-      "furthest_leap": "2028-01-21"
-    },
     "ADBE": {
       "first_alert_date": "2026-04-12",
       "confirmed_rsi_at_alert": 29.77,
       "furthest_leap": "2028-01-21"
+    },
+    "INTU": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 25.64,
+      "furthest_leap": "2028-01-21"
+    },
+    "AXON": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 27.32,
+      "furthest_leap": "2028-01-21"
+    },
+    "DOCU": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 27.71,
+      "furthest_leap": "2028-01-21"
+    },
+    "DT": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 27.85,
+      "furthest_leap": "2028-01-21"
+    },
+    "CRM": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 28.13,
+      "furthest_leap": "2028-01-21"
+    },
+    "IBM": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 28.3,
+      "furthest_leap": "2028-12-15"
+    },
+    "FICO": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 28.38,
+      "furthest_leap": "2028-01-21"
+    },
+    "PSTG": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 29.08,
+      "furthest_leap": "2028-01-21"
+    },
+    "BOX": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 29.23,
+      "furthest_leap": "2028-01-21"
+    },
+    "QCOM": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 29.41,
+      "furthest_leap": "2028-01-21"
+    },
+    "CXM": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 29.69,
+      "furthest_leap": "2027-12-17"
+    },
+    "CRWD": {
+      "first_alert_date": "2026-04-19",
+      "confirmed_rsi_at_alert": 29.89,
+      "furthest_leap": "2028-12-15"
     }
   },
   "recovered": {
@@ -273,34 +253,16 @@
       "confirmed_rsi_at_alert": 29.84,
       "furthest_leap": "2028-01-21"
     },
-    "PAYX": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 13.72,
-      "furthest_leap": "2028-01-21"
-    },
-    "NOW": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 17.28,
-      "furthest_leap": "2028-01-21"
-    },
     "HOG": {
       "recovered_date": "2026-04-05",
       "was_suppressed_since": "2026-03-22",
       "confirmed_rsi_at_alert": 25.9,
       "furthest_leap": "2028-01-21"
     },
-    "INTU": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 19.28,
-      "furthest_leap": "2028-01-21"
-    },
     "GOGO": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 21.21,
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 29.33,
       "furthest_leap": "2028-01-21"
     },
     "PINS": {
@@ -309,28 +271,10 @@
       "confirmed_rsi_at_alert": 29.49,
       "furthest_leap": "2028-01-21"
     },
-    "MSFT": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 22.79,
-      "furthest_leap": "2028-12-15"
-    },
-    "TTD": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 23.53,
-      "furthest_leap": "2028-01-21"
-    },
     "ADBE": {
       "recovered_date": "2026-03-29",
       "was_suppressed_since": "2026-03-22",
       "confirmed_rsi_at_alert": 29.69,
-      "furthest_leap": "2028-01-21"
-    },
-    "SFM": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 26.05,
       "furthest_leap": "2028-01-21"
     },
     "PZZA": {
@@ -339,16 +283,10 @@
       "confirmed_rsi_at_alert": 29.45,
       "furthest_leap": "2028-01-21"
     },
-    "APO": {
-      "recovered_date": "2026-03-15",
-      "was_suppressed_since": "2026-03-08",
-      "confirmed_rsi_at_alert": 28.55,
-      "furthest_leap": "2028-01-21"
-    },
     "HIMS": {
-      "recovered_date": "2026-03-22",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 17.06,
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 29.72,
       "furthest_leap": "2028-01-21"
     },
     "DOCU": {
@@ -418,15 +356,15 @@
       "furthest_leap": "2028-01-21"
     },
     "FOUR": {
-      "recovered_date": "2026-04-05",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 24.47,
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-12",
+      "confirmed_rsi_at_alert": 29.51,
       "furthest_leap": "2028-01-21"
     },
     "WWW": {
-      "recovered_date": "2026-04-05",
-      "was_suppressed_since": "2026-03-03",
-      "confirmed_rsi_at_alert": 29.16,
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 25.92,
       "furthest_leap": "2028-01-21"
     },
     "JEF": {
@@ -436,9 +374,9 @@
       "furthest_leap": "2028-01-21"
     },
     "ADT": {
-      "recovered_date": "2026-04-05",
-      "was_suppressed_since": "2026-03-15",
-      "confirmed_rsi_at_alert": 27.19,
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 26.33,
       "furthest_leap": "2028-12-15"
     },
     "CORT": {
@@ -454,9 +392,9 @@
       "furthest_leap": "2028-01-21"
     },
     "ARE": {
-      "recovered_date": "2026-04-05",
-      "was_suppressed_since": "2026-03-29",
-      "confirmed_rsi_at_alert": 28.22,
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 29.99,
       "furthest_leap": "2028-01-21"
     },
     "V": {
@@ -566,6 +504,66 @@
       "was_suppressed_since": "2026-04-07",
       "confirmed_rsi_at_alert": 29.9,
       "furthest_leap": "2028-01-21"
+    },
+    "VNO": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 16.37,
+      "furthest_leap": "2028-01-21"
+    },
+    "AVTR": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 19.47,
+      "furthest_leap": "2028-01-21"
+    },
+    "FISV": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 20.32,
+      "furthest_leap": "2028-01-21"
+    },
+    "PSKY": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 25.97,
+      "furthest_leap": "2028-01-21"
+    },
+    "ELF": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 26.17,
+      "furthest_leap": "2028-01-21"
+    },
+    "PNR": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 28.45,
+      "furthest_leap": "2028-01-21"
+    },
+    "LW": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 29.5,
+      "furthest_leap": "2028-01-21"
+    },
+    "MARA": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 29.65,
+      "furthest_leap": "2028-01-21"
+    },
+    "TSCO": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-07",
+      "confirmed_rsi_at_alert": 29.81,
+      "furthest_leap": "2028-01-21"
+    },
+    "LRN": {
+      "recovered_date": "2026-04-19",
+      "was_suppressed_since": "2026-04-12",
+      "confirmed_rsi_at_alert": 29.38,
+      "furthest_leap": "2028-12-15"
     }
   }
 }
