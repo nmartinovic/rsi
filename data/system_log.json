@@ -802,6 +802,17 @@
       "rate_limits_hit": 0,
       "duration_seconds": 893,
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-05-22T22:54:11Z",
+      "phase": "rsi_scan",
+      "tickers_scanned": 1500,
+      "tickers_failed": 6,
+      "confirmed_oversold": 112,
+      "current_only_oversold": 1,
+      "rate_limits_hit": 0,
+      "duration_seconds": 491,
+      "status": "ok"
     }
   ]
 }
