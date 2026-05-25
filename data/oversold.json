@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T22:54:11Z",
+  "updated_at": "2026-05-25T22:57:20Z",
   "confirmed_oversold": [
     {
       "ticker": "PODD",
@@ -12,6 +12,12 @@
       "confirmed_rsi": 14.74,
       "current_rsi": 18.55,
       "price": 31.62
+    },
+    {
+      "ticker": "EXPI",
+      "confirmed_rsi": 15.77,
+      "current_rsi": 20.92,
+      "price": 5.06
     },
     {
       "ticker": "INSP",
@@ -48,12 +54,6 @@
       "confirmed_rsi": 18.14,
       "current_rsi": 17.95,
       "price": 52.05
-    },
-    {
-      "ticker": "EXPI",
-      "confirmed_rsi": 18.22,
-      "current_rsi": 20.15,
-      "price": 5.01
     },
     {
       "ticker": "UPWK",
@@ -248,12 +248,6 @@
       "price": 8.91
     },
     {
-      "ticker": "ASGN",
-      "confirmed_rsi": 24.72,
-      "current_rsi": 27.02,
-      "price": 19.12
-    },
-    {
       "ticker": "PPC",
       "confirmed_rsi": 24.75,
       "current_rsi": 28.44,
@@ -328,7 +322,7 @@
     {
       "ticker": "BMI",
       "confirmed_rsi": 26.31,
-      "current_rsi": 34.89,
+      "current_rsi": 35.16,
       "price": 125.84
     },
     {
@@ -352,7 +346,7 @@
     {
       "ticker": "ABR",
       "confirmed_rsi": 26.79,
-      "current_rsi": 25.6,
+      "current_rsi": 26.48,
       "price": 5.57
     },
     {
@@ -448,7 +442,7 @@
     {
       "ticker": "J",
       "confirmed_rsi": 27.78,
-      "current_rsi": 33.52,
+      "current_rsi": 33.97,
       "price": 114.69
     },
     {
@@ -556,7 +550,7 @@
     {
       "ticker": "CDW",
       "confirmed_rsi": 28.82,
-      "current_rsi": 36.26,
+      "current_rsi": 36.76,
       "price": 110.82
     },
     {
@@ -648,6 +642,12 @@
       "confirmed_rsi": 29.53,
       "current_rsi": 34.24,
       "price": 114.96
+    },
+    {
+      "ticker": "ASGN",
+      "confirmed_rsi": 29.6,
+      "current_rsi": 31.84,
+      "price": 19.5
     },
     {
       "ticker": "CXT",
