@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T23:10:52Z",
+  "generated_at": "2026-06-07T07:04:41Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -17,15 +17,15 @@
       "status": "ok"
     },
     "leap_check": {
-      "last_run": "2026-05-31T06:54:28Z",
-      "oversold_checked": 74,
-      "leaps_found": 36,
+      "last_run": "2026-06-07T07:01:35Z",
+      "oversold_checked": 70,
+      "leaps_found": 26,
       "rate_limits_hit": 0,
       "status": "ok"
     },
     "alerts": {
-      "total_sent_this_week": 7,
-      "total_suppressed": 36,
+      "total_sent_this_week": 6,
+      "total_suppressed": 26,
       "pushover_errors": 0
     }
   },
@@ -38,7 +38,7 @@
       "price": 4.31,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -48,7 +48,7 @@
       "price": 153.22,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -58,7 +58,7 @@
       "price": 20.12,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -78,7 +78,7 @@
       "price": 4.78,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -138,7 +138,7 @@
       "price": 3.38,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -148,7 +148,7 @@
       "price": 28.31,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -158,7 +158,7 @@
       "price": 64.48,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -168,7 +168,7 @@
       "price": 50.68,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -188,7 +188,7 @@
       "price": 67.34,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -238,7 +238,7 @@
       "price": 24.75,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -248,7 +248,7 @@
       "price": 22.0,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -258,7 +258,7 @@
       "price": 7.91,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -266,10 +266,10 @@
       "confirmed_rsi": 24.15,
       "current_rsi": 20.37,
       "price": 114.23,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-06-07",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "BRO",
@@ -278,7 +278,7 @@
       "price": 58.86,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -288,7 +288,7 @@
       "price": 86.05,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -298,7 +298,7 @@
       "price": 71.14,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -308,7 +308,7 @@
       "price": 54.19,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -328,7 +328,7 @@
       "price": 107.36,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -348,7 +348,7 @@
       "price": 7.81,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -358,7 +358,7 @@
       "price": 332.18,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -368,7 +368,7 @@
       "price": 126.53,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -398,7 +398,7 @@
       "price": 32.56,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -408,7 +408,7 @@
       "price": 109.94,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -416,10 +416,10 @@
       "confirmed_rsi": 26.45,
       "current_rsi": 25.38,
       "price": 33.15,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-06-07",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "AMSF",
@@ -428,7 +428,7 @@
       "price": 31.7,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -436,10 +436,10 @@
       "confirmed_rsi": 26.62,
       "current_rsi": 29.86,
       "price": 16.44,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-06-07",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "UHS",
@@ -448,7 +448,7 @@
       "price": 145.17,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -458,7 +458,7 @@
       "price": 98.04,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -478,7 +478,7 @@
       "price": 3.78,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -488,7 +488,7 @@
       "price": 116.93,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -496,10 +496,10 @@
       "confirmed_rsi": 27.63,
       "current_rsi": 27.25,
       "price": 422.06,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-12-15",
+      "first_triggered": "2026-06-07",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "EYE",
@@ -508,7 +508,7 @@
       "price": 15.44,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -518,7 +518,7 @@
       "price": 151.34,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -528,7 +528,7 @@
       "price": 124.43,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -548,7 +548,7 @@
       "price": 75.57,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -568,7 +568,7 @@
       "price": 28.66,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -578,7 +578,7 @@
       "price": 311.0,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -588,7 +588,7 @@
       "price": 38.35,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -608,7 +608,7 @@
       "price": 11.94,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -618,7 +618,7 @@
       "price": 20.6,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -628,7 +628,7 @@
       "price": 92.1,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -638,7 +638,7 @@
       "price": 47.1,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -648,7 +648,7 @@
       "price": 45.71,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -658,7 +658,7 @@
       "price": 80.46,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -668,7 +668,7 @@
       "price": 190.98,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -688,7 +688,7 @@
       "price": 130.11,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -696,20 +696,20 @@
       "confirmed_rsi": 29.79,
       "current_rsi": 29.04,
       "price": 156.8,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-06-07",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "LZ",
       "confirmed_rsi": 29.82,
       "current_rsi": 26.76,
       "price": 5.74,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-06-07",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "PPC",
@@ -718,7 +718,7 @@
       "price": 29.88,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -728,7 +728,7 @@
       "price": 47.24,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-06-05",
+      "first_triggered": "2026-06-07",
       "alert_status": "awaiting_leap_check"
     }
   ],
@@ -855,11 +855,18 @@
       "was_suppressed_since": "2026-05-24"
     },
     {
+      "ticker": "DUOL",
+      "confirmed_rsi": 30.45,
+      "current_rsi": 29.66,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-17"
+    },
+    {
       "ticker": "DOCS",
       "confirmed_rsi": 30.58,
       "current_rsi": 29.78,
-      "recovered_date": "2026-05-10",
-      "was_suppressed_since": "2026-04-07"
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-17"
     },
     {
       "ticker": "SYK",
@@ -986,6 +993,104 @@
       "current_rsi": 36.12,
       "recovered_date": "2026-05-31",
       "was_suppressed_since": "2026-05-24"
+    },
+    {
+      "ticker": "WDAY",
+      "confirmed_rsi": 40.08,
+      "current_rsi": 39.53,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-04-07"
+    },
+    {
+      "ticker": "DHR",
+      "confirmed_rsi": 37.87,
+      "current_rsi": 39.09,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-10"
+    },
+    {
+      "ticker": "WAY",
+      "confirmed_rsi": 30.42,
+      "current_rsi": 30.76,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-17"
+    },
+    {
+      "ticker": "CHWY",
+      "confirmed_rsi": 34.98,
+      "current_rsi": 31.76,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-17"
+    },
+    {
+      "ticker": "KSS",
+      "confirmed_rsi": 36.65,
+      "current_rsi": 41.16,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-17"
+    },
+    {
+      "ticker": "FWRD",
+      "confirmed_rsi": 32.1,
+      "current_rsi": 31.85,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-24"
+    },
+    {
+      "ticker": "PEGA",
+      "confirmed_rsi": 32.83,
+      "current_rsi": 31.93,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-24"
+    },
+    {
+      "ticker": "NKE",
+      "confirmed_rsi": 34.12,
+      "current_rsi": 30.95,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-24"
+    },
+    {
+      "ticker": "MIR",
+      "confirmed_rsi": 34.28,
+      "current_rsi": 30.27,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-31"
+    },
+    {
+      "ticker": "COTY",
+      "confirmed_rsi": 31.99,
+      "current_rsi": 29.1,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-31"
+    },
+    {
+      "ticker": "KKR",
+      "confirmed_rsi": 31.51,
+      "current_rsi": 30.05,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-31"
+    },
+    {
+      "ticker": "LVS",
+      "confirmed_rsi": 30.53,
+      "current_rsi": 30.11,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-31"
+    },
+    {
+      "ticker": "WHR",
+      "confirmed_rsi": 30.14,
+      "current_rsi": 27.91,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-31"
+    },
+    {
+      "ticker": "PYPL",
+      "confirmed_rsi": 31.9,
+      "current_rsi": 27.87,
+      "recovered_date": "2026-06-07",
+      "was_suppressed_since": "2026-05-31"
     }
   ],
   "all_rsi_values": {
