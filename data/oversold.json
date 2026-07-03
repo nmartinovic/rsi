@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T23:00:38Z",
+  "updated_at": "2026-07-03T22:57:54Z",
   "confirmed_oversold": [
     {
       "ticker": "ACN",
@@ -268,7 +268,7 @@
     {
       "ticker": "PEGA",
       "confirmed_rsi": 24.59,
-      "current_rsi": 30.33,
+      "current_rsi": 30.34,
       "price": 31.05
     },
     {
@@ -554,12 +554,6 @@
       "confirmed_rsi": 31.85,
       "current_rsi": 29.52,
       "price": 2.12
-    },
-    {
-      "ticker": "FDP",
-      "confirmed_rsi": 32.16,
-      "current_rsi": 29.83,
-      "price": 27.63
     }
   ]
 }
