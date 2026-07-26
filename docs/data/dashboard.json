@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:04:01Z",
+  "generated_at": "2026-07-26T05:54:22Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -17,15 +17,15 @@
       "status": "ok"
     },
     "leap_check": {
-      "last_run": "2026-07-19T05:43:54Z",
-      "oversold_checked": 36,
-      "leaps_found": 19,
+      "last_run": "2026-07-26T05:53:01Z",
+      "oversold_checked": 30,
+      "leaps_found": 18,
       "rate_limits_hit": 0,
       "status": "ok"
     },
     "alerts": {
-      "total_sent_this_week": 2,
-      "total_suppressed": 19,
+      "total_sent_this_week": 1,
+      "total_suppressed": 18,
       "pushover_errors": 0
     }
   },
@@ -38,7 +38,7 @@
       "price": 4.05,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -58,7 +58,7 @@
       "price": 53.48,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -68,7 +68,7 @@
       "price": 3.29,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -98,7 +98,7 @@
       "price": 5.58,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -118,7 +118,7 @@
       "price": 112.14,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -136,10 +136,10 @@
       "confirmed_rsi": 23.71,
       "current_rsi": 22.82,
       "price": 337.5,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-12-15",
+      "first_triggered": "2026-07-26",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "EPAM",
@@ -148,7 +148,7 @@
       "price": 89.85,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -198,7 +198,7 @@
       "price": 11.67,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -208,7 +208,7 @@
       "price": 59.67,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -238,7 +238,7 @@
       "price": 107.19,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -248,7 +248,7 @@
       "price": 66.31,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -308,7 +308,7 @@
       "price": 21.66,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -318,7 +318,7 @@
       "price": 163.26,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-07-24",
+      "first_triggered": "2026-07-26",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -432,6 +432,13 @@
       "current_rsi": 44.47,
       "recovered_date": "2026-07-12",
       "was_suppressed_since": "2026-07-05"
+    },
+    {
+      "ticker": "MAT",
+      "confirmed_rsi": 30.72,
+      "current_rsi": 31.07,
+      "recovered_date": "2026-07-26",
+      "was_suppressed_since": "2026-06-28"
     },
     {
       "ticker": "LZ",
@@ -670,6 +677,13 @@
       "current_rsi": 33.83,
       "recovered_date": "2026-07-19",
       "was_suppressed_since": "2026-07-12"
+    },
+    {
+      "ticker": "VITL",
+      "confirmed_rsi": 31.35,
+      "current_rsi": 30.33,
+      "recovered_date": "2026-07-26",
+      "was_suppressed_since": "2026-04-07"
     }
   ],
   "all_rsi_values": {
