@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-03T05:52:23Z",
-      "phase": "leap_check",
-      "tickers_checked": 28,
-      "leaps_found": 11,
-      "alerts_sent": 5,
-      "rate_limits_hit": 0,
-      "pushover_errors": 0,
-      "duration_seconds": 76,
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-05-04T22:54:42Z",
       "phase": "rsi_scan",
       "tickers_scanned": 1502,
@@ -856,6 +845,17 @@
       "current_only_oversold": 11,
       "rate_limits_hit": 0,
       "duration_seconds": 407,
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-08-02T05:49:10Z",
+      "phase": "leap_check",
+      "tickers_checked": 38,
+      "leaps_found": 24,
+      "alerts_sent": 8,
+      "rate_limits_hit": 0,
+      "pushover_errors": 0,
+      "duration_seconds": 106,
       "status": "ok"
     }
   ]
