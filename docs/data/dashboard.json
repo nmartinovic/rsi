@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T22:26:21Z",
+  "generated_at": "2026-08-23T03:44:24Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -17,7 +17,7 @@
       "status": "ok"
     },
     "leap_check": {
-      "last_run": "2026-08-16T03:41:13Z",
+      "last_run": "2026-08-23T03:43:33Z",
       "oversold_checked": 17,
       "leaps_found": 8,
       "rate_limits_hit": 0,
@@ -38,7 +38,7 @@
       "price": 36.91,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -46,10 +46,10 @@
       "confirmed_rsi": 20.67,
       "current_rsi": 19.68,
       "price": 11.5,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-08-23",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "VRRM",
@@ -58,7 +58,7 @@
       "price": 4.56,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -78,7 +78,7 @@
       "price": 7.18,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -98,7 +98,7 @@
       "price": 54.2,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -108,7 +108,7 @@
       "price": 5.32,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -116,10 +116,10 @@
       "confirmed_rsi": 26.24,
       "current_rsi": 27.15,
       "price": 47.79,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-08-23",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "NKE",
@@ -138,7 +138,7 @@
       "price": 12.55,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -148,7 +148,7 @@
       "price": 64.79,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -158,7 +158,7 @@
       "price": 32.25,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -166,20 +166,20 @@
       "confirmed_rsi": 28.53,
       "current_rsi": 27.74,
       "price": 10.57,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-08-23",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "ABR",
       "confirmed_rsi": 28.91,
       "current_rsi": 31.26,
       "price": 5.19,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-08-23",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "BXMT",
@@ -188,7 +188,7 @@
       "price": 14.27,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-08-21",
+      "first_triggered": "2026-08-23",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -272,8 +272,8 @@
       "ticker": "CELH",
       "confirmed_rsi": 32.51,
       "current_rsi": 41.55,
-      "recovered_date": "2026-08-09",
-      "was_suppressed_since": "2026-08-02"
+      "recovered_date": "2026-08-23",
+      "was_suppressed_since": "2026-08-16"
     },
     {
       "ticker": "BTU",
@@ -456,6 +456,27 @@
       "current_rsi": 37.71,
       "recovered_date": "2026-08-16",
       "was_suppressed_since": "2026-08-09"
+    },
+    {
+      "ticker": "TDS",
+      "confirmed_rsi": 34.39,
+      "current_rsi": 30.95,
+      "recovered_date": "2026-08-23",
+      "was_suppressed_since": "2026-07-19"
+    },
+    {
+      "ticker": "WING",
+      "confirmed_rsi": 33.46,
+      "current_rsi": 31.63,
+      "recovered_date": "2026-08-23",
+      "was_suppressed_since": "2026-08-16"
+    },
+    {
+      "ticker": "AES",
+      "confirmed_rsi": 76.65,
+      "current_rsi": 77.65,
+      "recovered_date": "2026-08-23",
+      "was_suppressed_since": "2026-08-16"
     }
   ],
   "all_rsi_values": {
