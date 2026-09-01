@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-01T23:24:44Z",
-      "phase": "rsi_scan",
-      "tickers_scanned": 1500,
-      "tickers_failed": 6,
-      "confirmed_oversold": 66,
-      "current_only_oversold": 8,
-      "rate_limits_hit": 0,
-      "duration_seconds": 408,
-      "status": "ok"
-    },
-    {
-      "timestamp": "2026-06-02T23:42:20Z",
-      "phase": "rsi_scan",
-      "tickers_scanned": 1500,
-      "tickers_failed": 6,
-      "confirmed_oversold": 65,
-      "current_only_oversold": 11,
-      "rate_limits_hit": 0,
-      "duration_seconds": 401,
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-06-03T23:28:50Z",
       "phase": "rsi_scan",
       "tickers_scanned": 1499,
@@ -856,6 +834,17 @@
       "rate_limits_hit": 0,
       "pushover_errors": 0,
       "duration_seconds": 52,
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-09-01T00:57:20Z",
+      "phase": "rsi_scan",
+      "tickers_scanned": 1462,
+      "tickers_failed": 44,
+      "confirmed_oversold": 14,
+      "current_only_oversold": 4,
+      "rate_limits_hit": 0,
+      "duration_seconds": 461,
       "status": "ok"
     }
   ]
