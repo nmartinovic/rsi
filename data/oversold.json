@@ -1,115 +1,115 @@
 {
-  "updated_at": "2026-09-02T23:48:36Z",
+  "updated_at": "2026-09-03T23:45:00Z",
   "confirmed_oversold": [
     {
-      "ticker": "SSTK",
-      "confirmed_rsi": 20.7,
-      "current_rsi": 22.31,
-      "price": 5.75
-    },
-    {
       "ticker": "VRRM",
-      "confirmed_rsi": 22.38,
-      "current_rsi": 21.87,
+      "confirmed_rsi": 22.25,
+      "current_rsi": 21.75,
       "price": 4.2
     },
     {
-      "ticker": "CABO",
-      "confirmed_rsi": 22.52,
-      "current_rsi": 24.87,
-      "price": 28.51
+      "ticker": "SSTK",
+      "confirmed_rsi": 22.98,
+      "current_rsi": 25.01,
+      "price": 5.77
     },
     {
       "ticker": "ROL",
-      "confirmed_rsi": 22.59,
-      "current_rsi": 21.47,
+      "confirmed_rsi": 25.77,
+      "current_rsi": 25.5,
       "price": 35.71
     },
     {
-      "ticker": "LHX",
-      "confirmed_rsi": 24.34,
-      "current_rsi": 23.97,
-      "price": 261.31
+      "ticker": "CABO",
+      "confirmed_rsi": 26.06,
+      "current_rsi": 28.47,
+      "price": 26.06
     },
     {
-      "ticker": "BHF",
-      "confirmed_rsi": 25.74,
-      "current_rsi": 30.6,
-      "price": 53.62
-    },
-    {
-      "ticker": "DKS",
-      "confirmed_rsi": 26.73,
-      "current_rsi": 30.45,
-      "price": 137.34
+      "ticker": "PZZA",
+      "confirmed_rsi": 26.54,
+      "current_rsi": 25.63,
+      "price": 22.55
     },
     {
       "ticker": "TTD",
-      "confirmed_rsi": 27.32,
-      "current_rsi": 32.89,
-      "price": 14.55
-    },
-    {
-      "ticker": "BXMT",
-      "confirmed_rsi": 27.71,
-      "current_rsi": 28.91,
-      "price": 14.02
+      "confirmed_rsi": 26.86,
+      "current_rsi": 33.1,
+      "price": 15.09
     },
     {
       "ticker": "HE",
-      "confirmed_rsi": 28.09,
-      "current_rsi": 25.32,
-      "price": 10.95
+      "confirmed_rsi": 27.37,
+      "current_rsi": 25.4,
+      "price": 11.09
     },
     {
-      "ticker": "ABR",
-      "confirmed_rsi": 28.26,
-      "current_rsi": 31.06,
-      "price": 5.16
+      "ticker": "VITL",
+      "confirmed_rsi": 28.72,
+      "current_rsi": 27.72,
+      "price": 10.1
     },
     {
-      "ticker": "APTV",
-      "confirmed_rsi": 28.65,
-      "current_rsi": 27.69,
-      "price": 45.03
+      "ticker": "NKE",
+      "confirmed_rsi": 29.11,
+      "current_rsi": 31.53,
+      "price": 38.77
     },
     {
-      "ticker": "MZTI",
-      "confirmed_rsi": 29.43,
-      "current_rsi": 28.02,
-      "price": 111.37
+      "ticker": "LHX",
+      "confirmed_rsi": 29.37,
+      "current_rsi": 29.45,
+      "price": 262.14
+    },
+    {
+      "ticker": "ZTS",
+      "confirmed_rsi": 29.45,
+      "current_rsi": 31.34,
+      "price": 76.29
+    },
+    {
+      "ticker": "MCD",
+      "confirmed_rsi": 29.58,
+      "current_rsi": 30.71,
+      "price": 259.63
+    },
+    {
+      "ticker": "DKS",
+      "confirmed_rsi": 29.99,
+      "current_rsi": 33.46,
+      "price": 139.77
     }
   ],
   "current_only_oversold": [
     {
       "ticker": "PCG",
-      "confirmed_rsi": 54.7,
-      "current_rsi": 28.33,
-      "price": 13.33
+      "confirmed_rsi": 52.28,
+      "current_rsi": 28.05,
+      "price": 13.96
+    },
+    {
+      "ticker": "MZTI",
+      "confirmed_rsi": 32.95,
+      "current_rsi": 29.05,
+      "price": 105.64
+    },
+    {
+      "ticker": "COLL",
+      "confirmed_rsi": 33.18,
+      "current_rsi": 29.16,
+      "price": 23.7
     },
     {
       "ticker": "PNR",
-      "confirmed_rsi": 31.4,
-      "current_rsi": 29.08,
-      "price": 59.84
-    },
-    {
-      "ticker": "AMTM",
-      "confirmed_rsi": 31.46,
-      "current_rsi": 29.5,
-      "price": 19.9
+      "confirmed_rsi": 31.21,
+      "current_rsi": 29.65,
+      "price": 60.02
     },
     {
       "ticker": "NOC",
-      "confirmed_rsi": 32.41,
-      "current_rsi": 29.52,
-      "price": 523.82
-    },
-    {
-      "ticker": "PZZA",
-      "confirmed_rsi": 31.05,
-      "current_rsi": 29.77,
-      "price": 22.63
+      "confirmed_rsi": 31.61,
+      "current_rsi": 29.79,
+      "price": 528.24
     }
   ]
 }
