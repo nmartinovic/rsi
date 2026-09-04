@@ -1,115 +1,121 @@
 {
-  "updated_at": "2026-09-03T23:45:00Z",
+  "updated_at": "2026-09-04T23:39:52Z",
   "confirmed_oversold": [
     {
       "ticker": "VRRM",
-      "confirmed_rsi": 22.25,
-      "current_rsi": 21.75,
-      "price": 4.2
-    },
-    {
-      "ticker": "SSTK",
-      "confirmed_rsi": 22.98,
-      "current_rsi": 25.01,
-      "price": 5.77
-    },
-    {
-      "ticker": "ROL",
-      "confirmed_rsi": 25.77,
-      "current_rsi": 25.5,
-      "price": 35.71
-    },
-    {
-      "ticker": "CABO",
-      "confirmed_rsi": 26.06,
-      "current_rsi": 28.47,
-      "price": 26.06
-    },
-    {
-      "ticker": "PZZA",
-      "confirmed_rsi": 26.54,
-      "current_rsi": 25.63,
-      "price": 22.55
-    },
-    {
-      "ticker": "TTD",
-      "confirmed_rsi": 26.86,
-      "current_rsi": 33.1,
-      "price": 15.09
+      "confirmed_rsi": 21.44,
+      "current_rsi": 20.69,
+      "price": 4.07
     },
     {
       "ticker": "HE",
-      "confirmed_rsi": 27.37,
-      "current_rsi": 25.4,
+      "confirmed_rsi": 22.35,
+      "current_rsi": 20.75,
       "price": 11.09
     },
     {
-      "ticker": "VITL",
-      "confirmed_rsi": 28.72,
-      "current_rsi": 27.72,
-      "price": 10.1
+      "ticker": "ROL",
+      "confirmed_rsi": 23.52,
+      "current_rsi": 22.9,
+      "price": 35.86
+    },
+    {
+      "ticker": "SSTK",
+      "confirmed_rsi": 26.57,
+      "current_rsi": 26.03,
+      "price": 5.74
+    },
+    {
+      "ticker": "PODD",
+      "confirmed_rsi": 26.59,
+      "current_rsi": 28.44,
+      "price": 147.48
+    },
+    {
+      "ticker": "CABO",
+      "confirmed_rsi": 26.94,
+      "current_rsi": 26.93,
+      "price": 25.47
+    },
+    {
+      "ticker": "PZZA",
+      "confirmed_rsi": 26.94,
+      "current_rsi": 25.41,
+      "price": 22.68
+    },
+    {
+      "ticker": "TTD",
+      "confirmed_rsi": 27.48,
+      "current_rsi": 30.94,
+      "price": 14.43
+    },
+    {
+      "ticker": "BXMT",
+      "confirmed_rsi": 28.56,
+      "current_rsi": 33.33,
+      "price": 14.2
     },
     {
       "ticker": "NKE",
-      "confirmed_rsi": 29.11,
-      "current_rsi": 31.53,
-      "price": 38.77
+      "confirmed_rsi": 28.71,
+      "current_rsi": 27.57,
+      "price": 38.4
     },
     {
-      "ticker": "LHX",
-      "confirmed_rsi": 29.37,
-      "current_rsi": 29.45,
-      "price": 262.14
+      "ticker": "PNR",
+      "confirmed_rsi": 29.11,
+      "current_rsi": 28.01,
+      "price": 60.21
     },
     {
       "ticker": "ZTS",
-      "confirmed_rsi": 29.45,
-      "current_rsi": 31.34,
-      "price": 76.29
+      "confirmed_rsi": 29.22,
+      "current_rsi": 28.22,
+      "price": 75.81
+    },
+    {
+      "ticker": "NI",
+      "confirmed_rsi": 29.55,
+      "current_rsi": 34.2,
+      "price": 41.39
+    },
+    {
+      "ticker": "BHF",
+      "confirmed_rsi": 29.85,
+      "current_rsi": 32.0,
+      "price": 53.58
     },
     {
       "ticker": "MCD",
-      "confirmed_rsi": 29.58,
-      "current_rsi": 30.71,
-      "price": 259.63
-    },
-    {
-      "ticker": "DKS",
-      "confirmed_rsi": 29.99,
-      "current_rsi": 33.46,
-      "price": 139.77
+      "confirmed_rsi": 29.85,
+      "current_rsi": 27.22,
+      "price": 255.69
     }
   ],
   "current_only_oversold": [
     {
       "ticker": "PCG",
-      "confirmed_rsi": 52.28,
-      "current_rsi": 28.05,
-      "price": 13.96
+      "confirmed_rsi": 37.25,
+      "current_rsi": 25.13,
+      "price": 14.3
     },
     {
-      "ticker": "MZTI",
-      "confirmed_rsi": 32.95,
-      "current_rsi": 29.05,
-      "price": 105.64
+      "ticker": "LHX",
+      "confirmed_rsi": 30.48,
+      "current_rsi": 29.25,
+      "price": 256.45
     },
     {
       "ticker": "COLL",
-      "confirmed_rsi": 33.18,
-      "current_rsi": 29.16,
-      "price": 23.7
+      "confirmed_rsi": 31.97,
+      "current_rsi": 29.59,
+      "price": 23.53
     },
     {
-      "ticker": "PNR",
-      "confirmed_rsi": 31.21,
-      "current_rsi": 29.65,
-      "price": 60.02
-    },
-    {
-      "ticker": "NOC",
-      "confirmed_rsi": 31.61,
-      "current_rsi": 29.79,
-      "price": 528.24
+      "ticker": "EIX",
+      "confirmed_rsi": 45.74,
+      "current_rsi": 29.7,
+      "price": 56.77
     }
   ]
 }
