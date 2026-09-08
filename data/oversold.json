@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T23:39:52Z",
+  "updated_at": "2026-09-07T23:55:56Z",
   "confirmed_oversold": [
     {
       "ticker": "VRRM",
@@ -102,7 +102,7 @@
     {
       "ticker": "LHX",
       "confirmed_rsi": 30.48,
-      "current_rsi": 29.25,
+      "current_rsi": 29.48,
       "price": 256.45
     },
     {
