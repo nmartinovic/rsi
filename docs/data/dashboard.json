@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:59:04Z",
+  "generated_at": "2026-09-13T07:53:42Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -17,15 +17,15 @@
       "status": "ok"
     },
     "leap_check": {
-      "last_run": "2026-09-06T07:28:48Z",
-      "oversold_checked": 15,
-      "leaps_found": 10,
+      "last_run": "2026-09-13T07:53:14Z",
+      "oversold_checked": 9,
+      "leaps_found": 5,
       "rate_limits_hit": 0,
       "status": "ok"
     },
     "alerts": {
-      "total_sent_this_week": 4,
-      "total_suppressed": 10,
+      "total_sent_this_week": 2,
+      "total_suppressed": 5,
       "pushover_errors": 0
     }
   },
@@ -38,7 +38,7 @@
       "price": 3.55,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-11",
+      "first_triggered": "2026-09-13",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -48,7 +48,7 @@
       "price": 5.04,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-11",
+      "first_triggered": "2026-09-13",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -88,7 +88,7 @@
       "price": 22.75,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-11",
+      "first_triggered": "2026-09-13",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -98,7 +98,7 @@
       "price": 17.29,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-11",
+      "first_triggered": "2026-09-13",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -106,20 +106,20 @@
       "confirmed_rsi": 29.7,
       "current_rsi": 29.1,
       "price": 13.8,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-11",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-13",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "LHX",
       "confirmed_rsi": 29.9,
       "current_rsi": 26.68,
       "price": 245.54,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-11",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-13",
+      "alert_status": "suppressed"
     }
   ],
   "early_warnings": [
@@ -332,8 +332,8 @@
       "ticker": "PNR",
       "confirmed_rsi": 30.38,
       "current_rsi": 27.93,
-      "recovered_date": "2026-08-30",
-      "was_suppressed_since": "2026-05-17"
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-09-06"
     },
     {
       "ticker": "ABR",
@@ -355,6 +355,48 @@
       "current_rsi": 49.72,
       "recovered_date": "2026-09-06",
       "was_suppressed_since": "2026-08-30"
+    },
+    {
+      "ticker": "ZTS",
+      "confirmed_rsi": 30.98,
+      "current_rsi": 28.92,
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-05-17"
+    },
+    {
+      "ticker": "NKE",
+      "confirmed_rsi": 32.55,
+      "current_rsi": 29.65,
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-08-02"
+    },
+    {
+      "ticker": "PODD",
+      "confirmed_rsi": 33.08,
+      "current_rsi": 28.29,
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-08-16"
+    },
+    {
+      "ticker": "TTD",
+      "confirmed_rsi": 35.78,
+      "current_rsi": 34.3,
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-08-30"
+    },
+    {
+      "ticker": "BHF",
+      "confirmed_rsi": 32.79,
+      "current_rsi": 26.94,
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-08-30"
+    },
+    {
+      "ticker": "MCD",
+      "confirmed_rsi": 33.77,
+      "current_rsi": 30.91,
+      "recovered_date": "2026-09-13",
+      "was_suppressed_since": "2026-09-06"
     }
   ],
   "all_rsi_values": {
