@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:50:27Z",
+  "updated_at": "2026-09-15T00:12:36Z",
   "confirmed_oversold": [
     {
       "ticker": "VRRM",
@@ -104,12 +104,6 @@
       "confirmed_rsi": 30.86,
       "current_rsi": 29.42,
       "price": 21.31
-    },
-    {
-      "ticker": "AMSF",
-      "confirmed_rsi": 33.16,
-      "current_rsi": 29.43,
-      "price": 24.77
     },
     {
       "ticker": "NOC",
