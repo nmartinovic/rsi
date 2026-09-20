@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:58:44Z",
+  "generated_at": "2026-09-20T08:11:19Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -17,15 +17,15 @@
       "status": "ok"
     },
     "leap_check": {
-      "last_run": "2026-09-13T07:53:14Z",
-      "oversold_checked": 9,
-      "leaps_found": 5,
+      "last_run": "2026-09-20T08:10:29Z",
+      "oversold_checked": 17,
+      "leaps_found": 10,
       "rate_limits_hit": 0,
       "status": "ok"
     },
     "alerts": {
-      "total_sent_this_week": 2,
-      "total_suppressed": 5,
+      "total_sent_this_week": 5,
+      "total_suppressed": 10,
       "pushover_errors": 0
     }
   },
@@ -48,7 +48,7 @@
       "price": 3.48,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -58,7 +58,7 @@
       "price": 4.54,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -76,20 +76,20 @@
       "confirmed_rsi": 26.56,
       "current_rsi": 26.34,
       "price": 49.95,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-12-15",
+      "first_triggered": "2026-09-20",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "OLN",
       "confirmed_rsi": 26.57,
       "current_rsi": 25.88,
       "price": 16.84,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-20",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "WLK",
@@ -98,7 +98,7 @@
       "price": 69.07,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -118,7 +118,7 @@
       "price": 3.94,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -126,10 +126,10 @@
       "confirmed_rsi": 28.16,
       "current_rsi": 28.94,
       "price": 43.34,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-20",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "PZZA",
@@ -148,7 +148,7 @@
       "price": 13.27,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -156,10 +156,10 @@
       "confirmed_rsi": 28.73,
       "current_rsi": 28.26,
       "price": 55.92,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-20",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "PATK",
@@ -168,7 +168,7 @@
       "price": 68.71,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -178,7 +178,7 @@
       "price": 17.37,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
+      "first_triggered": "2026-09-20",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -186,10 +186,10 @@
       "confirmed_rsi": 29.28,
       "current_rsi": 28.35,
       "price": 71.4,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-18",
-      "alert_status": "awaiting_leap_check"
+      "has_leaps": true,
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-20",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "PCG",
