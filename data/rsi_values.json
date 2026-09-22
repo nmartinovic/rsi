@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-18T23:50:20Z",
-  "run_date": "2026-09-18",
+  "updated_at": "2026-09-22T00:32:41Z",
+  "run_date": "2026-09-22",
   "values": {
     "A": {
       "confirmed_rsi": 66.7,
@@ -149,8 +149,8 @@
     },
     "ADEA": {
       "confirmed_rsi": 52.66,
-      "current_rsi": 48.45,
-      "price": 24.82
+      "current_rsi": 48.42,
+      "price": 24.81
     },
     "ADI": {
       "confirmed_rsi": 61.69,
@@ -2249,7 +2249,7 @@
     },
     "ENS": {
       "confirmed_rsi": 49.31,
-      "current_rsi": 48.71,
+      "current_rsi": 48.84,
       "price": 178.12
     },
     "ENSG": {
@@ -3147,11 +3147,6 @@
       "current_rsi": 48.93,
       "price": 305.73
     },
-    "HLX": {
-      "confirmed_rsi": 51.7,
-      "current_rsi": 56.7,
-      "price": 10.6
-    },
     "HMN": {
       "confirmed_rsi": 55.28,
       "current_rsi": 55.16,
@@ -3369,7 +3364,7 @@
     },
     "IFF": {
       "confirmed_rsi": 59.63,
-      "current_rsi": 58.54,
+      "current_rsi": 59.19,
       "price": 82.96
     },
     "IIIN": {
@@ -3929,7 +3924,7 @@
     },
     "LNT": {
       "confirmed_rsi": 40.26,
-      "current_rsi": 35.78,
+      "current_rsi": 35.8,
       "price": 65.61
     },
     "LNTH": {
@@ -4854,7 +4849,7 @@
     },
     "OMC": {
       "confirmed_rsi": 50.79,
-      "current_rsi": 47.41,
+      "current_rsi": 48.45,
       "price": 76.57
     },
     "OMCL": {
@@ -6519,7 +6514,7 @@
     },
     "TTEK": {
       "confirmed_rsi": 68.37,
-      "current_rsi": 63.86,
+      "current_rsi": 63.88,
       "price": 35.69
     },
     "TTMI": {
