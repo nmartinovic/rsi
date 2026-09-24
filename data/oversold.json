@@ -1,17 +1,11 @@
 {
-  "updated_at": "2026-09-22T23:58:03Z",
+  "updated_at": "2026-09-24T00:11:48Z",
   "confirmed_oversold": [
     {
       "ticker": "HE",
       "confirmed_rsi": 16.37,
       "current_rsi": 13.86,
       "price": 9.57
-    },
-    {
-      "ticker": "BXMT",
-      "confirmed_rsi": 19.87,
-      "current_rsi": 19.29,
-      "price": 13.14
     },
     {
       "ticker": "VRRM",
@@ -38,22 +32,10 @@
       "price": 4.53
     },
     {
-      "ticker": "PCG",
-      "confirmed_rsi": 24.7,
-      "current_rsi": 22.44,
-      "price": 12.94
-    },
-    {
       "ticker": "ZTS",
       "confirmed_rsi": 26.02,
       "current_rsi": 24.68,
       "price": 71.33
-    },
-    {
-      "ticker": "BHF",
-      "confirmed_rsi": 26.17,
-      "current_rsi": 35.83,
-      "price": 51.9
     },
     {
       "ticker": "OLN",
@@ -68,28 +50,28 @@
       "price": 140.53
     },
     {
+      "ticker": "CABO",
+      "confirmed_rsi": 27.11,
+      "current_rsi": 26.39,
+      "price": 18.01
+    },
+    {
       "ticker": "PNR",
       "confirmed_rsi": 27.25,
       "current_rsi": 26.95,
       "price": 55.78
     },
     {
-      "ticker": "CE",
-      "confirmed_rsi": 27.84,
-      "current_rsi": 28.73,
-      "price": 47.44
+      "ticker": "BHF",
+      "confirmed_rsi": 27.33,
+      "current_rsi": 27.1,
+      "price": 49.84
     },
     {
-      "ticker": "AHCO",
-      "confirmed_rsi": 27.94,
-      "current_rsi": 27.77,
-      "price": 5.77
-    },
-    {
-      "ticker": "NKE",
-      "confirmed_rsi": 28.5,
-      "current_rsi": 27.11,
-      "price": 36.1
+      "ticker": "BXMT",
+      "confirmed_rsi": 27.6,
+      "current_rsi": 28.59,
+      "price": 13.27
     },
     {
       "ticker": "PZZA",
@@ -98,61 +80,19 @@
       "price": 20.29
     },
     {
-      "ticker": "COO",
-      "confirmed_rsi": 28.84,
-      "current_rsi": 32.19,
-      "price": 55.29
-    },
-    {
-      "ticker": "DKS",
-      "confirmed_rsi": 29.08,
-      "current_rsi": 33.79,
-      "price": 133.94
-    },
-    {
-      "ticker": "COLL",
-      "confirmed_rsi": 29.29,
-      "current_rsi": 32.3,
-      "price": 22.78
-    },
-    {
-      "ticker": "ABR",
-      "confirmed_rsi": 29.33,
-      "current_rsi": 28.33,
-      "price": 4.39
-    },
-    {
-      "ticker": "APTV",
-      "confirmed_rsi": 29.42,
-      "current_rsi": 30.99,
-      "price": 44.61
-    },
-    {
       "ticker": "TJX",
       "confirmed_rsi": 29.44,
       "current_rsi": 35.14,
       "price": 130.96
     },
     {
-      "ticker": "CABO",
-      "confirmed_rsi": 29.51,
-      "current_rsi": 29.05,
-      "price": 17.06
-    },
-    {
-      "ticker": "BSX",
-      "confirmed_rsi": 29.53,
-      "current_rsi": 32.26,
-      "price": 44.92
+      "ticker": "AMSF",
+      "confirmed_rsi": 29.57,
+      "current_rsi": 28.34,
+      "price": 24.56
     }
   ],
   "current_only_oversold": [
-    {
-      "ticker": "DOW",
-      "confirmed_rsi": 30.26,
-      "current_rsi": 26.96,
-      "price": 28.2
-    },
     {
       "ticker": "PLNT",
       "confirmed_rsi": 30.73,
@@ -160,10 +100,16 @@
       "price": 47.05
     },
     {
-      "ticker": "MCD",
-      "confirmed_rsi": 31.85,
-      "current_rsi": 28.11,
-      "price": 247.88
+      "ticker": "ABR",
+      "confirmed_rsi": 30.26,
+      "current_rsi": 27.58,
+      "price": 4.34
+    },
+    {
+      "ticker": "ATO",
+      "confirmed_rsi": 32.17,
+      "current_rsi": 27.61,
+      "price": 158.27
     },
     {
       "ticker": "FIS",
@@ -190,6 +136,12 @@
       "price": 54.95
     },
     {
+      "ticker": "CMS",
+      "confirmed_rsi": 32.71,
+      "current_rsi": 29.22,
+      "price": 64.7
+    },
+    {
       "ticker": "WINA",
       "confirmed_rsi": 31.1,
       "current_rsi": 29.25,
@@ -202,10 +154,22 @@
       "price": 6.09
     },
     {
-      "ticker": "ATO",
-      "confirmed_rsi": 33.2,
-      "current_rsi": 29.75,
-      "price": 157.34
+      "ticker": "CRK",
+      "confirmed_rsi": 33.17,
+      "current_rsi": 29.49,
+      "price": 13.02
+    },
+    {
+      "ticker": "MCD",
+      "confirmed_rsi": 30.64,
+      "current_rsi": 29.74,
+      "price": 250.35
+    },
+    {
+      "ticker": "CE",
+      "confirmed_rsi": 30.26,
+      "current_rsi": 29.77,
+      "price": 44.38
     },
     {
       "ticker": "MATW",
