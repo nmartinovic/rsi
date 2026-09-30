@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29T01:25:47Z",
-  "run_date": "2026-09-29",
+  "updated_at": "2026-09-30T00:59:58Z",
+  "run_date": "2026-09-30",
   "values": {
     "A": {
       "confirmed_rsi": 68.06,
@@ -148,9 +148,9 @@
       "price": 67.3
     },
     "ADEA": {
-      "confirmed_rsi": 49.15,
-      "current_rsi": 47.83,
-      "price": 24.92
+      "confirmed_rsi": 48.84,
+      "current_rsi": 46.59,
+      "price": 24.75
     },
     "ADI": {
       "confirmed_rsi": 58.71,
@@ -208,8 +208,8 @@
       "price": 17.31
     },
     "AEP": {
-      "confirmed_rsi": 39.84,
-      "current_rsi": 37.97,
+      "confirmed_rsi": 38.45,
+      "current_rsi": 36.66,
       "price": 118.2
     },
     "AES": {
@@ -3263,9 +3263,9 @@
       "price": 1.69
     },
     "HUBB": {
-      "confirmed_rsi": 44.7,
-      "current_rsi": 46.49,
-      "price": 465.72
+      "confirmed_rsi": 42.36,
+      "current_rsi": 42.42,
+      "price": 459.09
     },
     "HUBG": {
       "confirmed_rsi": 38.51,
@@ -6563,9 +6563,9 @@
       "price": 324.02
     },
     "UA": {
-      "confirmed_rsi": 39.59,
-      "current_rsi": 36.09,
-      "price": 4.24
+      "confirmed_rsi": 37.7,
+      "current_rsi": 34.29,
+      "price": 4.22
     },
     "UAA": {
       "confirmed_rsi": 39.56,
@@ -7073,9 +7073,9 @@
       "price": 66.84
     },
     "WLY": {
-      "confirmed_rsi": 56.79,
-      "current_rsi": 57.44,
-      "price": 47.61
+      "confirmed_rsi": 55.42,
+      "current_rsi": 56.87,
+      "price": 47.74
     },
     "WM": {
       "confirmed_rsi": 33.97,

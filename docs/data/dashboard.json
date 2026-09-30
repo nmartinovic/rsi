@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:32:37Z",
+  "generated_at": "2026-09-30T01:08:11Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -8,7 +8,7 @@
       "status": "ok"
     },
     "rsi_scan": {
-      "last_run": "2026-09-29T01:25:47Z",
+      "last_run": "2026-09-30T00:59:58Z",
       "tickers_scanned": 1459,
       "tickers_failed": 47,
       "rate_limits_hit": 0,
@@ -78,7 +78,7 @@
       "price": 4.06,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -98,7 +98,7 @@
       "price": 11.95,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -138,7 +138,7 @@
       "price": 157.05,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -148,7 +148,7 @@
       "price": 40.5,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -168,7 +168,7 @@
       "price": 12.57,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -178,7 +178,7 @@
       "price": 69.0,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -198,7 +198,7 @@
       "price": 62.6,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -218,7 +218,7 @@
       "price": 38.78,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -228,7 +228,7 @@
       "price": 165.36,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -238,7 +238,7 @@
       "price": 31.4,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -248,7 +248,7 @@
       "price": 51.47,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -258,7 +258,7 @@
       "price": 19.52,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -268,7 +268,7 @@
       "price": 76.89,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -278,7 +278,7 @@
       "price": 257.05,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -288,7 +288,7 @@
       "price": 101.1,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -308,7 +308,7 @@
       "price": 28.48,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -318,7 +318,7 @@
       "price": 23.76,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -328,7 +328,7 @@
       "price": 71.66,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -338,7 +338,7 @@
       "price": 34.31,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -348,7 +348,7 @@
       "price": 5.78,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -358,7 +358,7 @@
       "price": 12.41,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -368,7 +368,7 @@
       "price": 299.64,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -378,7 +378,7 @@
       "price": 10.03,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -388,7 +388,7 @@
       "price": 1.69,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -398,7 +398,7 @@
       "price": 111.4,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -408,7 +408,7 @@
       "price": 39.1,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -418,7 +418,7 @@
       "price": 128.5,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-09-29",
+      "first_triggered": "2026-09-30",
       "alert_status": "awaiting_leap_check"
     }
   ],
@@ -761,8 +761,8 @@
       "current_rsi": 32.56
     },
     "ADEA": {
-      "confirmed_rsi": 49.15,
-      "current_rsi": 47.83
+      "confirmed_rsi": 48.84,
+      "current_rsi": 46.59
     },
     "ADI": {
       "confirmed_rsi": 58.71,
@@ -809,8 +809,8 @@
       "current_rsi": 51.87
     },
     "AEP": {
-      "confirmed_rsi": 39.84,
-      "current_rsi": 37.97
+      "confirmed_rsi": 38.45,
+      "current_rsi": 36.66
     },
     "AES": {
       "confirmed_rsi": 79.99,
@@ -3253,8 +3253,8 @@
       "current_rsi": 28.82
     },
     "HUBB": {
-      "confirmed_rsi": 44.7,
-      "current_rsi": 46.49
+      "confirmed_rsi": 42.36,
+      "current_rsi": 42.42
     },
     "HUBG": {
       "confirmed_rsi": 38.51,
@@ -5893,8 +5893,8 @@
       "current_rsi": 46.87
     },
     "UA": {
-      "confirmed_rsi": 39.59,
-      "current_rsi": 36.09
+      "confirmed_rsi": 37.7,
+      "current_rsi": 34.29
     },
     "UAA": {
       "confirmed_rsi": 39.56,
@@ -6301,8 +6301,8 @@
       "current_rsi": 16.19
     },
     "WLY": {
-      "confirmed_rsi": 56.79,
-      "current_rsi": 57.44
+      "confirmed_rsi": 55.42,
+      "current_rsi": 56.87
     },
     "WM": {
       "confirmed_rsi": 33.97,
