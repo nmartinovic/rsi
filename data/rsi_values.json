@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T01:41:56Z",
-  "run_date": "2026-10-09",
+  "updated_at": "2026-10-10T01:28:13Z",
+  "run_date": "2026-10-10",
   "values": {
     "A": {
       "confirmed_rsi": 67.04,
@@ -148,9 +148,9 @@
       "price": 65.82
     },
     "ADEA": {
-      "confirmed_rsi": 47.32,
-      "current_rsi": 45.18,
-      "price": 24.33
+      "confirmed_rsi": 45.0,
+      "current_rsi": 41.2,
+      "price": 23.9
     },
     "ADI": {
       "confirmed_rsi": 59.96,
@@ -1733,9 +1733,9 @@
       "price": 60.01
     },
     "CTVA": {
-      "confirmed_rsi": 52.98,
-      "current_rsi": 60.43,
-      "price": 13.75
+      "confirmed_rsi": 48.37,
+      "current_rsi": 58.35,
+      "price": 13.24
     },
     "CUBE": {
       "confirmed_rsi": 43.55,
@@ -3258,9 +3258,9 @@
       "price": 1.96
     },
     "HUBB": {
-      "confirmed_rsi": 42.58,
-      "current_rsi": 47.12,
-      "price": 475.41
+      "confirmed_rsi": 41.59,
+      "current_rsi": 41.26,
+      "price": 474.11
     },
     "HUBG": {
       "confirmed_rsi": 31.53,
@@ -5730,7 +5730,7 @@
     "SAIC": {
       "confirmed_rsi": 66.96,
       "current_rsi": 69.44,
-      "price": 129.71
+      "price": 129.34
     },
     "SAM": {
       "confirmed_rsi": 27.9,
@@ -5843,9 +5843,9 @@
       "price": 22.38
     },
     "SGI": {
-      "confirmed_rsi": 35.13,
-      "current_rsi": 34.76,
-      "price": 62.34
+      "confirmed_rsi": 35.15,
+      "current_rsi": 35.5,
+      "price": 62.19
     },
     "SHAK": {
       "confirmed_rsi": 32.0,
@@ -5853,9 +5853,9 @@
       "price": 67.31
     },
     "SHC": {
-      "confirmed_rsi": 54.63,
-      "current_rsi": 52.38,
-      "price": 17.83
+      "confirmed_rsi": 55.36,
+      "current_rsi": 54.0,
+      "price": 18.06
     },
     "SHEN": {
       "confirmed_rsi": 29.36,
@@ -5868,9 +5868,9 @@
       "price": 11.35
     },
     "SHOO": {
-      "confirmed_rsi": 57.8,
-      "current_rsi": 54.34,
-      "price": 44.2
+      "confirmed_rsi": 58.61,
+      "current_rsi": 54.44,
+      "price": 44.3
     },
     "SHW": {
       "confirmed_rsi": 42.98,
@@ -5918,24 +5918,24 @@
       "price": 221.75
     },
     "SLB": {
-      "confirmed_rsi": 43.44,
-      "current_rsi": 44.1,
-      "price": 48.98
+      "confirmed_rsi": 43.21,
+      "current_rsi": 43.69,
+      "price": 48.95
     },
     "SLG": {
-      "confirmed_rsi": 51.81,
-      "current_rsi": 52.13,
-      "price": 48.94
+      "confirmed_rsi": 51.14,
+      "current_rsi": 50.24,
+      "price": 48.41
     },
     "SLGN": {
-      "confirmed_rsi": 37.22,
-      "current_rsi": 40.07,
-      "price": 35.8
+      "confirmed_rsi": 37.15,
+      "current_rsi": 38.86,
+      "price": 35.44
     },
     "SLM": {
-      "confirmed_rsi": 44.46,
-      "current_rsi": 44.74,
-      "price": 22.67
+      "confirmed_rsi": 43.78,
+      "current_rsi": 42.94,
+      "price": 22.52
     },
     "SLVM": {
       "confirmed_rsi": 31.45,
@@ -5983,9 +5983,9 @@
       "price": 1609.46
     },
     "SNDR": {
-      "confirmed_rsi": 52.17,
-      "current_rsi": 50.31,
-      "price": 31.73
+      "confirmed_rsi": 52.95,
+      "current_rsi": 48.82,
+      "price": 31.5
     },
     "SNEX": {
       "confirmed_rsi": 45.86,
@@ -5998,9 +5998,9 @@
       "price": 497.75
     },
     "SNX": {
-      "confirmed_rsi": 65.18,
-      "current_rsi": 62.79,
-      "price": 267.46
+      "confirmed_rsi": 66.91,
+      "current_rsi": 63.99,
+      "price": 273.37
     },
     "SO": {
       "confirmed_rsi": 34.88,
@@ -6013,9 +6013,9 @@
       "price": 60.23
     },
     "SOLV": {
-      "confirmed_rsi": 62.65,
-      "current_rsi": 60.03,
-      "price": 86.41
+      "confirmed_rsi": 60.73,
+      "current_rsi": 59.86,
+      "price": 87.29
     },
     "SON": {
       "confirmed_rsi": 39.02,
@@ -6023,9 +6023,9 @@
       "price": 48.4
     },
     "SONO": {
-      "confirmed_rsi": 61.31,
-      "current_rsi": 56.9,
-      "price": 16.95
+      "confirmed_rsi": 61.27,
+      "current_rsi": 58.7,
+      "price": 17.26
     },
     "SPG": {
       "confirmed_rsi": 44.29,
@@ -6033,9 +6033,9 @@
       "price": 199.61
     },
     "SPGI": {
-      "confirmed_rsi": 41.42,
-      "current_rsi": 46.53,
-      "price": 402.73
+      "confirmed_rsi": 41.76,
+      "current_rsi": 48.03,
+      "price": 407.82
     },
     "SPNT": {
       "confirmed_rsi": 52.92,
@@ -6048,29 +6048,29 @@
       "price": 83.32
     },
     "SPXC": {
-      "confirmed_rsi": 34.26,
-      "current_rsi": 33.93,
-      "price": 168.58
+      "confirmed_rsi": 33.64,
+      "current_rsi": 32.41,
+      "price": 169.46
     },
     "SR": {
-      "confirmed_rsi": 24.84,
-      "current_rsi": 31.11,
-      "price": 77.99
+      "confirmed_rsi": 29.81,
+      "current_rsi": 33.16,
+      "price": 78.42
     },
     "SRE": {
-      "confirmed_rsi": 30.53,
-      "current_rsi": 36.02,
-      "price": 80.08
+      "confirmed_rsi": 30.54,
+      "current_rsi": 38.68,
+      "price": 81.34
     },
     "SRPT": {
-      "confirmed_rsi": 42.97,
-      "current_rsi": 44.81,
-      "price": 18.21
+      "confirmed_rsi": 41.95,
+      "current_rsi": 43.1,
+      "price": 17.85
     },
     "SSB": {
-      "confirmed_rsi": 47.27,
-      "current_rsi": 47.2,
-      "price": 100.57
+      "confirmed_rsi": 49.41,
+      "current_rsi": 46.52,
+      "price": 100.25
     },
     "SSD": {
       "confirmed_rsi": 45.69,
@@ -6078,9 +6078,9 @@
       "price": 171.95
     },
     "SSTK": {
-      "confirmed_rsi": 12.95,
-      "current_rsi": 15.8,
-      "price": 4.43
+      "confirmed_rsi": 14.22,
+      "current_rsi": 18.71,
+      "price": 4.35
     },
     "ST": {
       "confirmed_rsi": 51.55,
@@ -6088,14 +6088,14 @@
       "price": 42.23
     },
     "STAA": {
-      "confirmed_rsi": 46.39,
-      "current_rsi": 46.39,
-      "price": 22.38
+      "confirmed_rsi": 45.97,
+      "current_rsi": 44.11,
+      "price": 21.67
     },
     "STAG": {
-      "confirmed_rsi": 39.79,
-      "current_rsi": 40.73,
-      "price": 35.88
+      "confirmed_rsi": 42.15,
+      "current_rsi": 42.0,
+      "price": 36.01
     },
     "STBA": {
       "confirmed_rsi": 60.0,
@@ -6113,14 +6113,14 @@
       "price": 210.76
     },
     "STEP": {
-      "confirmed_rsi": 41.13,
-      "current_rsi": 40.11,
-      "price": 43.91
+      "confirmed_rsi": 42.54,
+      "current_rsi": 41.19,
+      "price": 44.1
     },
     "STLD": {
-      "confirmed_rsi": 51.66,
-      "current_rsi": 54.25,
-      "price": 234.17
+      "confirmed_rsi": 52.66,
+      "current_rsi": 54.77,
+      "price": 238.38
     },
     "STRA": {
       "confirmed_rsi": 46.36,
@@ -6133,9 +6133,9 @@
       "price": 518.41
     },
     "STT": {
-      "confirmed_rsi": 57.73,
-      "current_rsi": 58.04,
-      "price": 175.09
+      "confirmed_rsi": 57.54,
+      "current_rsi": 56.52,
+      "price": 174.96
     },
     "STWD": {
       "confirmed_rsi": 15.07,
@@ -6158,9 +6158,9 @@
       "price": 42.14
     },
     "SW": {
-      "confirmed_rsi": 48.4,
-      "current_rsi": 45.62,
-      "price": 41.45
+      "confirmed_rsi": 47.53,
+      "current_rsi": 45.52,
+      "price": 41.29
     },
     "SWK": {
       "confirmed_rsi": 58.65,
@@ -6193,14 +6193,14 @@
       "price": 132.03
     },
     "SYF": {
-      "confirmed_rsi": 38.96,
-      "current_rsi": 44.15,
-      "price": 73.72
+      "confirmed_rsi": 40.37,
+      "current_rsi": 42.51,
+      "price": 72.8
     },
     "SYK": {
-      "confirmed_rsi": 36.51,
-      "current_rsi": 37.89,
-      "price": 276.97
+      "confirmed_rsi": 35.83,
+      "current_rsi": 36.63,
+      "price": 277.33
     },
     "SYNA": {
       "confirmed_rsi": 59.14,
@@ -6208,14 +6208,14 @@
       "price": 119.08
     },
     "SYY": {
-      "confirmed_rsi": 47.81,
-      "current_rsi": 50.11,
-      "price": 78.2
+      "confirmed_rsi": 48.29,
+      "current_rsi": 50.06,
+      "price": 78.14
     },
     "T": {
-      "confirmed_rsi": 43.81,
-      "current_rsi": 46.84,
-      "price": 24.87
+      "confirmed_rsi": 43.85,
+      "current_rsi": 36.35,
+      "price": 22.18
     },
     "TALO": {
       "confirmed_rsi": 58.68,
@@ -6223,19 +6223,19 @@
       "price": 16.95
     },
     "TAP": {
-      "confirmed_rsi": 35.64,
-      "current_rsi": 38.89,
-      "price": 37.92
+      "confirmed_rsi": 34.72,
+      "current_rsi": 36.24,
+      "price": 37.2
     },
     "TBBK": {
-      "confirmed_rsi": 32.8,
-      "current_rsi": 33.58,
-      "price": 49.33
+      "confirmed_rsi": 34.31,
+      "current_rsi": 33.77,
+      "price": 48.25
     },
     "TCBI": {
-      "confirmed_rsi": 36.61,
-      "current_rsi": 33.18,
-      "price": 90.58
+      "confirmed_rsi": 35.58,
+      "current_rsi": 31.35,
+      "price": 90.34
     },
     "TDC": {
       "confirmed_rsi": 54.81,
@@ -6268,19 +6268,19 @@
       "price": 72.45
     },
     "TEL": {
-      "confirmed_rsi": 44.78,
-      "current_rsi": 42.88,
-      "price": 214.31
+      "confirmed_rsi": 46.16,
+      "current_rsi": 45.15,
+      "price": 218.29
     },
     "TER": {
-      "confirmed_rsi": 54.51,
-      "current_rsi": 52.43,
-      "price": 398.72
+      "confirmed_rsi": 58.24,
+      "current_rsi": 52.31,
+      "price": 402.68
     },
     "TEX": {
-      "confirmed_rsi": 40.52,
-      "current_rsi": 37.4,
-      "price": 52.35
+      "confirmed_rsi": 42.08,
+      "current_rsi": 35.1,
+      "price": 50.67
     },
     "TFC": {
       "confirmed_rsi": 36.47,
@@ -6288,9 +6288,9 @@
       "price": 46.18
     },
     "TFIN": {
-      "confirmed_rsi": 39.8,
-      "current_rsi": 42.8,
-      "price": 62.78
+      "confirmed_rsi": 41.12,
+      "current_rsi": 41.78,
+      "price": 62.53
     },
     "TFX": {
       "confirmed_rsi": 45.53,
@@ -6298,9 +6298,9 @@
       "price": 124.19
     },
     "TGT": {
-      "confirmed_rsi": 66.44,
-      "current_rsi": 63.7,
-      "price": 154.76
+      "confirmed_rsi": 60.71,
+      "current_rsi": 58.44,
+      "price": 153.64
     },
     "TGTX": {
       "confirmed_rsi": 62.24,
@@ -6313,9 +6313,9 @@
       "price": 260.57
     },
     "THG": {
-      "confirmed_rsi": 59.18,
-      "current_rsi": 61.67,
-      "price": 221.93
+      "confirmed_rsi": 62.0,
+      "current_rsi": 61.92,
+      "price": 219.33
     },
     "THO": {
       "confirmed_rsi": 34.38,
@@ -6333,9 +6333,9 @@
       "price": 34.83
     },
     "TJX": {
-      "confirmed_rsi": 38.24,
-      "current_rsi": 42.92,
-      "price": 138.75
+      "confirmed_rsi": 37.71,
+      "current_rsi": 43.39,
+      "price": 138.76
     },
     "TKO": {
       "confirmed_rsi": 41.94,
@@ -6343,29 +6343,29 @@
       "price": 181.63
     },
     "TKR": {
-      "confirmed_rsi": 54.17,
-      "current_rsi": 49.25,
-      "price": 114.34
+      "confirmed_rsi": 56.69,
+      "current_rsi": 50.25,
+      "price": 116.12
     },
     "TLN": {
-      "confirmed_rsi": 47.1,
-      "current_rsi": 53.24,
-      "price": 359.22
+      "confirmed_rsi": 48.24,
+      "current_rsi": 57.15,
+      "price": 378.57
     },
     "TMDX": {
-      "confirmed_rsi": 35.62,
-      "current_rsi": 35.94,
-      "price": 79.0
+      "confirmed_rsi": 36.68,
+      "current_rsi": 35.69,
+      "price": 77.87
     },
     "TMO": {
-      "confirmed_rsi": 63.03,
-      "current_rsi": 62.92,
-      "price": 651.98
+      "confirmed_rsi": 65.64,
+      "current_rsi": 66.09,
+      "price": 658.02
     },
     "TMP": {
-      "confirmed_rsi": 62.12,
-      "current_rsi": 60.87,
-      "price": 96.55
+      "confirmed_rsi": 65.72,
+      "current_rsi": 57.65,
+      "price": 95.73
     },
     "TMUS": {
       "confirmed_rsi": 37.36,
@@ -6378,9 +6378,9 @@
       "price": 65.94
     },
     "TNDM": {
-      "confirmed_rsi": 42.15,
-      "current_rsi": 40.56,
-      "price": 15.68
+      "confirmed_rsi": 40.78,
+      "current_rsi": 39.95,
+      "price": 16.11
     },
     "TNL": {
       "confirmed_rsi": 34.35,
@@ -6390,12 +6390,12 @@
     "TOL": {
       "confirmed_rsi": 44.24,
       "current_rsi": 43.23,
-      "price": 134.83
+      "price": 134.57
     },
     "TPL": {
-      "confirmed_rsi": 39.82,
-      "current_rsi": 44.48,
-      "price": 357.78
+      "confirmed_rsi": 36.47,
+      "current_rsi": 42.48,
+      "price": 360.98
     },
     "TPR": {
       "confirmed_rsi": 35.62,
@@ -6433,19 +6433,19 @@
       "price": 44.55
     },
     "TRN": {
-      "confirmed_rsi": 35.13,
-      "current_rsi": 34.32,
-      "price": 25.4
+      "confirmed_rsi": 37.65,
+      "current_rsi": 36.3,
+      "price": 25.52
     },
     "TRNO": {
-      "confirmed_rsi": 43.73,
-      "current_rsi": 45.31,
-      "price": 64.48
+      "confirmed_rsi": 45.58,
+      "current_rsi": 46.3,
+      "price": 64.79
     },
     "TROW": {
-      "confirmed_rsi": 56.3,
-      "current_rsi": 53.65,
-      "price": 104.23
+      "confirmed_rsi": 53.64,
+      "current_rsi": 54.42,
+      "price": 105.16
     },
     "TRST": {
       "confirmed_rsi": 63.81,
@@ -6453,14 +6453,14 @@
       "price": 54.76
     },
     "TRU": {
-      "confirmed_rsi": 34.76,
-      "current_rsi": 37.85,
-      "price": 64.59
+      "confirmed_rsi": 34.92,
+      "current_rsi": 37.74,
+      "price": 65.48
     },
     "TRUP": {
-      "confirmed_rsi": 41.48,
-      "current_rsi": 46.9,
-      "price": 25.82
+      "confirmed_rsi": 38.7,
+      "current_rsi": 46.08,
+      "price": 26.06
     },
     "TRV": {
       "confirmed_rsi": 60.43,
@@ -6478,29 +6478,29 @@
       "price": 375.0
     },
     "TSN": {
-      "confirmed_rsi": 30.29,
-      "current_rsi": 35.96,
-      "price": 52.34
+      "confirmed_rsi": 36.22,
+      "current_rsi": 40.27,
+      "price": 53.43
     },
     "TT": {
-      "confirmed_rsi": 49.27,
-      "current_rsi": 52.25,
-      "price": 469.94
+      "confirmed_rsi": 50.25,
+      "current_rsi": 54.33,
+      "price": 476.98
     },
     "TTC": {
-      "confirmed_rsi": 54.79,
-      "current_rsi": 53.83,
-      "price": 96.81
+      "confirmed_rsi": 55.92,
+      "current_rsi": 51.98,
+      "price": 95.79
     },
     "TTD": {
-      "confirmed_rsi": 30.03,
-      "current_rsi": 31.13,
-      "price": 12.34
+      "confirmed_rsi": 25.87,
+      "current_rsi": 26.53,
+      "price": 12.08
     },
     "TTEK": {
-      "confirmed_rsi": 51.37,
-      "current_rsi": 50.11,
-      "price": 33.41
+      "confirmed_rsi": 48.59,
+      "current_rsi": 49.5,
+      "price": 33.34
     },
     "TTMI": {
       "confirmed_rsi": 50.73,
@@ -6508,89 +6508,89 @@
       "price": 117.5
     },
     "TTWO": {
-      "confirmed_rsi": 43.61,
-      "current_rsi": 46.56,
-      "price": 209.37
+      "confirmed_rsi": 43.16,
+      "current_rsi": 47.98,
+      "price": 213.44
     },
     "TWI": {
-      "confirmed_rsi": 39.37,
-      "current_rsi": 39.68,
-      "price": 6.82
+      "confirmed_rsi": 39.85,
+      "current_rsi": 39.42,
+      "price": 6.95
     },
     "TWLO": {
-      "confirmed_rsi": 73.79,
-      "current_rsi": 66.22,
-      "price": 275.77
+      "confirmed_rsi": 70.72,
+      "current_rsi": 69.22,
+      "price": 289.47
     },
     "TXN": {
-      "confirmed_rsi": 63.32,
-      "current_rsi": 65.26,
-      "price": 288.2
+      "confirmed_rsi": 63.96,
+      "current_rsi": 59.84,
+      "price": 283.74
     },
     "TXNM": {
-      "confirmed_rsi": 54.56,
-      "current_rsi": 54.96,
-      "price": 58.58
+      "confirmed_rsi": 53.79,
+      "current_rsi": 55.54,
+      "price": 58.61
     },
     "TXRH": {
-      "confirmed_rsi": 40.41,
-      "current_rsi": 43.99,
-      "price": 162.76
+      "confirmed_rsi": 41.4,
+      "current_rsi": 44.36,
+      "price": 161.5
     },
     "TXT": {
-      "confirmed_rsi": 38.1,
-      "current_rsi": 34.58,
-      "price": 73.22
+      "confirmed_rsi": 34.34,
+      "current_rsi": 31.0,
+      "price": 74.16
     },
     "TYL": {
-      "confirmed_rsi": 47.69,
-      "current_rsi": 47.93,
-      "price": 331.15
+      "confirmed_rsi": 44.87,
+      "current_rsi": 46.81,
+      "price": 329.55
     },
     "UA": {
-      "confirmed_rsi": 36.21,
-      "current_rsi": 40.97,
-      "price": 4.7
+      "confirmed_rsi": 36.1,
+      "current_rsi": 38.91,
+      "price": 4.78
     },
     "UAA": {
-      "confirmed_rsi": 34.89,
-      "current_rsi": 38.63,
-      "price": 4.88
+      "confirmed_rsi": 36.42,
+      "current_rsi": 39.53,
+      "price": 4.93
     },
     "UAL": {
-      "confirmed_rsi": 52.34,
-      "current_rsi": 49.49,
-      "price": 107.44
+      "confirmed_rsi": 54.03,
+      "current_rsi": 50.22,
+      "price": 107.46
     },
     "UBER": {
-      "confirmed_rsi": 37.96,
-      "current_rsi": 42.72,
-      "price": 70.24
+      "confirmed_rsi": 36.94,
+      "current_rsi": 44.26,
+      "price": 71.51
     },
     "UBSI": {
-      "confirmed_rsi": 55.9,
-      "current_rsi": 51.27,
-      "price": 45.7
+      "confirmed_rsi": 58.96,
+      "current_rsi": 48.94,
+      "price": 45.46
     },
     "UCB": {
-      "confirmed_rsi": 46.85,
-      "current_rsi": 45.75,
-      "price": 33.58
+      "confirmed_rsi": 48.3,
+      "current_rsi": 44.5,
+      "price": 33.38
     },
     "UCTT": {
-      "confirmed_rsi": 50.7,
-      "current_rsi": 46.5,
-      "price": 67.58
+      "confirmed_rsi": 47.8,
+      "current_rsi": 46.12,
+      "price": 68.59
     },
     "UDR": {
-      "confirmed_rsi": 41.55,
-      "current_rsi": 41.1,
-      "price": 33.57
+      "confirmed_rsi": 39.63,
+      "current_rsi": 44.01,
+      "price": 34.12
     },
     "UE": {
-      "confirmed_rsi": 29.43,
-      "current_rsi": 27.54,
-      "price": 19.29
+      "confirmed_rsi": 37.66,
+      "current_rsi": 35.37,
+      "price": 19.36
     },
     "UFCS": {
       "confirmed_rsi": 67.92,
@@ -6598,19 +6598,19 @@
       "price": 56.4
     },
     "UFPI": {
-      "confirmed_rsi": 32.5,
-      "current_rsi": 31.9,
-      "price": 76.45
+      "confirmed_rsi": 32.65,
+      "current_rsi": 30.15,
+      "price": 74.21
     },
     "UFPT": {
-      "confirmed_rsi": 62.63,
-      "current_rsi": 59.75,
-      "price": 286.56
+      "confirmed_rsi": 65.06,
+      "current_rsi": 60.9,
+      "price": 288.97
     },
     "UGI": {
-      "confirmed_rsi": 49.43,
-      "current_rsi": 51.75,
-      "price": 36.94
+      "confirmed_rsi": 53.03,
+      "current_rsi": 52.69,
+      "price": 37.12
     },
     "UHS": {
       "confirmed_rsi": 48.08,
@@ -6618,19 +6618,19 @@
       "price": 175.72
     },
     "UHT": {
-      "confirmed_rsi": 35.49,
-      "current_rsi": 40.07,
-      "price": 37.54
+      "confirmed_rsi": 34.81,
+      "current_rsi": 39.54,
+      "price": 37.57
     },
     "ULS": {
-      "confirmed_rsi": 35.24,
-      "current_rsi": 40.11,
-      "price": 70.65
+      "confirmed_rsi": 32.32,
+      "current_rsi": 37.79,
+      "price": 69.99
     },
     "ULTA": {
-      "confirmed_rsi": 47.86,
-      "current_rsi": 54.53,
-      "price": 564.21
+      "confirmed_rsi": 47.42,
+      "current_rsi": 53.48,
+      "price": 570.37
     },
     "UMBF": {
       "confirmed_rsi": 47.81,
@@ -6638,644 +6638,644 @@
       "price": 130.39
     },
     "UNF": {
-      "confirmed_rsi": 37.83,
-      "current_rsi": 43.95,
-      "price": 259.6
+      "confirmed_rsi": 38.79,
+      "current_rsi": 45.8,
+      "price": 260.85
     },
     "UNFI": {
-      "confirmed_rsi": 42.94,
-      "current_rsi": 41.46,
-      "price": 44.07
+      "confirmed_rsi": 46.26,
+      "current_rsi": 44.31,
+      "price": 44.51
     },
     "UNH": {
-      "confirmed_rsi": 53.46,
-      "current_rsi": 55.41,
-      "price": 370.95
+      "confirmed_rsi": 56.77,
+      "current_rsi": 59.15,
+      "price": 379.3
     },
     "UNIT": {
-      "confirmed_rsi": 27.32,
-      "current_rsi": 24.95,
-      "price": 7.4
+      "confirmed_rsi": 24.28,
+      "current_rsi": 19.73,
+      "price": 6.87
     },
     "UNM": {
-      "confirmed_rsi": 54.64,
-      "current_rsi": 60.23,
-      "price": 92.64
+      "confirmed_rsi": 54.45,
+      "current_rsi": 58.05,
+      "price": 91.67
     },
     "UNP": {
-      "confirmed_rsi": 52.14,
-      "current_rsi": 55.36,
-      "price": 278.2
+      "confirmed_rsi": 54.53,
+      "current_rsi": 54.56,
+      "price": 278.34
     },
     "UPBD": {
-      "confirmed_rsi": 34.71,
-      "current_rsi": 37.22,
-      "price": 15.69
+      "confirmed_rsi": 35.85,
+      "current_rsi": 35.43,
+      "price": 15.4
     },
     "UPS": {
-      "confirmed_rsi": 40.78,
-      "current_rsi": 41.13,
-      "price": 94.13
+      "confirmed_rsi": 40.22,
+      "current_rsi": 42.22,
+      "price": 94.57
     },
     "UPWK": {
-      "confirmed_rsi": 36.69,
-      "current_rsi": 39.09,
-      "price": 8.57
+      "confirmed_rsi": 32.86,
+      "current_rsi": 39.33,
+      "price": 8.6
     },
     "URBN": {
-      "confirmed_rsi": 54.11,
-      "current_rsi": 56.68,
-      "price": 80.96
+      "confirmed_rsi": 54.92,
+      "current_rsi": 56.38,
+      "price": 82.18
     },
     "URI": {
-      "confirmed_rsi": 60.62,
-      "current_rsi": 61.82,
-      "price": 1050.15
+      "confirmed_rsi": 63.74,
+      "current_rsi": 60.85,
+      "price": 1056.37
     },
     "USB": {
-      "confirmed_rsi": 46.39,
-      "current_rsi": 45.48,
-      "price": 57.03
+      "confirmed_rsi": 46.67,
+      "current_rsi": 45.51,
+      "price": 57.08
     },
     "USFD": {
-      "confirmed_rsi": 46.61,
-      "current_rsi": 50.09,
-      "price": 97.12
+      "confirmed_rsi": 49.68,
+      "current_rsi": 50.29,
+      "price": 97.43
     },
     "USPH": {
-      "confirmed_rsi": 56.81,
-      "current_rsi": 57.97,
-      "price": 83.52
+      "confirmed_rsi": 57.81,
+      "current_rsi": 58.85,
+      "price": 84.67
     },
     "UTHR": {
-      "confirmed_rsi": 54.93,
-      "current_rsi": 46.85,
-      "price": 532.78
+      "confirmed_rsi": 50.4,
+      "current_rsi": 52.06,
+      "price": 549.16
     },
     "UTL": {
-      "confirmed_rsi": 40.26,
-      "current_rsi": 48.33,
-      "price": 52.38
+      "confirmed_rsi": 44.69,
+      "current_rsi": 49.92,
+      "price": 52.26
     },
     "UVV": {
-      "confirmed_rsi": 28.35,
-      "current_rsi": 34.54,
-      "price": 43.18
+      "confirmed_rsi": 28.45,
+      "current_rsi": 31.6,
+      "price": 42.0
     },
     "V": {
-      "confirmed_rsi": 58.63,
-      "current_rsi": 64.35,
-      "price": 375.1
+      "confirmed_rsi": 60.02,
+      "current_rsi": 68.48,
+      "price": 385.45
     },
     "VAC": {
-      "confirmed_rsi": 59.74,
-      "current_rsi": 60.39,
-      "price": 104.21
+      "confirmed_rsi": 59.67,
+      "current_rsi": 60.38,
+      "price": 105.34
     },
     "VAL": {
-      "confirmed_rsi": 44.99,
-      "current_rsi": 48.62,
-      "price": 83.96
+      "confirmed_rsi": 44.62,
+      "current_rsi": 48.84,
+      "price": 83.65
     },
     "VC": {
-      "confirmed_rsi": 39.62,
-      "current_rsi": 37.92,
-      "price": 86.15
+      "confirmed_rsi": 42.14,
+      "current_rsi": 40.19,
+      "price": 85.43
     },
     "VCEL": {
-      "confirmed_rsi": 51.79,
-      "current_rsi": 53.21,
-      "price": 40.05
+      "confirmed_rsi": 53.4,
+      "current_rsi": 53.27,
+      "price": 40.1
     },
     "VCTR": {
-      "confirmed_rsi": 69.29,
-      "current_rsi": 69.26,
-      "price": 111.72
+      "confirmed_rsi": 67.27,
+      "current_rsi": 66.37,
+      "price": 112.44
     },
     "VCYT": {
-      "confirmed_rsi": 55.2,
-      "current_rsi": 54.47,
-      "price": 43.6
+      "confirmed_rsi": 59.02,
+      "current_rsi": 58.08,
+      "price": 45.23
     },
     "VECO": {
-      "confirmed_rsi": 55.76,
-      "current_rsi": 54.43,
-      "price": 51.45
+      "confirmed_rsi": 58.14,
+      "current_rsi": 53.55,
+      "price": 52.28
     },
     "VFC": {
-      "confirmed_rsi": 34.07,
-      "current_rsi": 34.98,
-      "price": 14.53
+      "confirmed_rsi": 30.58,
+      "current_rsi": 36.06,
+      "price": 15.0
     },
     "VIAV": {
-      "confirmed_rsi": 53.76,
-      "current_rsi": 53.02,
-      "price": 44.09
+      "confirmed_rsi": 54.86,
+      "current_rsi": 53.23,
+      "price": 45.46
     },
     "VICI": {
-      "confirmed_rsi": 22.18,
-      "current_rsi": 22.92,
-      "price": 22.79
+      "confirmed_rsi": 23.01,
+      "current_rsi": 25.67,
+      "price": 22.88
     },
     "VICR": {
-      "confirmed_rsi": 60.54,
-      "current_rsi": 54.41,
-      "price": 262.32
+      "confirmed_rsi": 59.99,
+      "current_rsi": 54.26,
+      "price": 266.07
     },
     "VIR": {
-      "confirmed_rsi": 55.17,
-      "current_rsi": 53.83,
-      "price": 11.12
+      "confirmed_rsi": 53.58,
+      "current_rsi": 57.0,
+      "price": 11.7
     },
     "VIRT": {
-      "confirmed_rsi": 51.39,
-      "current_rsi": 54.06,
-      "price": 57.81
+      "confirmed_rsi": 54.23,
+      "current_rsi": 52.75,
+      "price": 57.51
     },
     "VITL": {
-      "confirmed_rsi": 40.09,
-      "current_rsi": 42.38,
-      "price": 9.44
+      "confirmed_rsi": 38.4,
+      "current_rsi": 39.84,
+      "price": 9.33
     },
     "VLO": {
-      "confirmed_rsi": 78.76,
-      "current_rsi": 82.04,
-      "price": 443.8
+      "confirmed_rsi": 77.41,
+      "current_rsi": 80.21,
+      "price": 433.75
     },
     "VLTO": {
-      "confirmed_rsi": 51.65,
-      "current_rsi": 54.79,
-      "price": 96.48
+      "confirmed_rsi": 52.45,
+      "current_rsi": 56.08,
+      "price": 96.93
     },
     "VLY": {
-      "confirmed_rsi": 38.68,
-      "current_rsi": 39.93,
-      "price": 12.75
+      "confirmed_rsi": 40.09,
+      "current_rsi": 38.05,
+      "price": 12.62
     },
     "VMC": {
-      "confirmed_rsi": 34.34,
-      "current_rsi": 35.82,
-      "price": 246.26
+      "confirmed_rsi": 33.98,
+      "current_rsi": 34.96,
+      "price": 244.58
     },
     "VMI": {
-      "confirmed_rsi": 55.83,
-      "current_rsi": 55.92,
-      "price": 468.7
+      "confirmed_rsi": 58.94,
+      "current_rsi": 55.68,
+      "price": 467.81
     },
     "VNO": {
-      "confirmed_rsi": 51.41,
-      "current_rsi": 52.14,
-      "price": 33.81
+      "confirmed_rsi": 51.44,
+      "current_rsi": 51.09,
+      "price": 33.63
     },
     "VNOM": {
-      "confirmed_rsi": 42.48,
-      "current_rsi": 48.08,
-      "price": 42.63
+      "confirmed_rsi": 41.56,
+      "current_rsi": 48.01,
+      "price": 42.99
     },
     "VNT": {
-      "confirmed_rsi": 39.7,
-      "current_rsi": 41.78,
-      "price": 32.2
+      "confirmed_rsi": 39.15,
+      "current_rsi": 41.54,
+      "price": 32.24
     },
     "VOYA": {
-      "confirmed_rsi": 66.24,
-      "current_rsi": 67.8,
-      "price": 96.64
+      "confirmed_rsi": 62.92,
+      "current_rsi": 59.38,
+      "price": 94.67
     },
     "VRRM": {
-      "confirmed_rsi": 15.14,
-      "current_rsi": 15.03,
-      "price": 2.92
+      "confirmed_rsi": 11.75,
+      "current_rsi": 13.05,
+      "price": 2.94
     },
     "VRSK": {
-      "confirmed_rsi": 43.6,
-      "current_rsi": 48.01,
-      "price": 175.49
+      "confirmed_rsi": 38.11,
+      "current_rsi": 48.69,
+      "price": 177.63
     },
     "VRSN": {
-      "confirmed_rsi": 52.08,
-      "current_rsi": 55.73,
-      "price": 297.79
+      "confirmed_rsi": 52.23,
+      "current_rsi": 57.46,
+      "price": 303.74
     },
     "VRTS": {
-      "confirmed_rsi": 42.79,
-      "current_rsi": 42.09,
-      "price": 131.59
+      "confirmed_rsi": 43.4,
+      "current_rsi": 41.98,
+      "price": 131.22
     },
     "VRTX": {
-      "confirmed_rsi": 57.09,
-      "current_rsi": 55.9,
-      "price": 503.25
+      "confirmed_rsi": 56.36,
+      "current_rsi": 57.59,
+      "price": 510.08
     },
     "VSAT": {
-      "confirmed_rsi": 51.16,
-      "current_rsi": 48.95,
-      "price": 67.41
+      "confirmed_rsi": 51.72,
+      "current_rsi": 51.72,
+      "price": 72.01
     },
     "VSH": {
-      "confirmed_rsi": 56.42,
-      "current_rsi": 56.73,
-      "price": 34.56
+      "confirmed_rsi": 58.84,
+      "current_rsi": 54.09,
+      "price": 34.04
     },
     "VSNT": {
-      "confirmed_rsi": 31.57,
-      "current_rsi": 34.71,
-      "price": 31.77
+      "confirmed_rsi": 29.22,
+      "current_rsi": 28.71,
+      "price": 30.64
     },
     "VST": {
-      "confirmed_rsi": 41.84,
-      "current_rsi": 52.23,
-      "price": 156.14
+      "confirmed_rsi": 44.95,
+      "current_rsi": 54.57,
+      "price": 161.48
     },
     "VSTS": {
-      "confirmed_rsi": 61.74,
-      "current_rsi": 62.71,
-      "price": 14.0
+      "confirmed_rsi": 62.71,
+      "current_rsi": 63.15,
+      "price": 14.13
     },
     "VTOL": {
-      "confirmed_rsi": 33.28,
-      "current_rsi": 34.64,
-      "price": 40.64
+      "confirmed_rsi": 34.77,
+      "current_rsi": 36.42,
+      "price": 40.69
     },
     "VTR": {
-      "confirmed_rsi": 44.98,
-      "current_rsi": 42.32,
-      "price": 81.76
+      "confirmed_rsi": 45.49,
+      "current_rsi": 42.37,
+      "price": 82.04
     },
     "VTRS": {
-      "confirmed_rsi": 62.56,
-      "current_rsi": 62.37,
-      "price": 17.44
+      "confirmed_rsi": 64.67,
+      "current_rsi": 64.9,
+      "price": 17.64
     },
     "VVV": {
-      "confirmed_rsi": 44.66,
-      "current_rsi": 44.81,
-      "price": 30.84
+      "confirmed_rsi": 43.78,
+      "current_rsi": 43.11,
+      "price": 30.27
     },
     "VYX": {
-      "confirmed_rsi": 46.43,
-      "current_rsi": 46.82,
-      "price": 6.9
+      "confirmed_rsi": 44.77,
+      "current_rsi": 47.92,
+      "price": 7.15
     },
     "VZ": {
-      "confirmed_rsi": 46.68,
-      "current_rsi": 47.89,
-      "price": 46.35
+      "confirmed_rsi": 46.34,
+      "current_rsi": 37.15,
+      "price": 41.65
     },
     "WAB": {
-      "confirmed_rsi": 57.94,
-      "current_rsi": 52.85,
-      "price": 280.8
+      "confirmed_rsi": 57.18,
+      "current_rsi": 55.62,
+      "price": 285.43
     },
     "WABC": {
-      "confirmed_rsi": 64.35,
-      "current_rsi": 66.03,
-      "price": 59.59
+      "confirmed_rsi": 65.0,
+      "current_rsi": 60.33,
+      "price": 58.66
     },
     "WAFD": {
-      "confirmed_rsi": 30.81,
-      "current_rsi": 30.18,
-      "price": 29.74
+      "confirmed_rsi": 34.4,
+      "current_rsi": 30.83,
+      "price": 29.43
     },
     "WAL": {
-      "confirmed_rsi": 42.68,
-      "current_rsi": 42.29,
-      "price": 75.5
+      "confirmed_rsi": 43.76,
+      "current_rsi": 39.58,
+      "price": 74.27
     },
     "WAT": {
-      "confirmed_rsi": 66.64,
-      "current_rsi": 67.39,
-      "price": 429.13
+      "confirmed_rsi": 65.49,
+      "current_rsi": 67.29,
+      "price": 433.77
     },
     "WAY": {
-      "confirmed_rsi": 50.22,
-      "current_rsi": 52.61,
-      "price": 26.48
+      "confirmed_rsi": 47.75,
+      "current_rsi": 52.85,
+      "price": 26.68
     },
     "WCC": {
-      "confirmed_rsi": 60.43,
-      "current_rsi": 55.57,
-      "price": 355.93
+      "confirmed_rsi": 60.79,
+      "current_rsi": 56.16,
+      "price": 365.69
     },
     "WD": {
-      "confirmed_rsi": 30.0,
-      "current_rsi": 29.83,
-      "price": 34.39
+      "confirmed_rsi": 29.21,
+      "current_rsi": 28.14,
+      "price": 33.01
     },
     "WDAY": {
-      "confirmed_rsi": 60.45,
-      "current_rsi": 60.75,
-      "price": 187.81
+      "confirmed_rsi": 58.43,
+      "current_rsi": 58.56,
+      "price": 186.59
     },
     "WDC": {
-      "confirmed_rsi": 54.87,
-      "current_rsi": 47.71,
-      "price": 393.31
+      "confirmed_rsi": 49.88,
+      "current_rsi": 48.3,
+      "price": 397.28
     },
     "WDFC": {
-      "confirmed_rsi": 45.85,
-      "current_rsi": 46.61,
-      "price": 203.9
+      "confirmed_rsi": 46.14,
+      "current_rsi": 45.84,
+      "price": 202.29
     },
     "WEC": {
-      "confirmed_rsi": 35.32,
-      "current_rsi": 39.6,
-      "price": 103.61
+      "confirmed_rsi": 32.4,
+      "current_rsi": 38.62,
+      "price": 103.74
     },
     "WELL": {
-      "confirmed_rsi": 53.35,
-      "current_rsi": 50.44,
-      "price": 223.04
+      "confirmed_rsi": 54.42,
+      "current_rsi": 52.7,
+      "price": 225.47
     },
     "WEN": {
-      "confirmed_rsi": 42.55,
-      "current_rsi": 42.35,
-      "price": 6.22
+      "confirmed_rsi": 42.08,
+      "current_rsi": 43.04,
+      "price": 6.23
     },
     "WERN": {
-      "confirmed_rsi": 49.13,
-      "current_rsi": 46.63,
-      "price": 33.0
+      "confirmed_rsi": 50.64,
+      "current_rsi": 45.24,
+      "price": 32.7
     },
     "WEX": {
-      "confirmed_rsi": 43.67,
-      "current_rsi": 46.73,
-      "price": 174.41
+      "confirmed_rsi": 42.72,
+      "current_rsi": 44.63,
+      "price": 172.43
     },
     "WFC": {
-      "confirmed_rsi": 45.14,
-      "current_rsi": 48.15,
-      "price": 82.03
+      "confirmed_rsi": 45.06,
+      "current_rsi": 50.23,
+      "price": 83.55
     },
     "WFRD": {
-      "confirmed_rsi": 37.92,
-      "current_rsi": 37.03,
-      "price": 76.9
+      "confirmed_rsi": 38.53,
+      "current_rsi": 37.4,
+      "price": 77.92
     },
     "WGO": {
-      "confirmed_rsi": 33.6,
-      "current_rsi": 29.93,
-      "price": 24.65
+      "confirmed_rsi": 35.17,
+      "current_rsi": 29.46,
+      "price": 23.39
     },
     "WH": {
-      "confirmed_rsi": 34.83,
-      "current_rsi": 39.01,
-      "price": 73.36
+      "confirmed_rsi": 36.58,
+      "current_rsi": 40.93,
+      "price": 74.06
     },
     "WHD": {
-      "confirmed_rsi": 52.5,
-      "current_rsi": 53.53,
-      "price": 63.22
+      "confirmed_rsi": 54.51,
+      "current_rsi": 54.5,
+      "price": 63.43
     },
     "WHR": {
-      "confirmed_rsi": 27.54,
-      "current_rsi": 26.55,
-      "price": 29.16
+      "confirmed_rsi": 24.13,
+      "current_rsi": 23.02,
+      "price": 28.83
     },
     "WINA": {
-      "confirmed_rsi": 36.17,
-      "current_rsi": 35.37,
-      "price": 295.14
+      "confirmed_rsi": 34.81,
+      "current_rsi": 33.67,
+      "price": 291.86
     },
     "WING": {
-      "confirmed_rsi": 33.54,
-      "current_rsi": 39.51,
-      "price": 118.5
+      "confirmed_rsi": 32.43,
+      "current_rsi": 39.59,
+      "price": 122.26
     },
     "WKC": {
-      "confirmed_rsi": 72.89,
-      "current_rsi": 75.89,
-      "price": 37.24
+      "confirmed_rsi": 72.68,
+      "current_rsi": 73.8,
+      "price": 36.41
     },
     "WLK": {
-      "confirmed_rsi": 20.56,
-      "current_rsi": 20.5,
-      "price": 62.31
+      "confirmed_rsi": 19.23,
+      "current_rsi": 18.72,
+      "price": 62.29
     },
     "WLY": {
-      "confirmed_rsi": 54.43,
-      "current_rsi": 56.93,
-      "price": 48.8
+      "confirmed_rsi": 54.1,
+      "current_rsi": 59.36,
+      "price": 49.64
     },
     "WM": {
-      "confirmed_rsi": 33.97,
-      "current_rsi": 42.71,
-      "price": 210.1
+      "confirmed_rsi": 39.28,
+      "current_rsi": 43.0,
+      "price": 208.83
     },
     "WMB": {
-      "confirmed_rsi": 46.45,
-      "current_rsi": 52.34,
-      "price": 72.34
+      "confirmed_rsi": 49.42,
+      "current_rsi": 53.62,
+      "price": 72.67
     },
     "WMG": {
-      "confirmed_rsi": 45.38,
-      "current_rsi": 51.04,
-      "price": 28.91
+      "confirmed_rsi": 44.3,
+      "current_rsi": 49.99,
+      "price": 28.72
     },
     "WMS": {
-      "confirmed_rsi": 39.02,
-      "current_rsi": 38.68,
-      "price": 126.21
+      "confirmed_rsi": 36.6,
+      "current_rsi": 35.79,
+      "price": 125.79
     },
     "WMT": {
-      "confirmed_rsi": 32.9,
-      "current_rsi": 42.46,
-      "price": 110.56
+      "confirmed_rsi": 37.77,
+      "current_rsi": 45.24,
+      "price": 111.35
     },
     "WOR": {
-      "confirmed_rsi": 56.19,
-      "current_rsi": 60.33,
-      "price": 61.22
+      "confirmed_rsi": 57.73,
+      "current_rsi": 60.44,
+      "price": 62.45
     },
     "WPC": {
-      "confirmed_rsi": 32.52,
-      "current_rsi": 31.28,
-      "price": 63.13
+      "confirmed_rsi": 31.85,
+      "current_rsi": 29.54,
+      "price": 63.37
     },
     "WRB": {
-      "confirmed_rsi": 52.41,
-      "current_rsi": 59.06,
-      "price": 72.05
+      "confirmed_rsi": 53.87,
+      "current_rsi": 60.44,
+      "price": 71.91
     },
     "WRLD": {
-      "confirmed_rsi": 54.41,
-      "current_rsi": 58.37,
-      "price": 180.2
+      "confirmed_rsi": 53.72,
+      "current_rsi": 54.21,
+      "price": 175.48
     },
     "WS": {
-      "confirmed_rsi": 53.51,
-      "current_rsi": 49.57,
-      "price": 34.62
+      "confirmed_rsi": 53.36,
+      "current_rsi": 51.39,
+      "price": 36.05
     },
     "WSC": {
-      "confirmed_rsi": 42.72,
-      "current_rsi": 41.95,
-      "price": 16.85
+      "confirmed_rsi": 40.24,
+      "current_rsi": 39.71,
+      "price": 17.07
     },
     "WSFS": {
-      "confirmed_rsi": 55.66,
-      "current_rsi": 51.81,
-      "price": 75.41
+      "confirmed_rsi": 60.18,
+      "current_rsi": 51.24,
+      "price": 75.39
     },
     "WSM": {
-      "confirmed_rsi": 58.38,
-      "current_rsi": 60.5,
-      "price": 239.0
+      "confirmed_rsi": 56.79,
+      "current_rsi": 60.29,
+      "price": 241.78
     },
     "WSO": {
-      "confirmed_rsi": 32.68,
-      "current_rsi": 29.74,
-      "price": 282.23
+      "confirmed_rsi": 29.48,
+      "current_rsi": 26.83,
+      "price": 279.9
     },
     "WST": {
-      "confirmed_rsi": 68.64,
-      "current_rsi": 67.74,
-      "price": 363.27
+      "confirmed_rsi": 68.17,
+      "current_rsi": 68.41,
+      "price": 366.0
     },
     "WT": {
-      "confirmed_rsi": 62.86,
-      "current_rsi": 57.39,
-      "price": 22.68
+      "confirmed_rsi": 63.93,
+      "current_rsi": 55.93,
+      "price": 22.61
     },
     "WTFC": {
-      "confirmed_rsi": 41.9,
-      "current_rsi": 42.93,
-      "price": 144.2
+      "confirmed_rsi": 42.91,
+      "current_rsi": 40.83,
+      "price": 143.25
     },
     "WTRG": {
-      "confirmed_rsi": 46.41,
-      "current_rsi": 46.67,
-      "price": 38.72
+      "confirmed_rsi": 47.22,
+      "current_rsi": 44.55,
+      "price": 38.98
     },
     "WTS": {
-      "confirmed_rsi": 59.76,
-      "current_rsi": 54.96,
-      "price": 347.14
+      "confirmed_rsi": 62.58,
+      "current_rsi": 58.14,
+      "price": 352.72
     },
     "WTW": {
-      "confirmed_rsi": 43.58,
-      "current_rsi": 46.3,
-      "price": 297.86
+      "confirmed_rsi": 42.43,
+      "current_rsi": 45.74,
+      "price": 296.26
     },
     "WU": {
-      "confirmed_rsi": 26.56,
-      "current_rsi": 32.3,
-      "price": 6.33
+      "confirmed_rsi": 23.21,
+      "current_rsi": 25.95,
+      "price": 6.12
     },
     "WWD": {
-      "confirmed_rsi": 39.99,
-      "current_rsi": 37.0,
-      "price": 323.45
+      "confirmed_rsi": 41.1,
+      "current_rsi": 42.27,
+      "price": 335.51
     },
     "WWW": {
-      "confirmed_rsi": 52.96,
-      "current_rsi": 51.65,
-      "price": 19.0
+      "confirmed_rsi": 51.37,
+      "current_rsi": 52.59,
+      "price": 19.43
     },
     "WY": {
-      "confirmed_rsi": 26.24,
-      "current_rsi": 30.17,
-      "price": 19.17
+      "confirmed_rsi": 27.79,
+      "current_rsi": 31.59,
+      "price": 19.1
     },
     "WYNN": {
-      "confirmed_rsi": 24.94,
-      "current_rsi": 23.83,
-      "price": 75.29
+      "confirmed_rsi": 23.16,
+      "current_rsi": 22.77,
+      "price": 75.15
     },
     "XEL": {
-      "confirmed_rsi": 35.25,
-      "current_rsi": 42.52,
-      "price": 73.36
+      "confirmed_rsi": 36.88,
+      "current_rsi": 43.51,
+      "price": 73.78
     },
     "XHR": {
-      "confirmed_rsi": 54.25,
-      "current_rsi": 54.06,
-      "price": 18.04
+      "confirmed_rsi": 56.62,
+      "current_rsi": 55.0,
+      "price": 18.02
     },
     "XNCR": {
-      "confirmed_rsi": 67.12,
-      "current_rsi": 66.05,
-      "price": 24.5
+      "confirmed_rsi": 65.31,
+      "current_rsi": 64.6,
+      "price": 24.63
     },
     "XOM": {
-      "confirmed_rsi": 58.87,
-      "current_rsi": 61.88,
-      "price": 168.5
+      "confirmed_rsi": 58.42,
+      "current_rsi": 61.55,
+      "price": 168.94
     },
     "XPEL": {
-      "confirmed_rsi": 44.21,
-      "current_rsi": 45.05,
-      "price": 44.92
+      "confirmed_rsi": 45.71,
+      "current_rsi": 44.73,
+      "price": 44.43
     },
     "XPO": {
-      "confirmed_rsi": 33.79,
-      "current_rsi": 35.59,
-      "price": 181.95
+      "confirmed_rsi": 40.47,
+      "current_rsi": 39.53,
+      "price": 183.47
     },
     "XRAY": {
-      "confirmed_rsi": 32.1,
-      "current_rsi": 31.9,
-      "price": 8.69
+      "confirmed_rsi": 33.01,
+      "current_rsi": 34.19,
+      "price": 8.83
     },
     "XYL": {
-      "confirmed_rsi": 30.91,
-      "current_rsi": 32.93,
-      "price": 101.99
+      "confirmed_rsi": 33.18,
+      "current_rsi": 34.79,
+      "price": 102.71
     },
     "XYZ": {
-      "confirmed_rsi": 48.21,
-      "current_rsi": 49.76,
-      "price": 75.23
+      "confirmed_rsi": 46.8,
+      "current_rsi": 50.56,
+      "price": 77.24
     },
     "YELP": {
-      "confirmed_rsi": 30.12,
-      "current_rsi": 35.04,
-      "price": 19.37
+      "confirmed_rsi": 29.72,
+      "current_rsi": 31.15,
+      "price": 18.59
     },
     "YETI": {
-      "confirmed_rsi": 47.28,
-      "current_rsi": 43.69,
-      "price": 39.6
+      "confirmed_rsi": 46.09,
+      "current_rsi": 43.72,
+      "price": 39.79
     },
     "YOU": {
-      "confirmed_rsi": 38.47,
-      "current_rsi": 41.2,
-      "price": 43.08
+      "confirmed_rsi": 36.71,
+      "current_rsi": 40.31,
+      "price": 43.43
     },
     "YUM": {
-      "confirmed_rsi": 36.61,
-      "current_rsi": 42.77,
-      "price": 143.0
+      "confirmed_rsi": 34.88,
+      "current_rsi": 43.98,
+      "price": 144.82
     },
     "ZBH": {
-      "confirmed_rsi": 40.5,
-      "current_rsi": 41.88,
-      "price": 88.88
+      "confirmed_rsi": 41.94,
+      "current_rsi": 43.11,
+      "price": 89.14
     },
     "ZBRA": {
-      "confirmed_rsi": 72.55,
-      "current_rsi": 73.57,
-      "price": 382.14
+      "confirmed_rsi": 70.6,
+      "current_rsi": 72.31,
+      "price": 387.18
     },
     "ZD": {
-      "confirmed_rsi": 55.83,
-      "current_rsi": 58.57,
-      "price": 55.91
+      "confirmed_rsi": 59.47,
+      "current_rsi": 62.1,
+      "price": 56.52
     },
     "ZION": {
-      "confirmed_rsi": 45.29,
-      "current_rsi": 45.51,
-      "price": 62.73
+      "confirmed_rsi": 46.03,
+      "current_rsi": 44.55,
+      "price": 62.49
     },
     "ZTS": {
-      "confirmed_rsi": 21.73,
-      "current_rsi": 27.72,
-      "price": 73.08
+      "confirmed_rsi": 19.71,
+      "current_rsi": 28.01,
+      "price": 74.81
     },
     "ZWS": {
-      "confirmed_rsi": 48.22,
-      "current_rsi": 45.8,
-      "price": 46.24
+      "confirmed_rsi": 49.53,
+      "current_rsi": 46.53,
+      "price": 46.57
     }
   }
 }

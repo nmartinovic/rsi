@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T01:50:41Z",
+  "generated_at": "2026-10-10T01:35:26Z",
   "system_status": {
     "universe": {
       "name": "S&P 1500",
@@ -8,12 +8,12 @@
       "status": "ok"
     },
     "rsi_scan": {
-      "last_run": "2026-10-09T01:41:56Z",
+      "last_run": "2026-10-10T01:28:13Z",
       "tickers_scanned": 1455,
       "tickers_failed": 51,
       "rate_limits_hit": 0,
-      "confirmed_oversold_count": 113,
-      "current_only_oversold_count": 8,
+      "confirmed_oversold_count": 117,
+      "current_only_oversold_count": 7,
       "status": "ok"
     },
     "leap_check": {
@@ -38,7 +38,7 @@
       "price": 11.21,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -52,14 +52,14 @@
       "alert_status": "suppressed"
     },
     {
-      "ticker": "SSTK",
-      "confirmed_rsi": 12.95,
-      "current_rsi": 15.8,
-      "price": 4.43,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
+      "ticker": "VRRM",
+      "confirmed_rsi": 11.75,
+      "current_rsi": 13.05,
+      "price": 2.94,
+      "has_leaps": true,
+      "furthest_leap_expiry": "2029-01-19",
+      "first_triggered": "2026-09-27",
+      "alert_status": "suppressed"
     },
     {
       "ticker": "CAR",
@@ -68,7 +68,7 @@
       "price": 110.0,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -82,6 +82,16 @@
       "alert_status": "suppressed"
     },
     {
+      "ticker": "SSTK",
+      "confirmed_rsi": 14.22,
+      "current_rsi": 18.71,
+      "price": 4.35,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
       "ticker": "STWD",
       "confirmed_rsi": 15.07,
       "current_rsi": 13.58,
@@ -92,23 +102,13 @@
       "alert_status": "suppressed"
     },
     {
-      "ticker": "VRRM",
-      "confirmed_rsi": 15.14,
-      "current_rsi": 15.03,
-      "price": 2.92,
-      "has_leaps": true,
-      "furthest_leap_expiry": "2029-01-19",
-      "first_triggered": "2026-09-27",
-      "alert_status": "suppressed"
-    },
-    {
       "ticker": "CABO",
       "confirmed_rsi": 15.23,
       "current_rsi": 20.41,
       "price": 15.38,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -142,13 +142,23 @@
       "alert_status": "suppressed"
     },
     {
+      "ticker": "WLK",
+      "confirmed_rsi": 19.23,
+      "current_rsi": 18.72,
+      "price": 62.29,
+      "has_leaps": true,
+      "furthest_leap_expiry": "2027-12-17",
+      "first_triggered": "2026-09-27",
+      "alert_status": "suppressed"
+    },
+    {
       "ticker": "PATK",
       "confirmed_rsi": 19.37,
       "current_rsi": 18.67,
       "price": 65.07,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -158,7 +168,7 @@
       "price": 21.56,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -172,13 +182,13 @@
       "alert_status": "suppressed"
     },
     {
-      "ticker": "WLK",
-      "confirmed_rsi": 20.56,
-      "current_rsi": 20.5,
-      "price": 62.31,
+      "ticker": "ZTS",
+      "confirmed_rsi": 19.71,
+      "current_rsi": 28.01,
+      "price": 74.81,
       "has_leaps": true,
-      "furthest_leap_expiry": "2027-12-17",
-      "first_triggered": "2026-09-27",
+      "furthest_leap_expiry": "2028-01-21",
+      "first_triggered": "2026-09-20",
       "alert_status": "suppressed"
     },
     {
@@ -242,26 +252,6 @@
       "alert_status": "suppressed"
     },
     {
-      "ticker": "ZTS",
-      "confirmed_rsi": 21.73,
-      "current_rsi": 27.72,
-      "price": 73.08,
-      "has_leaps": true,
-      "furthest_leap_expiry": "2028-01-21",
-      "first_triggered": "2026-09-20",
-      "alert_status": "suppressed"
-    },
-    {
-      "ticker": "VICI",
-      "confirmed_rsi": 22.18,
-      "current_rsi": 22.92,
-      "price": 22.79,
-      "has_leaps": true,
-      "furthest_leap_expiry": "2029-01-19",
-      "first_triggered": "2026-10-04",
-      "alert_status": "suppressed"
-    },
-    {
       "ticker": "CHTR",
       "confirmed_rsi": 22.45,
       "current_rsi": 22.17,
@@ -278,7 +268,7 @@
       "price": 6.07,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -292,13 +282,43 @@
       "alert_status": "suppressed"
     },
     {
+      "ticker": "VICI",
+      "confirmed_rsi": 23.01,
+      "current_rsi": 25.67,
+      "price": 22.88,
+      "has_leaps": true,
+      "furthest_leap_expiry": "2029-01-19",
+      "first_triggered": "2026-10-04",
+      "alert_status": "suppressed"
+    },
+    {
+      "ticker": "WYNN",
+      "confirmed_rsi": 23.16,
+      "current_rsi": 22.77,
+      "price": 75.15,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
+      "ticker": "WU",
+      "confirmed_rsi": 23.21,
+      "current_rsi": 25.95,
+      "price": 6.12,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
       "ticker": "LCII",
       "confirmed_rsi": 23.29,
       "current_rsi": 22.39,
       "price": 80.19,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -308,7 +328,7 @@
       "price": 102.19,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -318,7 +338,7 @@
       "price": 72.09,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -328,7 +348,7 @@
       "price": 18.97,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -368,7 +388,7 @@
       "price": 7.49,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -378,7 +398,27 @@
       "price": 170.01,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
+      "ticker": "WHR",
+      "confirmed_rsi": 24.13,
+      "current_rsi": 23.02,
+      "price": 28.83,
+      "has_leaps": true,
+      "furthest_leap_expiry": "2029-01-19",
+      "first_triggered": "2026-10-04",
+      "alert_status": "suppressed"
+    },
+    {
+      "ticker": "UNIT",
+      "confirmed_rsi": 24.28,
+      "current_rsi": 19.73,
+      "price": 6.87,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -388,7 +428,7 @@
       "price": 72.36,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -398,7 +438,7 @@
       "price": 193.36,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -418,7 +458,7 @@
       "price": 25.05,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -428,7 +468,7 @@
       "price": 19.31,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -438,7 +478,7 @@
       "price": 65.82,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -448,27 +488,7 @@
       "price": 66.11,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
-    },
-    {
-      "ticker": "SR",
-      "confirmed_rsi": 24.84,
-      "current_rsi": 31.11,
-      "price": 77.99,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
-    },
-    {
-      "ticker": "WYNN",
-      "confirmed_rsi": 24.94,
-      "current_rsi": 23.83,
-      "price": 75.29,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -478,7 +498,7 @@
       "price": 38.26,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -488,7 +508,7 @@
       "price": 160.66,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -508,7 +528,7 @@
       "price": 70.0,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -522,13 +542,23 @@
       "alert_status": "suppressed"
     },
     {
+      "ticker": "TTD",
+      "confirmed_rsi": 25.87,
+      "current_rsi": 26.53,
+      "price": 12.08,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
       "ticker": "FBRT",
       "confirmed_rsi": 25.91,
       "current_rsi": 24.32,
       "price": 6.26,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -538,7 +568,7 @@
       "price": 27.9,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -548,7 +578,7 @@
       "price": 21.21,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -558,17 +588,7 @@
       "price": 54.17,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
-    },
-    {
-      "ticker": "WY",
-      "confirmed_rsi": 26.24,
-      "current_rsi": 30.17,
-      "price": 19.17,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -582,23 +602,13 @@
       "alert_status": "suppressed"
     },
     {
-      "ticker": "WU",
-      "confirmed_rsi": 26.56,
-      "current_rsi": 32.3,
-      "price": 6.33,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
-    },
-    {
       "ticker": "FCPT",
       "confirmed_rsi": 26.64,
       "current_rsi": 25.92,
       "price": 21.25,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -618,7 +628,7 @@
       "price": 52.27,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -628,7 +638,7 @@
       "price": 102.1,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -638,7 +648,7 @@
       "price": 64.38,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -648,7 +658,7 @@
       "price": 11.02,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -662,23 +672,13 @@
       "alert_status": "suppressed"
     },
     {
-      "ticker": "UNIT",
-      "confirmed_rsi": 27.32,
-      "current_rsi": 24.95,
-      "price": 7.4,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
-    },
-    {
       "ticker": "RWT",
       "confirmed_rsi": 27.33,
       "current_rsi": 24.16,
       "price": 3.33,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -688,7 +688,7 @@
       "price": 187.83,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -708,7 +708,7 @@
       "price": 24.74,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -718,18 +718,8 @@
       "price": 19.66,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
-    },
-    {
-      "ticker": "WHR",
-      "confirmed_rsi": 27.54,
-      "current_rsi": 26.55,
-      "price": 29.16,
-      "has_leaps": true,
-      "furthest_leap_expiry": "2029-01-19",
-      "first_triggered": "2026-10-04",
-      "alert_status": "suppressed"
     },
     {
       "ticker": "PLNT",
@@ -740,6 +730,16 @@
       "furthest_leap_expiry": "2029-01-19",
       "first_triggered": "2026-10-04",
       "alert_status": "suppressed"
+    },
+    {
+      "ticker": "WY",
+      "confirmed_rsi": 27.79,
+      "current_rsi": 31.59,
+      "price": 19.1,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
     },
     {
       "ticker": "CENX",
@@ -758,7 +758,7 @@
       "price": 171.17,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -768,7 +768,7 @@
       "price": 29.81,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -778,7 +778,7 @@
       "price": 35.48,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -788,7 +788,7 @@
       "price": 12.1,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -798,7 +798,7 @@
       "price": 33.83,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -808,7 +808,7 @@
       "price": 51.88,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -818,7 +818,7 @@
       "price": 64.88,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -828,7 +828,7 @@
       "price": 11.35,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -838,7 +838,7 @@
       "price": 45.94,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -848,17 +848,7 @@
       "price": 2910.54,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
-      "alert_status": "awaiting_leap_check"
-    },
-    {
-      "ticker": "UVV",
-      "confirmed_rsi": 28.35,
-      "current_rsi": 34.54,
-      "price": 43.18,
-      "has_leaps": false,
-      "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -872,13 +862,23 @@
       "alert_status": "suppressed"
     },
     {
+      "ticker": "UVV",
+      "confirmed_rsi": 28.45,
+      "current_rsi": 31.6,
+      "price": 42.0,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
       "ticker": "CMCSA",
       "confirmed_rsi": 28.48,
       "current_rsi": 28.09,
       "price": 21.21,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -888,7 +888,7 @@
       "price": 40.53,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -908,7 +908,7 @@
       "price": 34.34,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -918,7 +918,7 @@
       "price": 13.47,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -928,7 +928,7 @@
       "price": 65.34,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -938,7 +938,7 @@
       "price": 134.63,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -948,7 +948,7 @@
       "price": 18.81,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -968,7 +968,7 @@
       "price": 7.99,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -978,7 +978,7 @@
       "price": 47.87,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -988,7 +988,7 @@
       "price": 70.72,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -998,7 +998,7 @@
       "price": 71.84,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1008,7 +1008,7 @@
       "price": 68.89,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1028,7 +1028,27 @@
       "price": 95.11,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
+      "ticker": "WD",
+      "confirmed_rsi": 29.21,
+      "current_rsi": 28.14,
+      "price": 33.01,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
+      "ticker": "VSNT",
+      "confirmed_rsi": 29.22,
+      "current_rsi": 28.71,
+      "price": 30.64,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1038,7 +1058,7 @@
       "price": 18.6,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1048,7 +1068,7 @@
       "price": 141.03,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1058,17 +1078,17 @@
       "price": 11.52,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
-      "ticker": "UE",
-      "confirmed_rsi": 29.43,
-      "current_rsi": 27.54,
-      "price": 19.29,
+      "ticker": "WSO",
+      "confirmed_rsi": 29.48,
+      "current_rsi": 26.83,
+      "price": 279.9,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1078,7 +1098,17 @@
       "price": 158.14,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
+      "ticker": "YELP",
+      "confirmed_rsi": 29.72,
+      "current_rsi": 31.15,
+      "price": 18.59,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1088,7 +1118,7 @@
       "price": 7.96,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1098,7 +1128,7 @@
       "price": 265.02,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1108,7 +1138,17 @@
       "price": 5.94,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
+      "alert_status": "awaiting_leap_check"
+    },
+    {
+      "ticker": "SR",
+      "confirmed_rsi": 29.81,
+      "current_rsi": 33.16,
+      "price": 78.42,
+      "has_leaps": false,
+      "furthest_leap_expiry": null,
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1128,7 +1168,7 @@
       "price": 6.24,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1138,7 +1178,7 @@
       "price": 17.2,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1148,7 +1188,7 @@
       "price": 128.34,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     },
     {
@@ -1158,7 +1198,7 @@
       "price": 34.74,
       "has_leaps": false,
       "furthest_leap_expiry": null,
-      "first_triggered": "2026-10-09",
+      "first_triggered": "2026-10-10",
       "alert_status": "awaiting_leap_check"
     }
   ],
@@ -1185,6 +1225,13 @@
       "note": "Current RSI below 30 but Confirmed RSI still above"
     },
     {
+      "ticker": "WGO",
+      "confirmed_rsi": 35.17,
+      "current_rsi": 29.46,
+      "price": 23.39,
+      "note": "Current RSI below 30 but Confirmed RSI still above"
+    },
+    {
       "ticker": "CRUS",
       "confirmed_rsi": 32.71,
       "current_rsi": 29.53,
@@ -1192,24 +1239,10 @@
       "note": "Current RSI below 30 but Confirmed RSI still above"
     },
     {
-      "ticker": "WSO",
-      "confirmed_rsi": 32.68,
-      "current_rsi": 29.74,
-      "price": 282.23,
-      "note": "Current RSI below 30 but Confirmed RSI still above"
-    },
-    {
-      "ticker": "WD",
-      "confirmed_rsi": 30.0,
-      "current_rsi": 29.83,
-      "price": 34.39,
-      "note": "Current RSI below 30 but Confirmed RSI still above"
-    },
-    {
-      "ticker": "WGO",
-      "confirmed_rsi": 33.6,
-      "current_rsi": 29.93,
-      "price": 24.65,
+      "ticker": "WPC",
+      "confirmed_rsi": 31.85,
+      "current_rsi": 29.54,
+      "price": 63.37,
       "note": "Current RSI below 30 but Confirmed RSI still above"
     },
     {
@@ -1230,8 +1263,8 @@
     },
     {
       "ticker": "ZTS",
-      "confirmed_rsi": 21.73,
-      "current_rsi": 27.72,
+      "confirmed_rsi": 19.71,
+      "current_rsi": 28.01,
       "recovered_date": "2026-09-13",
       "was_suppressed_since": "2026-05-17"
     },
@@ -1251,8 +1284,8 @@
     },
     {
       "ticker": "TTD",
-      "confirmed_rsi": 30.03,
-      "current_rsi": 31.13,
+      "confirmed_rsi": 25.87,
+      "current_rsi": 26.53,
       "recovered_date": "2026-09-13",
       "was_suppressed_since": "2026-08-30"
     },
@@ -1403,8 +1436,8 @@
       "current_rsi": 27.85
     },
     "ADEA": {
-      "confirmed_rsi": 47.32,
-      "current_rsi": 45.18
+      "confirmed_rsi": 45.0,
+      "current_rsi": 41.2
     },
     "ADI": {
       "confirmed_rsi": 59.96,
@@ -2671,8 +2704,8 @@
       "current_rsi": 49.97
     },
     "CTVA": {
-      "confirmed_rsi": 52.98,
-      "current_rsi": 60.43
+      "confirmed_rsi": 48.37,
+      "current_rsi": 58.35
     },
     "CUBE": {
       "confirmed_rsi": 43.55,
@@ -3891,8 +3924,8 @@
       "current_rsi": 25.01
     },
     "HUBB": {
-      "confirmed_rsi": 42.58,
-      "current_rsi": 47.12
+      "confirmed_rsi": 41.59,
+      "current_rsi": 41.26
     },
     "HUBG": {
       "confirmed_rsi": 31.53,
@@ -5959,16 +5992,16 @@
       "current_rsi": 52.8
     },
     "SGI": {
-      "confirmed_rsi": 35.13,
-      "current_rsi": 34.76
+      "confirmed_rsi": 35.15,
+      "current_rsi": 35.5
     },
     "SHAK": {
       "confirmed_rsi": 32.0,
       "current_rsi": 38.76
     },
     "SHC": {
-      "confirmed_rsi": 54.63,
-      "current_rsi": 52.38
+      "confirmed_rsi": 55.36,
+      "current_rsi": 54.0
     },
     "SHEN": {
       "confirmed_rsi": 29.36,
@@ -5979,8 +6012,8 @@
       "current_rsi": 65.02
     },
     "SHOO": {
-      "confirmed_rsi": 57.8,
-      "current_rsi": 54.34
+      "confirmed_rsi": 58.61,
+      "current_rsi": 54.44
     },
     "SHW": {
       "confirmed_rsi": 42.98,
@@ -6019,20 +6052,20 @@
       "current_rsi": 69.11
     },
     "SLB": {
-      "confirmed_rsi": 43.44,
-      "current_rsi": 44.1
+      "confirmed_rsi": 43.21,
+      "current_rsi": 43.69
     },
     "SLG": {
-      "confirmed_rsi": 51.81,
-      "current_rsi": 52.13
+      "confirmed_rsi": 51.14,
+      "current_rsi": 50.24
     },
     "SLGN": {
-      "confirmed_rsi": 37.22,
-      "current_rsi": 40.07
+      "confirmed_rsi": 37.15,
+      "current_rsi": 38.86
     },
     "SLM": {
-      "confirmed_rsi": 44.46,
-      "current_rsi": 44.74
+      "confirmed_rsi": 43.78,
+      "current_rsi": 42.94
     },
     "SLVM": {
       "confirmed_rsi": 31.45,
@@ -6071,8 +6104,8 @@
       "current_rsi": 57.0
     },
     "SNDR": {
-      "confirmed_rsi": 52.17,
-      "current_rsi": 50.31
+      "confirmed_rsi": 52.95,
+      "current_rsi": 48.82
     },
     "SNEX": {
       "confirmed_rsi": 45.86,
@@ -6083,8 +6116,8 @@
       "current_rsi": 60.75
     },
     "SNX": {
-      "confirmed_rsi": 65.18,
-      "current_rsi": 62.79
+      "confirmed_rsi": 66.91,
+      "current_rsi": 63.99
     },
     "SO": {
       "confirmed_rsi": 34.88,
@@ -6095,24 +6128,24 @@
       "current_rsi": 40.91
     },
     "SOLV": {
-      "confirmed_rsi": 62.65,
-      "current_rsi": 60.03
+      "confirmed_rsi": 60.73,
+      "current_rsi": 59.86
     },
     "SON": {
       "confirmed_rsi": 39.02,
       "current_rsi": 38.89
     },
     "SONO": {
-      "confirmed_rsi": 61.31,
-      "current_rsi": 56.9
+      "confirmed_rsi": 61.27,
+      "current_rsi": 58.7
     },
     "SPG": {
       "confirmed_rsi": 44.29,
       "current_rsi": 43.3
     },
     "SPGI": {
-      "confirmed_rsi": 41.42,
-      "current_rsi": 46.53
+      "confirmed_rsi": 41.76,
+      "current_rsi": 48.03
     },
     "SPNT": {
       "confirmed_rsi": 52.92,
@@ -6123,44 +6156,44 @@
       "current_rsi": 66.46
     },
     "SPXC": {
-      "confirmed_rsi": 34.26,
-      "current_rsi": 33.93
+      "confirmed_rsi": 33.64,
+      "current_rsi": 32.41
     },
     "SR": {
-      "confirmed_rsi": 24.84,
-      "current_rsi": 31.11
+      "confirmed_rsi": 29.81,
+      "current_rsi": 33.16
     },
     "SRE": {
-      "confirmed_rsi": 30.53,
-      "current_rsi": 36.02
+      "confirmed_rsi": 30.54,
+      "current_rsi": 38.68
     },
     "SRPT": {
-      "confirmed_rsi": 42.97,
-      "current_rsi": 44.81
+      "confirmed_rsi": 41.95,
+      "current_rsi": 43.1
     },
     "SSB": {
-      "confirmed_rsi": 47.27,
-      "current_rsi": 47.2
+      "confirmed_rsi": 49.41,
+      "current_rsi": 46.52
     },
     "SSD": {
       "confirmed_rsi": 45.69,
       "current_rsi": 45.25
     },
     "SSTK": {
-      "confirmed_rsi": 12.95,
-      "current_rsi": 15.8
+      "confirmed_rsi": 14.22,
+      "current_rsi": 18.71
     },
     "ST": {
       "confirmed_rsi": 51.55,
       "current_rsi": 51.16
     },
     "STAA": {
-      "confirmed_rsi": 46.39,
-      "current_rsi": 46.39
+      "confirmed_rsi": 45.97,
+      "current_rsi": 44.11
     },
     "STAG": {
-      "confirmed_rsi": 39.79,
-      "current_rsi": 40.73
+      "confirmed_rsi": 42.15,
+      "current_rsi": 42.0
     },
     "STBA": {
       "confirmed_rsi": 60.0,
@@ -6175,12 +6208,12 @@
       "current_rsi": 40.13
     },
     "STEP": {
-      "confirmed_rsi": 41.13,
-      "current_rsi": 40.11
+      "confirmed_rsi": 42.54,
+      "current_rsi": 41.19
     },
     "STLD": {
-      "confirmed_rsi": 51.66,
-      "current_rsi": 54.25
+      "confirmed_rsi": 52.66,
+      "current_rsi": 54.77
     },
     "STRA": {
       "confirmed_rsi": 46.36,
@@ -6191,8 +6224,8 @@
       "current_rsi": 52.2
     },
     "STT": {
-      "confirmed_rsi": 57.73,
-      "current_rsi": 58.04
+      "confirmed_rsi": 57.54,
+      "current_rsi": 56.52
     },
     "STWD": {
       "confirmed_rsi": 15.07,
@@ -6211,8 +6244,8 @@
       "current_rsi": 36.08
     },
     "SW": {
-      "confirmed_rsi": 48.4,
-      "current_rsi": 45.62
+      "confirmed_rsi": 47.53,
+      "current_rsi": 45.52
     },
     "SWK": {
       "confirmed_rsi": 58.65,
@@ -6239,40 +6272,40 @@
       "current_rsi": 63.79
     },
     "SYF": {
-      "confirmed_rsi": 38.96,
-      "current_rsi": 44.15
+      "confirmed_rsi": 40.37,
+      "current_rsi": 42.51
     },
     "SYK": {
-      "confirmed_rsi": 36.51,
-      "current_rsi": 37.89
+      "confirmed_rsi": 35.83,
+      "current_rsi": 36.63
     },
     "SYNA": {
       "confirmed_rsi": 59.14,
       "current_rsi": 64.37
     },
     "SYY": {
-      "confirmed_rsi": 47.81,
-      "current_rsi": 50.11
+      "confirmed_rsi": 48.29,
+      "current_rsi": 50.06
     },
     "T": {
-      "confirmed_rsi": 43.81,
-      "current_rsi": 46.84
+      "confirmed_rsi": 43.85,
+      "current_rsi": 36.35
     },
     "TALO": {
       "confirmed_rsi": 58.68,
       "current_rsi": 60.06
     },
     "TAP": {
-      "confirmed_rsi": 35.64,
-      "current_rsi": 38.89
+      "confirmed_rsi": 34.72,
+      "current_rsi": 36.24
     },
     "TBBK": {
-      "confirmed_rsi": 32.8,
-      "current_rsi": 33.58
+      "confirmed_rsi": 34.31,
+      "current_rsi": 33.77
     },
     "TCBI": {
-      "confirmed_rsi": 36.61,
-      "current_rsi": 33.18
+      "confirmed_rsi": 35.58,
+      "current_rsi": 31.35
     },
     "TDC": {
       "confirmed_rsi": 54.81,
@@ -6299,32 +6332,32 @@
       "current_rsi": 63.94
     },
     "TEL": {
-      "confirmed_rsi": 44.78,
-      "current_rsi": 42.88
+      "confirmed_rsi": 46.16,
+      "current_rsi": 45.15
     },
     "TER": {
-      "confirmed_rsi": 54.51,
-      "current_rsi": 52.43
+      "confirmed_rsi": 58.24,
+      "current_rsi": 52.31
     },
     "TEX": {
-      "confirmed_rsi": 40.52,
-      "current_rsi": 37.4
+      "confirmed_rsi": 42.08,
+      "current_rsi": 35.1
     },
     "TFC": {
       "confirmed_rsi": 36.47,
       "current_rsi": 36.17
     },
     "TFIN": {
-      "confirmed_rsi": 39.8,
-      "current_rsi": 42.8
+      "confirmed_rsi": 41.12,
+      "current_rsi": 41.78
     },
     "TFX": {
       "confirmed_rsi": 45.53,
       "current_rsi": 44.07
     },
     "TGT": {
-      "confirmed_rsi": 66.44,
-      "current_rsi": 63.7
+      "confirmed_rsi": 60.71,
+      "current_rsi": 58.44
     },
     "TGTX": {
       "confirmed_rsi": 62.24,
@@ -6335,8 +6368,8 @@
       "current_rsi": 61.12
     },
     "THG": {
-      "confirmed_rsi": 59.18,
-      "current_rsi": 61.67
+      "confirmed_rsi": 62.0,
+      "current_rsi": 61.92
     },
     "THO": {
       "confirmed_rsi": 34.38,
@@ -6351,32 +6384,32 @@
       "current_rsi": 57.43
     },
     "TJX": {
-      "confirmed_rsi": 38.24,
-      "current_rsi": 42.92
+      "confirmed_rsi": 37.71,
+      "current_rsi": 43.39
     },
     "TKO": {
       "confirmed_rsi": 41.94,
       "current_rsi": 46.69
     },
     "TKR": {
-      "confirmed_rsi": 54.17,
-      "current_rsi": 49.25
+      "confirmed_rsi": 56.69,
+      "current_rsi": 50.25
     },
     "TLN": {
-      "confirmed_rsi": 47.1,
-      "current_rsi": 53.24
+      "confirmed_rsi": 48.24,
+      "current_rsi": 57.15
     },
     "TMDX": {
-      "confirmed_rsi": 35.62,
-      "current_rsi": 35.94
+      "confirmed_rsi": 36.68,
+      "current_rsi": 35.69
     },
     "TMO": {
-      "confirmed_rsi": 63.03,
-      "current_rsi": 62.92
+      "confirmed_rsi": 65.64,
+      "current_rsi": 66.09
     },
     "TMP": {
-      "confirmed_rsi": 62.12,
-      "current_rsi": 60.87
+      "confirmed_rsi": 65.72,
+      "current_rsi": 57.65
     },
     "TMUS": {
       "confirmed_rsi": 37.36,
@@ -6387,8 +6420,8 @@
       "current_rsi": 37.08
     },
     "TNDM": {
-      "confirmed_rsi": 42.15,
-      "current_rsi": 40.56
+      "confirmed_rsi": 40.78,
+      "current_rsi": 39.95
     },
     "TNL": {
       "confirmed_rsi": 34.35,
@@ -6399,8 +6432,8 @@
       "current_rsi": 43.23
     },
     "TPL": {
-      "confirmed_rsi": 39.82,
-      "current_rsi": 44.48
+      "confirmed_rsi": 36.47,
+      "current_rsi": 42.48
     },
     "TPR": {
       "confirmed_rsi": 35.62,
@@ -6431,28 +6464,28 @@
       "current_rsi": 45.14
     },
     "TRN": {
-      "confirmed_rsi": 35.13,
-      "current_rsi": 34.32
+      "confirmed_rsi": 37.65,
+      "current_rsi": 36.3
     },
     "TRNO": {
-      "confirmed_rsi": 43.73,
-      "current_rsi": 45.31
+      "confirmed_rsi": 45.58,
+      "current_rsi": 46.3
     },
     "TROW": {
-      "confirmed_rsi": 56.3,
-      "current_rsi": 53.65
+      "confirmed_rsi": 53.64,
+      "current_rsi": 54.42
     },
     "TRST": {
       "confirmed_rsi": 63.81,
       "current_rsi": 63.83
     },
     "TRU": {
-      "confirmed_rsi": 34.76,
-      "current_rsi": 37.85
+      "confirmed_rsi": 34.92,
+      "current_rsi": 37.74
     },
     "TRUP": {
-      "confirmed_rsi": 41.48,
-      "current_rsi": 46.9
+      "confirmed_rsi": 38.7,
+      "current_rsi": 46.08
     },
     "TRV": {
       "confirmed_rsi": 60.43,
@@ -6467,644 +6500,644 @@
       "current_rsi": 50.15
     },
     "TSN": {
-      "confirmed_rsi": 30.29,
-      "current_rsi": 35.96
+      "confirmed_rsi": 36.22,
+      "current_rsi": 40.27
     },
     "TT": {
-      "confirmed_rsi": 49.27,
-      "current_rsi": 52.25
+      "confirmed_rsi": 50.25,
+      "current_rsi": 54.33
     },
     "TTC": {
-      "confirmed_rsi": 54.79,
-      "current_rsi": 53.83
+      "confirmed_rsi": 55.92,
+      "current_rsi": 51.98
     },
     "TTD": {
-      "confirmed_rsi": 30.03,
-      "current_rsi": 31.13
+      "confirmed_rsi": 25.87,
+      "current_rsi": 26.53
     },
     "TTEK": {
-      "confirmed_rsi": 51.37,
-      "current_rsi": 50.11
+      "confirmed_rsi": 48.59,
+      "current_rsi": 49.5
     },
     "TTMI": {
       "confirmed_rsi": 50.73,
       "current_rsi": 48.25
     },
     "TTWO": {
-      "confirmed_rsi": 43.61,
-      "current_rsi": 46.56
+      "confirmed_rsi": 43.16,
+      "current_rsi": 47.98
     },
     "TWI": {
-      "confirmed_rsi": 39.37,
-      "current_rsi": 39.68
+      "confirmed_rsi": 39.85,
+      "current_rsi": 39.42
     },
     "TWLO": {
-      "confirmed_rsi": 73.79,
-      "current_rsi": 66.22
+      "confirmed_rsi": 70.72,
+      "current_rsi": 69.22
     },
     "TXN": {
-      "confirmed_rsi": 63.32,
-      "current_rsi": 65.26
+      "confirmed_rsi": 63.96,
+      "current_rsi": 59.84
     },
     "TXNM": {
-      "confirmed_rsi": 54.56,
-      "current_rsi": 54.96
+      "confirmed_rsi": 53.79,
+      "current_rsi": 55.54
     },
     "TXRH": {
-      "confirmed_rsi": 40.41,
-      "current_rsi": 43.99
+      "confirmed_rsi": 41.4,
+      "current_rsi": 44.36
     },
     "TXT": {
-      "confirmed_rsi": 38.1,
-      "current_rsi": 34.58
+      "confirmed_rsi": 34.34,
+      "current_rsi": 31.0
     },
     "TYL": {
-      "confirmed_rsi": 47.69,
-      "current_rsi": 47.93
+      "confirmed_rsi": 44.87,
+      "current_rsi": 46.81
     },
     "UA": {
-      "confirmed_rsi": 36.21,
-      "current_rsi": 40.97
+      "confirmed_rsi": 36.1,
+      "current_rsi": 38.91
     },
     "UAA": {
-      "confirmed_rsi": 34.89,
-      "current_rsi": 38.63
+      "confirmed_rsi": 36.42,
+      "current_rsi": 39.53
     },
     "UAL": {
-      "confirmed_rsi": 52.34,
-      "current_rsi": 49.49
+      "confirmed_rsi": 54.03,
+      "current_rsi": 50.22
     },
     "UBER": {
-      "confirmed_rsi": 37.96,
-      "current_rsi": 42.72
+      "confirmed_rsi": 36.94,
+      "current_rsi": 44.26
     },
     "UBSI": {
-      "confirmed_rsi": 55.9,
-      "current_rsi": 51.27
+      "confirmed_rsi": 58.96,
+      "current_rsi": 48.94
     },
     "UCB": {
-      "confirmed_rsi": 46.85,
-      "current_rsi": 45.75
+      "confirmed_rsi": 48.3,
+      "current_rsi": 44.5
     },
     "UCTT": {
-      "confirmed_rsi": 50.7,
-      "current_rsi": 46.5
+      "confirmed_rsi": 47.8,
+      "current_rsi": 46.12
     },
     "UDR": {
-      "confirmed_rsi": 41.55,
-      "current_rsi": 41.1
+      "confirmed_rsi": 39.63,
+      "current_rsi": 44.01
     },
     "UE": {
-      "confirmed_rsi": 29.43,
-      "current_rsi": 27.54
+      "confirmed_rsi": 37.66,
+      "current_rsi": 35.37
     },
     "UFCS": {
       "confirmed_rsi": 67.92,
       "current_rsi": 71.65
     },
     "UFPI": {
-      "confirmed_rsi": 32.5,
-      "current_rsi": 31.9
+      "confirmed_rsi": 32.65,
+      "current_rsi": 30.15
     },
     "UFPT": {
-      "confirmed_rsi": 62.63,
-      "current_rsi": 59.75
+      "confirmed_rsi": 65.06,
+      "current_rsi": 60.9
     },
     "UGI": {
-      "confirmed_rsi": 49.43,
-      "current_rsi": 51.75
+      "confirmed_rsi": 53.03,
+      "current_rsi": 52.69
     },
     "UHS": {
       "confirmed_rsi": 48.08,
       "current_rsi": 48.55
     },
     "UHT": {
-      "confirmed_rsi": 35.49,
-      "current_rsi": 40.07
+      "confirmed_rsi": 34.81,
+      "current_rsi": 39.54
     },
     "ULS": {
-      "confirmed_rsi": 35.24,
-      "current_rsi": 40.11
+      "confirmed_rsi": 32.32,
+      "current_rsi": 37.79
     },
     "ULTA": {
-      "confirmed_rsi": 47.86,
-      "current_rsi": 54.53
+      "confirmed_rsi": 47.42,
+      "current_rsi": 53.48
     },
     "UMBF": {
       "confirmed_rsi": 47.81,
       "current_rsi": 48.51
     },
     "UNF": {
-      "confirmed_rsi": 37.83,
-      "current_rsi": 43.95
+      "confirmed_rsi": 38.79,
+      "current_rsi": 45.8
     },
     "UNFI": {
-      "confirmed_rsi": 42.94,
-      "current_rsi": 41.46
+      "confirmed_rsi": 46.26,
+      "current_rsi": 44.31
     },
     "UNH": {
-      "confirmed_rsi": 53.46,
-      "current_rsi": 55.41
+      "confirmed_rsi": 56.77,
+      "current_rsi": 59.15
     },
     "UNIT": {
-      "confirmed_rsi": 27.32,
-      "current_rsi": 24.95
+      "confirmed_rsi": 24.28,
+      "current_rsi": 19.73
     },
     "UNM": {
-      "confirmed_rsi": 54.64,
-      "current_rsi": 60.23
+      "confirmed_rsi": 54.45,
+      "current_rsi": 58.05
     },
     "UNP": {
-      "confirmed_rsi": 52.14,
-      "current_rsi": 55.36
+      "confirmed_rsi": 54.53,
+      "current_rsi": 54.56
     },
     "UPBD": {
-      "confirmed_rsi": 34.71,
-      "current_rsi": 37.22
+      "confirmed_rsi": 35.85,
+      "current_rsi": 35.43
     },
     "UPS": {
-      "confirmed_rsi": 40.78,
-      "current_rsi": 41.13
+      "confirmed_rsi": 40.22,
+      "current_rsi": 42.22
     },
     "UPWK": {
-      "confirmed_rsi": 36.69,
-      "current_rsi": 39.09
+      "confirmed_rsi": 32.86,
+      "current_rsi": 39.33
     },
     "URBN": {
-      "confirmed_rsi": 54.11,
-      "current_rsi": 56.68
+      "confirmed_rsi": 54.92,
+      "current_rsi": 56.38
     },
     "URI": {
-      "confirmed_rsi": 60.62,
-      "current_rsi": 61.82
+      "confirmed_rsi": 63.74,
+      "current_rsi": 60.85
     },
     "USB": {
-      "confirmed_rsi": 46.39,
-      "current_rsi": 45.48
-    },
-    "USFD": {
-      "confirmed_rsi": 46.61,
-      "current_rsi": 50.09
-    },
-    "USPH": {
-      "confirmed_rsi": 56.81,
-      "current_rsi": 57.97
-    },
-    "UTHR": {
-      "confirmed_rsi": 54.93,
-      "current_rsi": 46.85
-    },
-    "UTL": {
-      "confirmed_rsi": 40.26,
-      "current_rsi": 48.33
-    },
-    "UVV": {
-      "confirmed_rsi": 28.35,
-      "current_rsi": 34.54
-    },
-    "V": {
-      "confirmed_rsi": 58.63,
-      "current_rsi": 64.35
-    },
-    "VAC": {
-      "confirmed_rsi": 59.74,
-      "current_rsi": 60.39
-    },
-    "VAL": {
-      "confirmed_rsi": 44.99,
-      "current_rsi": 48.62
-    },
-    "VC": {
-      "confirmed_rsi": 39.62,
-      "current_rsi": 37.92
-    },
-    "VCEL": {
-      "confirmed_rsi": 51.79,
-      "current_rsi": 53.21
-    },
-    "VCTR": {
-      "confirmed_rsi": 69.29,
-      "current_rsi": 69.26
-    },
-    "VCYT": {
-      "confirmed_rsi": 55.2,
-      "current_rsi": 54.47
-    },
-    "VECO": {
-      "confirmed_rsi": 55.76,
-      "current_rsi": 54.43
-    },
-    "VFC": {
-      "confirmed_rsi": 34.07,
-      "current_rsi": 34.98
-    },
-    "VIAV": {
-      "confirmed_rsi": 53.76,
-      "current_rsi": 53.02
-    },
-    "VICI": {
-      "confirmed_rsi": 22.18,
-      "current_rsi": 22.92
-    },
-    "VICR": {
-      "confirmed_rsi": 60.54,
-      "current_rsi": 54.41
-    },
-    "VIR": {
-      "confirmed_rsi": 55.17,
-      "current_rsi": 53.83
-    },
-    "VIRT": {
-      "confirmed_rsi": 51.39,
-      "current_rsi": 54.06
-    },
-    "VITL": {
-      "confirmed_rsi": 40.09,
-      "current_rsi": 42.38
-    },
-    "VLO": {
-      "confirmed_rsi": 78.76,
-      "current_rsi": 82.04
-    },
-    "VLTO": {
-      "confirmed_rsi": 51.65,
-      "current_rsi": 54.79
-    },
-    "VLY": {
-      "confirmed_rsi": 38.68,
-      "current_rsi": 39.93
-    },
-    "VMC": {
-      "confirmed_rsi": 34.34,
-      "current_rsi": 35.82
-    },
-    "VMI": {
-      "confirmed_rsi": 55.83,
-      "current_rsi": 55.92
-    },
-    "VNO": {
-      "confirmed_rsi": 51.41,
-      "current_rsi": 52.14
-    },
-    "VNOM": {
-      "confirmed_rsi": 42.48,
-      "current_rsi": 48.08
-    },
-    "VNT": {
-      "confirmed_rsi": 39.7,
-      "current_rsi": 41.78
-    },
-    "VOYA": {
-      "confirmed_rsi": 66.24,
-      "current_rsi": 67.8
-    },
-    "VRRM": {
-      "confirmed_rsi": 15.14,
-      "current_rsi": 15.03
-    },
-    "VRSK": {
-      "confirmed_rsi": 43.6,
-      "current_rsi": 48.01
-    },
-    "VRSN": {
-      "confirmed_rsi": 52.08,
-      "current_rsi": 55.73
-    },
-    "VRTS": {
-      "confirmed_rsi": 42.79,
-      "current_rsi": 42.09
-    },
-    "VRTX": {
-      "confirmed_rsi": 57.09,
-      "current_rsi": 55.9
-    },
-    "VSAT": {
-      "confirmed_rsi": 51.16,
-      "current_rsi": 48.95
-    },
-    "VSH": {
-      "confirmed_rsi": 56.42,
-      "current_rsi": 56.73
-    },
-    "VSNT": {
-      "confirmed_rsi": 31.57,
-      "current_rsi": 34.71
-    },
-    "VST": {
-      "confirmed_rsi": 41.84,
-      "current_rsi": 52.23
-    },
-    "VSTS": {
-      "confirmed_rsi": 61.74,
-      "current_rsi": 62.71
-    },
-    "VTOL": {
-      "confirmed_rsi": 33.28,
-      "current_rsi": 34.64
-    },
-    "VTR": {
-      "confirmed_rsi": 44.98,
-      "current_rsi": 42.32
-    },
-    "VTRS": {
-      "confirmed_rsi": 62.56,
-      "current_rsi": 62.37
-    },
-    "VVV": {
-      "confirmed_rsi": 44.66,
-      "current_rsi": 44.81
-    },
-    "VYX": {
-      "confirmed_rsi": 46.43,
-      "current_rsi": 46.82
-    },
-    "VZ": {
-      "confirmed_rsi": 46.68,
-      "current_rsi": 47.89
-    },
-    "WAB": {
-      "confirmed_rsi": 57.94,
-      "current_rsi": 52.85
-    },
-    "WABC": {
-      "confirmed_rsi": 64.35,
-      "current_rsi": 66.03
-    },
-    "WAFD": {
-      "confirmed_rsi": 30.81,
-      "current_rsi": 30.18
-    },
-    "WAL": {
-      "confirmed_rsi": 42.68,
-      "current_rsi": 42.29
-    },
-    "WAT": {
-      "confirmed_rsi": 66.64,
-      "current_rsi": 67.39
-    },
-    "WAY": {
-      "confirmed_rsi": 50.22,
-      "current_rsi": 52.61
-    },
-    "WCC": {
-      "confirmed_rsi": 60.43,
-      "current_rsi": 55.57
-    },
-    "WD": {
-      "confirmed_rsi": 30.0,
-      "current_rsi": 29.83
-    },
-    "WDAY": {
-      "confirmed_rsi": 60.45,
-      "current_rsi": 60.75
-    },
-    "WDC": {
-      "confirmed_rsi": 54.87,
-      "current_rsi": 47.71
-    },
-    "WDFC": {
-      "confirmed_rsi": 45.85,
-      "current_rsi": 46.61
-    },
-    "WEC": {
-      "confirmed_rsi": 35.32,
-      "current_rsi": 39.6
-    },
-    "WELL": {
-      "confirmed_rsi": 53.35,
-      "current_rsi": 50.44
-    },
-    "WEN": {
-      "confirmed_rsi": 42.55,
-      "current_rsi": 42.35
-    },
-    "WERN": {
-      "confirmed_rsi": 49.13,
-      "current_rsi": 46.63
-    },
-    "WEX": {
-      "confirmed_rsi": 43.67,
-      "current_rsi": 46.73
-    },
-    "WFC": {
-      "confirmed_rsi": 45.14,
-      "current_rsi": 48.15
-    },
-    "WFRD": {
-      "confirmed_rsi": 37.92,
-      "current_rsi": 37.03
-    },
-    "WGO": {
-      "confirmed_rsi": 33.6,
-      "current_rsi": 29.93
-    },
-    "WH": {
-      "confirmed_rsi": 34.83,
-      "current_rsi": 39.01
-    },
-    "WHD": {
-      "confirmed_rsi": 52.5,
-      "current_rsi": 53.53
-    },
-    "WHR": {
-      "confirmed_rsi": 27.54,
-      "current_rsi": 26.55
-    },
-    "WINA": {
-      "confirmed_rsi": 36.17,
-      "current_rsi": 35.37
-    },
-    "WING": {
-      "confirmed_rsi": 33.54,
-      "current_rsi": 39.51
-    },
-    "WKC": {
-      "confirmed_rsi": 72.89,
-      "current_rsi": 75.89
-    },
-    "WLK": {
-      "confirmed_rsi": 20.56,
-      "current_rsi": 20.5
-    },
-    "WLY": {
-      "confirmed_rsi": 54.43,
-      "current_rsi": 56.93
-    },
-    "WM": {
-      "confirmed_rsi": 33.97,
-      "current_rsi": 42.71
-    },
-    "WMB": {
-      "confirmed_rsi": 46.45,
-      "current_rsi": 52.34
-    },
-    "WMG": {
-      "confirmed_rsi": 45.38,
-      "current_rsi": 51.04
-    },
-    "WMS": {
-      "confirmed_rsi": 39.02,
-      "current_rsi": 38.68
-    },
-    "WMT": {
-      "confirmed_rsi": 32.9,
-      "current_rsi": 42.46
-    },
-    "WOR": {
-      "confirmed_rsi": 56.19,
-      "current_rsi": 60.33
-    },
-    "WPC": {
-      "confirmed_rsi": 32.52,
-      "current_rsi": 31.28
-    },
-    "WRB": {
-      "confirmed_rsi": 52.41,
-      "current_rsi": 59.06
-    },
-    "WRLD": {
-      "confirmed_rsi": 54.41,
-      "current_rsi": 58.37
-    },
-    "WS": {
-      "confirmed_rsi": 53.51,
-      "current_rsi": 49.57
-    },
-    "WSC": {
-      "confirmed_rsi": 42.72,
-      "current_rsi": 41.95
-    },
-    "WSFS": {
-      "confirmed_rsi": 55.66,
-      "current_rsi": 51.81
-    },
-    "WSM": {
-      "confirmed_rsi": 58.38,
-      "current_rsi": 60.5
-    },
-    "WSO": {
-      "confirmed_rsi": 32.68,
-      "current_rsi": 29.74
-    },
-    "WST": {
-      "confirmed_rsi": 68.64,
-      "current_rsi": 67.74
-    },
-    "WT": {
-      "confirmed_rsi": 62.86,
-      "current_rsi": 57.39
-    },
-    "WTFC": {
-      "confirmed_rsi": 41.9,
-      "current_rsi": 42.93
-    },
-    "WTRG": {
-      "confirmed_rsi": 46.41,
-      "current_rsi": 46.67
-    },
-    "WTS": {
-      "confirmed_rsi": 59.76,
-      "current_rsi": 54.96
-    },
-    "WTW": {
-      "confirmed_rsi": 43.58,
-      "current_rsi": 46.3
-    },
-    "WU": {
-      "confirmed_rsi": 26.56,
-      "current_rsi": 32.3
-    },
-    "WWD": {
-      "confirmed_rsi": 39.99,
-      "current_rsi": 37.0
-    },
-    "WWW": {
-      "confirmed_rsi": 52.96,
-      "current_rsi": 51.65
-    },
-    "WY": {
-      "confirmed_rsi": 26.24,
-      "current_rsi": 30.17
-    },
-    "WYNN": {
-      "confirmed_rsi": 24.94,
-      "current_rsi": 23.83
-    },
-    "XEL": {
-      "confirmed_rsi": 35.25,
-      "current_rsi": 42.52
-    },
-    "XHR": {
-      "confirmed_rsi": 54.25,
-      "current_rsi": 54.06
-    },
-    "XNCR": {
-      "confirmed_rsi": 67.12,
-      "current_rsi": 66.05
-    },
-    "XOM": {
-      "confirmed_rsi": 58.87,
-      "current_rsi": 61.88
-    },
-    "XPEL": {
-      "confirmed_rsi": 44.21,
-      "current_rsi": 45.05
-    },
-    "XPO": {
-      "confirmed_rsi": 33.79,
-      "current_rsi": 35.59
-    },
-    "XRAY": {
-      "confirmed_rsi": 32.1,
-      "current_rsi": 31.9
-    },
-    "XYL": {
-      "confirmed_rsi": 30.91,
-      "current_rsi": 32.93
-    },
-    "XYZ": {
-      "confirmed_rsi": 48.21,
-      "current_rsi": 49.76
-    },
-    "YELP": {
-      "confirmed_rsi": 30.12,
-      "current_rsi": 35.04
-    },
-    "YETI": {
-      "confirmed_rsi": 47.28,
-      "current_rsi": 43.69
-    },
-    "YOU": {
-      "confirmed_rsi": 38.47,
-      "current_rsi": 41.2
-    },
-    "YUM": {
-      "confirmed_rsi": 36.61,
-      "current_rsi": 42.77
-    },
-    "ZBH": {
-      "confirmed_rsi": 40.5,
-      "current_rsi": 41.88
-    },
-    "ZBRA": {
-      "confirmed_rsi": 72.55,
-      "current_rsi": 73.57
-    },
-    "ZD": {
-      "confirmed_rsi": 55.83,
-      "current_rsi": 58.57
-    },
-    "ZION": {
-      "confirmed_rsi": 45.29,
+      "confirmed_rsi": 46.67,
       "current_rsi": 45.51
     },
+    "USFD": {
+      "confirmed_rsi": 49.68,
+      "current_rsi": 50.29
+    },
+    "USPH": {
+      "confirmed_rsi": 57.81,
+      "current_rsi": 58.85
+    },
+    "UTHR": {
+      "confirmed_rsi": 50.4,
+      "current_rsi": 52.06
+    },
+    "UTL": {
+      "confirmed_rsi": 44.69,
+      "current_rsi": 49.92
+    },
+    "UVV": {
+      "confirmed_rsi": 28.45,
+      "current_rsi": 31.6
+    },
+    "V": {
+      "confirmed_rsi": 60.02,
+      "current_rsi": 68.48
+    },
+    "VAC": {
+      "confirmed_rsi": 59.67,
+      "current_rsi": 60.38
+    },
+    "VAL": {
+      "confirmed_rsi": 44.62,
+      "current_rsi": 48.84
+    },
+    "VC": {
+      "confirmed_rsi": 42.14,
+      "current_rsi": 40.19
+    },
+    "VCEL": {
+      "confirmed_rsi": 53.4,
+      "current_rsi": 53.27
+    },
+    "VCTR": {
+      "confirmed_rsi": 67.27,
+      "current_rsi": 66.37
+    },
+    "VCYT": {
+      "confirmed_rsi": 59.02,
+      "current_rsi": 58.08
+    },
+    "VECO": {
+      "confirmed_rsi": 58.14,
+      "current_rsi": 53.55
+    },
+    "VFC": {
+      "confirmed_rsi": 30.58,
+      "current_rsi": 36.06
+    },
+    "VIAV": {
+      "confirmed_rsi": 54.86,
+      "current_rsi": 53.23
+    },
+    "VICI": {
+      "confirmed_rsi": 23.01,
+      "current_rsi": 25.67
+    },
+    "VICR": {
+      "confirmed_rsi": 59.99,
+      "current_rsi": 54.26
+    },
+    "VIR": {
+      "confirmed_rsi": 53.58,
+      "current_rsi": 57.0
+    },
+    "VIRT": {
+      "confirmed_rsi": 54.23,
+      "current_rsi": 52.75
+    },
+    "VITL": {
+      "confirmed_rsi": 38.4,
+      "current_rsi": 39.84
+    },
+    "VLO": {
+      "confirmed_rsi": 77.41,
+      "current_rsi": 80.21
+    },
+    "VLTO": {
+      "confirmed_rsi": 52.45,
+      "current_rsi": 56.08
+    },
+    "VLY": {
+      "confirmed_rsi": 40.09,
+      "current_rsi": 38.05
+    },
+    "VMC": {
+      "confirmed_rsi": 33.98,
+      "current_rsi": 34.96
+    },
+    "VMI": {
+      "confirmed_rsi": 58.94,
+      "current_rsi": 55.68
+    },
+    "VNO": {
+      "confirmed_rsi": 51.44,
+      "current_rsi": 51.09
+    },
+    "VNOM": {
+      "confirmed_rsi": 41.56,
+      "current_rsi": 48.01
+    },
+    "VNT": {
+      "confirmed_rsi": 39.15,
+      "current_rsi": 41.54
+    },
+    "VOYA": {
+      "confirmed_rsi": 62.92,
+      "current_rsi": 59.38
+    },
+    "VRRM": {
+      "confirmed_rsi": 11.75,
+      "current_rsi": 13.05
+    },
+    "VRSK": {
+      "confirmed_rsi": 38.11,
+      "current_rsi": 48.69
+    },
+    "VRSN": {
+      "confirmed_rsi": 52.23,
+      "current_rsi": 57.46
+    },
+    "VRTS": {
+      "confirmed_rsi": 43.4,
+      "current_rsi": 41.98
+    },
+    "VRTX": {
+      "confirmed_rsi": 56.36,
+      "current_rsi": 57.59
+    },
+    "VSAT": {
+      "confirmed_rsi": 51.72,
+      "current_rsi": 51.72
+    },
+    "VSH": {
+      "confirmed_rsi": 58.84,
+      "current_rsi": 54.09
+    },
+    "VSNT": {
+      "confirmed_rsi": 29.22,
+      "current_rsi": 28.71
+    },
+    "VST": {
+      "confirmed_rsi": 44.95,
+      "current_rsi": 54.57
+    },
+    "VSTS": {
+      "confirmed_rsi": 62.71,
+      "current_rsi": 63.15
+    },
+    "VTOL": {
+      "confirmed_rsi": 34.77,
+      "current_rsi": 36.42
+    },
+    "VTR": {
+      "confirmed_rsi": 45.49,
+      "current_rsi": 42.37
+    },
+    "VTRS": {
+      "confirmed_rsi": 64.67,
+      "current_rsi": 64.9
+    },
+    "VVV": {
+      "confirmed_rsi": 43.78,
+      "current_rsi": 43.11
+    },
+    "VYX": {
+      "confirmed_rsi": 44.77,
+      "current_rsi": 47.92
+    },
+    "VZ": {
+      "confirmed_rsi": 46.34,
+      "current_rsi": 37.15
+    },
+    "WAB": {
+      "confirmed_rsi": 57.18,
+      "current_rsi": 55.62
+    },
+    "WABC": {
+      "confirmed_rsi": 65.0,
+      "current_rsi": 60.33
+    },
+    "WAFD": {
+      "confirmed_rsi": 34.4,
+      "current_rsi": 30.83
+    },
+    "WAL": {
+      "confirmed_rsi": 43.76,
+      "current_rsi": 39.58
+    },
+    "WAT": {
+      "confirmed_rsi": 65.49,
+      "current_rsi": 67.29
+    },
+    "WAY": {
+      "confirmed_rsi": 47.75,
+      "current_rsi": 52.85
+    },
+    "WCC": {
+      "confirmed_rsi": 60.79,
+      "current_rsi": 56.16
+    },
+    "WD": {
+      "confirmed_rsi": 29.21,
+      "current_rsi": 28.14
+    },
+    "WDAY": {
+      "confirmed_rsi": 58.43,
+      "current_rsi": 58.56
+    },
+    "WDC": {
+      "confirmed_rsi": 49.88,
+      "current_rsi": 48.3
+    },
+    "WDFC": {
+      "confirmed_rsi": 46.14,
+      "current_rsi": 45.84
+    },
+    "WEC": {
+      "confirmed_rsi": 32.4,
+      "current_rsi": 38.62
+    },
+    "WELL": {
+      "confirmed_rsi": 54.42,
+      "current_rsi": 52.7
+    },
+    "WEN": {
+      "confirmed_rsi": 42.08,
+      "current_rsi": 43.04
+    },
+    "WERN": {
+      "confirmed_rsi": 50.64,
+      "current_rsi": 45.24
+    },
+    "WEX": {
+      "confirmed_rsi": 42.72,
+      "current_rsi": 44.63
+    },
+    "WFC": {
+      "confirmed_rsi": 45.06,
+      "current_rsi": 50.23
+    },
+    "WFRD": {
+      "confirmed_rsi": 38.53,
+      "current_rsi": 37.4
+    },
+    "WGO": {
+      "confirmed_rsi": 35.17,
+      "current_rsi": 29.46
+    },
+    "WH": {
+      "confirmed_rsi": 36.58,
+      "current_rsi": 40.93
+    },
+    "WHD": {
+      "confirmed_rsi": 54.51,
+      "current_rsi": 54.5
+    },
+    "WHR": {
+      "confirmed_rsi": 24.13,
+      "current_rsi": 23.02
+    },
+    "WINA": {
+      "confirmed_rsi": 34.81,
+      "current_rsi": 33.67
+    },
+    "WING": {
+      "confirmed_rsi": 32.43,
+      "current_rsi": 39.59
+    },
+    "WKC": {
+      "confirmed_rsi": 72.68,
+      "current_rsi": 73.8
+    },
+    "WLK": {
+      "confirmed_rsi": 19.23,
+      "current_rsi": 18.72
+    },
+    "WLY": {
+      "confirmed_rsi": 54.1,
+      "current_rsi": 59.36
+    },
+    "WM": {
+      "confirmed_rsi": 39.28,
+      "current_rsi": 43.0
+    },
+    "WMB": {
+      "confirmed_rsi": 49.42,
+      "current_rsi": 53.62
+    },
+    "WMG": {
+      "confirmed_rsi": 44.3,
+      "current_rsi": 49.99
+    },
+    "WMS": {
+      "confirmed_rsi": 36.6,
+      "current_rsi": 35.79
+    },
+    "WMT": {
+      "confirmed_rsi": 37.77,
+      "current_rsi": 45.24
+    },
+    "WOR": {
+      "confirmed_rsi": 57.73,
+      "current_rsi": 60.44
+    },
+    "WPC": {
+      "confirmed_rsi": 31.85,
+      "current_rsi": 29.54
+    },
+    "WRB": {
+      "confirmed_rsi": 53.87,
+      "current_rsi": 60.44
+    },
+    "WRLD": {
+      "confirmed_rsi": 53.72,
+      "current_rsi": 54.21
+    },
+    "WS": {
+      "confirmed_rsi": 53.36,
+      "current_rsi": 51.39
+    },
+    "WSC": {
+      "confirmed_rsi": 40.24,
+      "current_rsi": 39.71
+    },
+    "WSFS": {
+      "confirmed_rsi": 60.18,
+      "current_rsi": 51.24
+    },
+    "WSM": {
+      "confirmed_rsi": 56.79,
+      "current_rsi": 60.29
+    },
+    "WSO": {
+      "confirmed_rsi": 29.48,
+      "current_rsi": 26.83
+    },
+    "WST": {
+      "confirmed_rsi": 68.17,
+      "current_rsi": 68.41
+    },
+    "WT": {
+      "confirmed_rsi": 63.93,
+      "current_rsi": 55.93
+    },
+    "WTFC": {
+      "confirmed_rsi": 42.91,
+      "current_rsi": 40.83
+    },
+    "WTRG": {
+      "confirmed_rsi": 47.22,
+      "current_rsi": 44.55
+    },
+    "WTS": {
+      "confirmed_rsi": 62.58,
+      "current_rsi": 58.14
+    },
+    "WTW": {
+      "confirmed_rsi": 42.43,
+      "current_rsi": 45.74
+    },
+    "WU": {
+      "confirmed_rsi": 23.21,
+      "current_rsi": 25.95
+    },
+    "WWD": {
+      "confirmed_rsi": 41.1,
+      "current_rsi": 42.27
+    },
+    "WWW": {
+      "confirmed_rsi": 51.37,
+      "current_rsi": 52.59
+    },
+    "WY": {
+      "confirmed_rsi": 27.79,
+      "current_rsi": 31.59
+    },
+    "WYNN": {
+      "confirmed_rsi": 23.16,
+      "current_rsi": 22.77
+    },
+    "XEL": {
+      "confirmed_rsi": 36.88,
+      "current_rsi": 43.51
+    },
+    "XHR": {
+      "confirmed_rsi": 56.62,
+      "current_rsi": 55.0
+    },
+    "XNCR": {
+      "confirmed_rsi": 65.31,
+      "current_rsi": 64.6
+    },
+    "XOM": {
+      "confirmed_rsi": 58.42,
+      "current_rsi": 61.55
+    },
+    "XPEL": {
+      "confirmed_rsi": 45.71,
+      "current_rsi": 44.73
+    },
+    "XPO": {
+      "confirmed_rsi": 40.47,
+      "current_rsi": 39.53
+    },
+    "XRAY": {
+      "confirmed_rsi": 33.01,
+      "current_rsi": 34.19
+    },
+    "XYL": {
+      "confirmed_rsi": 33.18,
+      "current_rsi": 34.79
+    },
+    "XYZ": {
+      "confirmed_rsi": 46.8,
+      "current_rsi": 50.56
+    },
+    "YELP": {
+      "confirmed_rsi": 29.72,
+      "current_rsi": 31.15
+    },
+    "YETI": {
+      "confirmed_rsi": 46.09,
+      "current_rsi": 43.72
+    },
+    "YOU": {
+      "confirmed_rsi": 36.71,
+      "current_rsi": 40.31
+    },
+    "YUM": {
+      "confirmed_rsi": 34.88,
+      "current_rsi": 43.98
+    },
+    "ZBH": {
+      "confirmed_rsi": 41.94,
+      "current_rsi": 43.11
+    },
+    "ZBRA": {
+      "confirmed_rsi": 70.6,
+      "current_rsi": 72.31
+    },
+    "ZD": {
+      "confirmed_rsi": 59.47,
+      "current_rsi": 62.1
+    },
+    "ZION": {
+      "confirmed_rsi": 46.03,
+      "current_rsi": 44.55
+    },
     "ZTS": {
-      "confirmed_rsi": 21.73,
-      "current_rsi": 27.72
+      "confirmed_rsi": 19.71,
+      "current_rsi": 28.01
     },
     "ZWS": {
-      "confirmed_rsi": 48.22,
-      "current_rsi": 45.8
+      "confirmed_rsi": 49.53,
+      "current_rsi": 46.53
     }
   }
 }
