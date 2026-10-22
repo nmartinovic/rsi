@@ -1,469 +1,439 @@
 {
-  "updated_at": "2026-10-21T00:21:10Z",
+  "updated_at": "2026-10-22T00:23:42Z",
   "confirmed_oversold": [
     {
-      "ticker": "HE",
-      "confirmed_rsi": 8.12,
-      "current_rsi": 7.73,
-      "price": 8.42
+      "ticker": "BXMT",
+      "confirmed_rsi": 10.56,
+      "current_rsi": 9.72,
+      "price": 10.27
     },
     {
-      "ticker": "ABR",
-      "confirmed_rsi": 11.98,
-      "current_rsi": 11.52,
-      "price": 2.67
+      "ticker": "HE",
+      "confirmed_rsi": 13.36,
+      "current_rsi": 18.01,
+      "price": 8.83
     },
     {
       "ticker": "VRRM",
-      "confirmed_rsi": 12.94,
-      "current_rsi": 12.78,
-      "price": 2.81
+      "confirmed_rsi": 14.31,
+      "current_rsi": 14.31,
+      "price": 3.01
     },
     {
       "ticker": "WLK",
-      "confirmed_rsi": 15.55,
-      "current_rsi": 16.49,
-      "price": 62.29
+      "confirmed_rsi": 15.91,
+      "current_rsi": 17.64,
+      "price": 62.69
     },
     {
-      "ticker": "BXMT",
-      "confirmed_rsi": 16.62,
-      "current_rsi": 15.34,
-      "price": 10.25
-    },
-    {
-      "ticker": "CABO",
-      "confirmed_rsi": 16.96,
-      "current_rsi": 15.76,
-      "price": 6.22
+      "ticker": "ABR",
+      "confirmed_rsi": 16.12,
+      "current_rsi": 17.64,
+      "price": 2.89
     },
     {
       "ticker": "SSTK",
-      "confirmed_rsi": 17.34,
-      "current_rsi": 19.79,
-      "price": 4.46
-    },
-    {
-      "ticker": "PZZA",
-      "confirmed_rsi": 17.36,
-      "current_rsi": 16.51,
-      "price": 18.97
-    },
-    {
-      "ticker": "LVS",
-      "confirmed_rsi": 18.38,
-      "current_rsi": 26.2,
-      "price": 38.01
-    },
-    {
-      "ticker": "MATW",
-      "confirmed_rsi": 18.65,
-      "current_rsi": 21.1,
-      "price": 18.9
-    },
-    {
-      "ticker": "PMT",
-      "confirmed_rsi": 18.73,
-      "current_rsi": 17.47,
-      "price": 6.75
-    },
-    {
-      "ticker": "UNIT",
-      "confirmed_rsi": 19.93,
-      "current_rsi": 15.88,
-      "price": 5.44
+      "confirmed_rsi": 16.28,
+      "current_rsi": 19.69,
+      "price": 4.61
     },
     {
       "ticker": "STWD",
-      "confirmed_rsi": 19.97,
-      "current_rsi": 18.18,
-      "price": 11.98
+      "confirmed_rsi": 17.89,
+      "current_rsi": 16.89,
+      "price": 12.19
     },
     {
-      "ticker": "PNR",
-      "confirmed_rsi": 20.33,
-      "current_rsi": 21.46,
-      "price": 52.75
+      "ticker": "PMT",
+      "confirmed_rsi": 19.56,
+      "current_rsi": 18.96,
+      "price": 6.91
     },
     {
       "ticker": "CC",
-      "confirmed_rsi": 21.54,
-      "current_rsi": 20.17,
-      "price": 12.62
-    },
-    {
-      "ticker": "FBRT",
-      "confirmed_rsi": 21.94,
-      "current_rsi": 20.85,
-      "price": 5.95
-    },
-    {
-      "ticker": "RWT",
-      "confirmed_rsi": 22.24,
-      "current_rsi": 21.15,
-      "price": 2.92
+      "confirmed_rsi": 19.59,
+      "current_rsi": 19.2,
+      "price": 12.97
     },
     {
       "ticker": "MPT",
-      "confirmed_rsi": 22.39,
-      "current_rsi": 19.66,
-      "price": 2.85
-    },
-    {
-      "ticker": "WHR",
-      "confirmed_rsi": 22.49,
-      "current_rsi": 20.74,
-      "price": 26.46
-    },
-    {
-      "ticker": "ROL",
-      "confirmed_rsi": 22.77,
-      "current_rsi": 24.79,
-      "price": 32.66
-    },
-    {
-      "ticker": "WYNN",
-      "confirmed_rsi": 23.98,
-      "current_rsi": 25.84,
-      "price": 75.98
-    },
-    {
-      "ticker": "STC",
-      "confirmed_rsi": 24.01,
-      "current_rsi": 28.9,
-      "price": 52.14
-    },
-    {
-      "ticker": "WSO",
-      "confirmed_rsi": 24.01,
-      "current_rsi": 28.93,
-      "price": 294.0
-    },
-    {
-      "ticker": "OLN",
-      "confirmed_rsi": 24.03,
-      "current_rsi": 26.8,
-      "price": 15.19
-    },
-    {
-      "ticker": "HTZ",
-      "confirmed_rsi": 24.11,
-      "current_rsi": 24.04,
-      "price": 1.84
-    },
-    {
-      "ticker": "OSIS",
-      "confirmed_rsi": 24.8,
-      "current_rsi": 24.46,
-      "price": 193.97
-    },
-    {
-      "ticker": "AORT",
-      "confirmed_rsi": 24.92,
-      "current_rsi": 27.03,
-      "price": 22.28
-    },
-    {
-      "ticker": "NXRT",
-      "confirmed_rsi": 25.26,
-      "current_rsi": 22.04,
-      "price": 17.94
-    },
-    {
-      "ticker": "PEP",
-      "confirmed_rsi": 25.73,
-      "current_rsi": 38.6,
-      "price": 133.57
-    },
-    {
-      "ticker": "PIPR",
-      "confirmed_rsi": 26.02,
-      "current_rsi": 24.84,
-      "price": 63.45
-    },
-    {
-      "ticker": "FNF",
-      "confirmed_rsi": 26.15,
-      "current_rsi": 28.98,
-      "price": 39.74
-    },
-    {
-      "ticker": "CHTR",
-      "confirmed_rsi": 26.4,
-      "current_rsi": 30.47,
-      "price": 108.51
-    },
-    {
-      "ticker": "GLPI",
-      "confirmed_rsi": 26.49,
-      "current_rsi": 28.92,
-      "price": 38.82
-    },
-    {
-      "ticker": "BWXT",
-      "confirmed_rsi": 26.72,
-      "current_rsi": 25.54,
-      "price": 135.83
-    },
-    {
-      "ticker": "IBP",
-      "confirmed_rsi": 26.76,
-      "current_rsi": 26.14,
-      "price": 182.04
-    },
-    {
-      "ticker": "ARR",
-      "confirmed_rsi": 26.81,
-      "current_rsi": 20.55,
-      "price": 12.28
-    },
-    {
-      "ticker": "KNF",
-      "confirmed_rsi": 27.16,
-      "current_rsi": 27.36,
-      "price": 49.58
-    },
-    {
-      "ticker": "CLB",
-      "confirmed_rsi": 27.76,
-      "current_rsi": 28.9,
-      "price": 10.15
-    },
-    {
-      "ticker": "SHEN",
-      "confirmed_rsi": 28.02,
-      "current_rsi": 26.76,
-      "price": 10.16
-    },
-    {
-      "ticker": "WFRD",
-      "confirmed_rsi": 28.05,
-      "current_rsi": 28.56,
-      "price": 77.09
-    },
-    {
-      "ticker": "AHCO",
-      "confirmed_rsi": 28.07,
-      "current_rsi": 27.14,
-      "price": 5.88
-    },
-    {
-      "ticker": "CAR",
-      "confirmed_rsi": 28.14,
-      "current_rsi": 27.43,
-      "price": 102.38
-    },
-    {
-      "ticker": "ZTS",
-      "confirmed_rsi": 28.14,
-      "current_rsi": 34.34,
-      "price": 79.59
-    },
-    {
-      "ticker": "TTD",
-      "confirmed_rsi": 28.22,
-      "current_rsi": 29.83,
-      "price": 12.26
-    },
-    {
-      "ticker": "FISV",
-      "confirmed_rsi": 28.24,
-      "current_rsi": 33.4,
-      "price": 47.69
-    },
-    {
-      "ticker": "MGM",
-      "confirmed_rsi": 28.27,
-      "current_rsi": 27.18,
-      "price": 28.47
-    },
-    {
-      "ticker": "CRH",
-      "confirmed_rsi": 28.32,
-      "current_rsi": 31.51,
-      "price": 83.18
-    },
-    {
-      "ticker": "LCII",
-      "confirmed_rsi": 28.54,
-      "current_rsi": 31.88,
-      "price": 81.92
-    },
-    {
-      "ticker": "MWA",
-      "confirmed_rsi": 28.54,
-      "current_rsi": 28.14,
-      "price": 21.75
-    },
-    {
-      "ticker": "LULU",
-      "confirmed_rsi": 28.57,
-      "current_rsi": 31.75,
-      "price": 97.76
-    },
-    {
-      "ticker": "WGO",
-      "confirmed_rsi": 28.66,
-      "current_rsi": 27.69,
-      "price": 22.67
-    },
-    {
-      "ticker": "GT",
-      "confirmed_rsi": 28.68,
-      "current_rsi": 26.48,
-      "price": 4.15
-    },
-    {
-      "ticker": "NLY",
-      "confirmed_rsi": 28.7,
-      "current_rsi": 26.26,
-      "price": 17.72
-    },
-    {
-      "ticker": "WAFD",
-      "confirmed_rsi": 28.7,
-      "current_rsi": 26.1,
-      "price": 28.42
-    },
-    {
-      "ticker": "LHX",
-      "confirmed_rsi": 28.77,
-      "current_rsi": 32.14,
-      "price": 243.84
-    },
-    {
-      "ticker": "HUBG",
-      "confirmed_rsi": 28.79,
-      "current_rsi": 27.87,
-      "price": 25.66
-    },
-    {
-      "ticker": "BHF",
-      "confirmed_rsi": 28.88,
-      "current_rsi": 27.81,
-      "price": 47.6
-    },
-    {
-      "ticker": "FMC",
-      "confirmed_rsi": 28.91,
-      "current_rsi": 22.22,
-      "price": 5.36
-    },
-    {
-      "ticker": "SLVM",
-      "confirmed_rsi": 28.94,
-      "current_rsi": 30.05,
-      "price": 31.44
+      "confirmed_rsi": 19.81,
+      "current_rsi": 16.36,
+      "price": 2.74
     },
     {
       "ticker": "CE",
-      "confirmed_rsi": 29.17,
-      "current_rsi": 37.9,
-      "price": 47.88
+      "confirmed_rsi": 19.91,
+      "current_rsi": 31.39,
+      "price": 47.52
+    },
+    {
+      "ticker": "ROL",
+      "confirmed_rsi": 20.0,
+      "current_rsi": 24.63,
+      "price": 33.34
+    },
+    {
+      "ticker": "LVS",
+      "confirmed_rsi": 20.05,
+      "current_rsi": 25.23,
+      "price": 38.17
+    },
+    {
+      "ticker": "MATW",
+      "confirmed_rsi": 20.95,
+      "current_rsi": 26.45,
+      "price": 19.42
+    },
+    {
+      "ticker": "RWT",
+      "confirmed_rsi": 21.32,
+      "current_rsi": 21.07,
+      "price": 3.02
+    },
+    {
+      "ticker": "FBRT",
+      "confirmed_rsi": 21.4,
+      "current_rsi": 20.82,
+      "price": 6.09
+    },
+    {
+      "ticker": "PNR",
+      "confirmed_rsi": 21.42,
+      "current_rsi": 21.35,
+      "price": 52.88
+    },
+    {
+      "ticker": "UNIT",
+      "confirmed_rsi": 21.58,
+      "current_rsi": 18.13,
+      "price": 5.51
+    },
+    {
+      "ticker": "TTD",
+      "confirmed_rsi": 22.44,
+      "current_rsi": 25.57,
+      "price": 12.65
+    },
+    {
+      "ticker": "WHR",
+      "confirmed_rsi": 23.19,
+      "current_rsi": 22.22,
+      "price": 28.04
+    },
+    {
+      "ticker": "CABO",
+      "confirmed_rsi": 23.2,
+      "current_rsi": 21.65,
+      "price": 6.21
     },
     {
       "ticker": "ALB",
-      "confirmed_rsi": 29.2,
-      "current_rsi": 28.32,
-      "price": 94.64
+      "confirmed_rsi": 23.21,
+      "current_rsi": 22.79,
+      "price": 95.77
     },
     {
-      "ticker": "FIS",
-      "confirmed_rsi": 29.2,
-      "current_rsi": 35.75,
-      "price": 35.98
+      "ticker": "CRH",
+      "confirmed_rsi": 24.18,
+      "current_rsi": 32.97,
+      "price": 85.22
     },
     {
-      "ticker": "LOW",
-      "confirmed_rsi": 29.27,
-      "current_rsi": 37.62,
-      "price": 195.92
-    },
-    {
-      "ticker": "MCD",
-      "confirmed_rsi": 29.45,
-      "current_rsi": 35.11,
-      "price": 242.67
-    },
-    {
-      "ticker": "WD",
-      "confirmed_rsi": 29.45,
-      "current_rsi": 28.82,
-      "price": 31.67
+      "ticker": "OLN",
+      "confirmed_rsi": 24.4,
+      "current_rsi": 25.97,
+      "price": 15.15
     },
     {
       "ticker": "BLDR",
-      "confirmed_rsi": 29.53,
-      "current_rsi": 30.56,
-      "price": 52.95
+      "confirmed_rsi": 24.73,
+      "current_rsi": 28.67,
+      "price": 53.92
     },
     {
-      "ticker": "OXM",
+      "ticker": "LCII",
+      "confirmed_rsi": 24.74,
+      "current_rsi": 29.47,
+      "price": 82.45
+    },
+    {
+      "ticker": "PIPR",
+      "confirmed_rsi": 24.87,
+      "current_rsi": 25.61,
+      "price": 64.15
+    },
+    {
+      "ticker": "PZZA",
+      "confirmed_rsi": 24.99,
+      "current_rsi": 24.17,
+      "price": 18.73
+    },
+    {
+      "ticker": "KNF",
+      "confirmed_rsi": 25.19,
+      "current_rsi": 28.46,
+      "price": 51.18
+    },
+    {
+      "ticker": "ARR",
+      "confirmed_rsi": 25.41,
+      "current_rsi": 21.56,
+      "price": 12.68
+    },
+    {
+      "ticker": "MWA",
+      "confirmed_rsi": 26.18,
+      "current_rsi": 28.7,
+      "price": 21.99
+    },
+    {
+      "ticker": "STC",
+      "confirmed_rsi": 26.54,
+      "current_rsi": 30.06,
+      "price": 52.42
+    },
+    {
+      "ticker": "PATK",
+      "confirmed_rsi": 26.72,
+      "current_rsi": 31.09,
+      "price": 66.86
+    },
+    {
+      "ticker": "CLB",
+      "confirmed_rsi": 26.75,
+      "current_rsi": 26.44,
+      "price": 10.06
+    },
+    {
+      "ticker": "NXRT",
+      "confirmed_rsi": 27.29,
+      "current_rsi": 25.5,
+      "price": 18.5
+    },
+    {
+      "ticker": "VICI",
+      "confirmed_rsi": 27.41,
+      "current_rsi": 32.24,
+      "price": 23.37
+    },
+    {
+      "ticker": "ZTS",
+      "confirmed_rsi": 27.51,
+      "current_rsi": 36.57,
+      "price": 80.04
+    },
+    {
+      "ticker": "FNF",
+      "confirmed_rsi": 27.54,
+      "current_rsi": 32.54,
+      "price": 40.5
+    },
+    {
+      "ticker": "TMUS",
+      "confirmed_rsi": 27.59,
+      "current_rsi": 31.81,
+      "price": 157.75
+    },
+    {
+      "ticker": "NLY",
+      "confirmed_rsi": 27.68,
+      "current_rsi": 29.27,
+      "price": 18.29
+    },
+    {
+      "ticker": "FMC",
+      "confirmed_rsi": 27.9,
+      "current_rsi": 20.82,
+      "price": 5.31
+    },
+    {
+      "ticker": "AORT",
+      "confirmed_rsi": 28.06,
+      "current_rsi": 34.32,
+      "price": 23.09
+    },
+    {
+      "ticker": "WAFD",
+      "confirmed_rsi": 28.18,
+      "current_rsi": 26.28,
+      "price": 28.62
+    },
+    {
+      "ticker": "WD",
+      "confirmed_rsi": 28.19,
+      "current_rsi": 31.72,
+      "price": 33.43
+    },
+    {
+      "ticker": "CCOI",
+      "confirmed_rsi": 28.33,
+      "current_rsi": 26.99,
+      "price": 7.72
+    },
+    {
+      "ticker": "WYNN",
+      "confirmed_rsi": 28.37,
+      "current_rsi": 31.1,
+      "price": 77.45
+    },
+    {
+      "ticker": "LHX",
+      "confirmed_rsi": 28.5,
+      "current_rsi": 36.41,
+      "price": 248.77
+    },
+    {
+      "ticker": "PEP",
+      "confirmed_rsi": 28.61,
+      "current_rsi": 40.16,
+      "price": 134.02
+    },
+    {
+      "ticker": "WSO",
+      "confirmed_rsi": 28.86,
+      "current_rsi": 34.19,
+      "price": 301.85
+    },
+    {
+      "ticker": "BHF",
+      "confirmed_rsi": 28.94,
+      "current_rsi": 28.56,
+      "price": 47.64
+    },
+    {
+      "ticker": "HUBG",
+      "confirmed_rsi": 29.02,
+      "current_rsi": 28.7,
+      "price": 26.07
+    },
+    {
+      "ticker": "REZI",
+      "confirmed_rsi": 29.11,
+      "current_rsi": 31.1,
+      "price": 17.07
+    },
+    {
+      "ticker": "OSIS",
+      "confirmed_rsi": 29.25,
+      "current_rsi": 29.35,
+      "price": 194.86
+    },
+    {
+      "ticker": "AHCO",
+      "confirmed_rsi": 29.45,
+      "current_rsi": 28.54,
+      "price": 6.1
+    },
+    {
+      "ticker": "WGO",
+      "confirmed_rsi": 29.47,
+      "current_rsi": 29.47,
+      "price": 23.17
+    },
+    {
+      "ticker": "GPI",
+      "confirmed_rsi": 29.49,
+      "current_rsi": 34.06,
+      "price": 243.02
+    },
+    {
+      "ticker": "MRP",
+      "confirmed_rsi": 29.52,
+      "current_rsi": 34.83,
+      "price": 23.46
+    },
+    {
+      "ticker": "WY",
+      "confirmed_rsi": 29.56,
+      "current_rsi": 32.35,
+      "price": 19.34
+    },
+    {
+      "ticker": "CPRT",
+      "confirmed_rsi": 29.66,
+      "current_rsi": 37.11,
+      "price": 27.83
+    },
+    {
+      "ticker": "FLG",
       "confirmed_rsi": 29.68,
-      "current_rsi": 34.47,
-      "price": 26.63
+      "current_rsi": 29.14,
+      "price": 11.12
     },
     {
-      "ticker": "BYD",
-      "confirmed_rsi": 29.88,
-      "current_rsi": 33.71,
-      "price": 70.96
+      "ticker": "YELP",
+      "confirmed_rsi": 29.86,
+      "current_rsi": 36.54,
+      "price": 20.28
     },
     {
-      "ticker": "LBRT",
-      "confirmed_rsi": 29.88,
-      "current_rsi": 26.91,
-      "price": 17.09
+      "ticker": "BWXT",
+      "confirmed_rsi": 29.9,
+      "current_rsi": 28.52,
+      "price": 134.24
     },
     {
-      "ticker": "UVV",
-      "confirmed_rsi": 29.88,
-      "current_rsi": 25.6,
-      "price": 39.56
+      "ticker": "GLPI",
+      "confirmed_rsi": 29.93,
+      "current_rsi": 34.41,
+      "price": 39.14
+    },
+    {
+      "ticker": "CRUS",
+      "confirmed_rsi": 29.98,
+      "current_rsi": 32.71,
+      "price": 110.81
+    },
+    {
+      "ticker": "LII",
+      "confirmed_rsi": 29.99,
+      "current_rsi": 33.92,
+      "price": 363.77
     }
   ],
   "current_only_oversold": [
     {
-      "ticker": "FUN",
-      "confirmed_rsi": 33.4,
-      "current_rsi": 25.69,
-      "price": 8.31
-    },
-    {
-      "ticker": "VTOL",
-      "confirmed_rsi": 32.19,
-      "current_rsi": 27.32,
-      "price": 38.6
+      "ticker": "GBX",
+      "confirmed_rsi": 30.55,
+      "current_rsi": 27.36,
+      "price": 37.61
     },
     {
       "ticker": "GNL",
-      "confirmed_rsi": 33.58,
-      "current_rsi": 28.73,
-      "price": 7.32
-    },
-    {
-      "ticker": "FLG",
-      "confirmed_rsi": 30.9,
-      "current_rsi": 28.98,
-      "price": 10.96
-    },
-    {
-      "ticker": "AESI",
-      "confirmed_rsi": 36.11,
-      "current_rsi": 29.32,
-      "price": 9.63
-    },
-    {
-      "ticker": "CW",
-      "confirmed_rsi": 30.41,
-      "current_rsi": 29.79,
-      "price": 497.11
+      "confirmed_rsi": 30.75,
+      "current_rsi": 27.73,
+      "price": 7.36
     },
     {
       "ticker": "SAFE",
-      "confirmed_rsi": 33.7,
-      "current_rsi": 29.85,
-      "price": 11.08
+      "confirmed_rsi": 31.37,
+      "current_rsi": 28.2,
+      "price": 11.24
+    },
+    {
+      "ticker": "VTOL",
+      "confirmed_rsi": 33.95,
+      "current_rsi": 28.59,
+      "price": 38.67
+    },
+    {
+      "ticker": "CAR",
+      "confirmed_rsi": 30.24,
+      "current_rsi": 28.88,
+      "price": 102.45
+    },
+    {
+      "ticker": "PRIM",
+      "confirmed_rsi": 32.25,
+      "current_rsi": 29.36,
+      "price": 72.14
+    },
+    {
+      "ticker": "LKQ",
+      "confirmed_rsi": 31.28,
+      "current_rsi": 29.69,
+      "price": 21.53
     }
   ]
 }
