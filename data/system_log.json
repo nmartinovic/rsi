@@ -846,6 +846,17 @@
       "rate_limits_hit": 0,
       "duration_seconds": 443,
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:51Z",
+      "phase": "rsi_scan",
+      "tickers_scanned": 1455,
+      "tickers_failed": 51,
+      "confirmed_oversold": 64,
+      "current_only_oversold": 7,
+      "rate_limits_hit": 0,
+      "duration_seconds": 501,
+      "status": "ok"
     }
   ]
 }
