@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T03:54:46Z",
+  "updated_at": "2026-11-27T03:54:43Z",
   "confirmed_oversold": [
     {
       "ticker": "MPT",
@@ -510,8 +510,8 @@
     {
       "ticker": "ADEA",
       "confirmed_rsi": 30.26,
-      "current_rsi": 29.21,
-      "price": 14.03
+      "current_rsi": 29.22,
+      "price": 14.04
     },
     {
       "ticker": "WAFD",
